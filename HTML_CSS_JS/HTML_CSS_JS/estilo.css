@@ -1,0 +1,48 @@
+h1 {
+  color: crimson;
+  text-align: center;
+}
+
+.clase {
+  color: rgb(0, 106, 255);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+  background-image: url(Images/Background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  scrollbar-color: crimson black;
+}
+.icon{
+  width: 10%;
+  height: 10%;
+  border-radius: 12%;
+  text-align: left;
+}
+.Descripcion{
+  text-align: justify; 
+  margin-inline-start: 5%; 
+  margin-inline-end: 5%;
+}
+.Separador{
+  width: 75%;
+  border: 1px dashed;
+}
+.Caja{
+  width: 500px;
+  height: 50%;
+  margin-left: 33%;
+  text-align: center;
+  background-color: beige;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  scrollbar-color: crimson black;
+}
+li{
+  text-align: left;
+}
+
