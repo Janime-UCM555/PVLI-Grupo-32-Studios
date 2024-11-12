@@ -1,0 +1,208 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "root",
+	"ListNodes": [
+		{
+			"$type": "NodeSentence",
+			"ID": "intro",
+			"NextID": "ebeb7d4a-b8ec-49c1-a335-d2c05b6eef3c",
+			"Sentence": "Quieres cambiar algo de tu pasado? Guay. Que es lo que quieres cambiar exactamente?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "Gato",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 320,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeRoot",
+			"ID": "root",
+			"NextID": "intro",
+			"EditorPosition": {
+				"x": -100,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e5a57349-b810-48f4-9e31-7bf84ee09de1",
+			"NextID": "8ceffb45-0867-4eff-a0e0-9d59e5986fd5",
+			"Sentence": "Esa señora si que tiene buen corazón! Por tu amabilidad te dio 50 euros y te invitó a un café",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "Gato",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1780,
+				"y": 280
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "bd5b784c-b146-4b53-965d-bf37ec729283",
+			"NextID": "8ceffb45-0867-4eff-a0e0-9d59e5986fd5",
+			"Sentence": "Parece que la soledad no te ha sentado muy bien, ahora estás un poco gordo y te has vuelto alérgico al sol. Y GOT no es tan buena como te habían dicho, la dejste en la 4a temporada",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "Gato",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1780,
+				"y": 100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "8c6c03fa-eb19-400f-99c5-5261d9046363",
+			"NextID": "8ceffb45-0867-4eff-a0e0-9d59e5986fd5",
+			"Sentence": "Vaya, parece que te rechazó... Pero no te preocupes, resultó ser una psicópata que robaba las palas de los niños",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "Gato",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1780,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "10ffbcff-49b0-4f02-ba37-2e318179bd72",
+			"NextID": "8ceffb45-0867-4eff-a0e0-9d59e5986fd5",
+			"Sentence": "Guau, cambbiastes de estudios y ahora eres realente feliz!",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "Gato",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1780,
+				"y": -160
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "8ceffb45-0867-4eff-a0e0-9d59e5986fd5",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 2340,
+				"y": 40
+			}
+		},
+		{
+			"$type": "NodeAction",
+			"ID": "3a1f74d2-9670-458e-9967-1388bae473de",
+			"NextID": "10ffbcff-49b0-4f02-ba37-2e318179bd72",
+			"Action": {
+				"$type": "ActionVariable",
+				"Operator": "+",
+				"Variable": "karma",
+				"Value": 10
+			},
+			"EditorPosition": {
+				"x": 1380,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeAction",
+			"ID": "f3de3947-b7ac-4562-905d-028893f39ef3",
+			"NextID": "8c6c03fa-eb19-400f-99c5-5261d9046363",
+			"Action": {
+				"$type": "ActionVariable",
+				"Operator": "-",
+				"Variable": "karma",
+				"Value": 5
+			},
+			"EditorPosition": {
+				"x": 1380,
+				"y": 40
+			}
+		},
+		{
+			"$type": "NodeAction",
+			"ID": "c2f8deb7-442a-4fe2-a37e-d4d15e1d31fb",
+			"NextID": "bd5b784c-b146-4b53-965d-bf37ec729283",
+			"Action": {
+				"$type": "ActionVariable",
+				"Operator": "-",
+				"Variable": "karma",
+				"Value": 10
+			},
+			"EditorPosition": {
+				"x": 1380,
+				"y": 160
+			}
+		},
+		{
+			"$type": "NodeAction",
+			"ID": "115eda89-8780-417d-bfb2-0e3821ec0f58",
+			"NextID": "e5a57349-b810-48f4-9e31-7bf84ee09de1",
+			"Action": {
+				"$type": "ActionVariable",
+				"Operator": "+",
+				"Variable": "karma",
+				"Value": 15
+			},
+			"EditorPosition": {
+				"x": 1380,
+				"y": 280
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "ebeb7d4a-b8ec-49c1-a335-d2c05b6eef3c",
+			"OptionsID": [
+				"e03b108c-0f61-451c-b665-ce539daa1f87",
+				"d1c5bb2b-f3f0-4a76-81a4-dfcb5a2708fa",
+				"63ce0ec3-350a-4162-828f-a1b39283c48c",
+				"1981f26a-62d3-490d-af49-f2b40469db6f"
+			],
+			"EditorPosition": {
+				"x": 940,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "e03b108c-0f61-451c-b665-ce539daa1f87",
+			"NextID": "3a1f74d2-9670-458e-9967-1388bae473de",
+			"Sentence": "Cambiar mis estudios",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "d1c5bb2b-f3f0-4a76-81a4-dfcb5a2708fa",
+			"NextID": "f3de3947-b7ac-4562-905d-028893f39ef3",
+			"Sentence": "Pedirle salir a esa niña del parque cuando tenía 9 años",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "63ce0ec3-350a-4162-828f-a1b39283c48c",
+			"NextID": "c2f8deb7-442a-4fe2-a37e-d4d15e1d31fb",
+			"Sentence": "Encerrarme en mi piso y dedicarme a ver GoT",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "1981f26a-62d3-490d-af49-f2b40469db6f",
+			"NextID": "115eda89-8780-417d-bfb2-0e3821ec0f58",
+			"Sentence": "Devolverle ese billete de 10 a la anciana del metro",
+			"Enable": true,
+			"OneShot": false
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "_NARRATOR",
+			"ID": 0
+		}
+	],
+	"Variables": [
+		{
+			"Name": "karma",
+			"Value": 0,
+			"Type": "Integer"
+		}
+	]
+}
