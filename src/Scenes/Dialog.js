@@ -1,8 +1,8 @@
 /*Escena de Phaser*/
-import Decoder from "./Decode.js";
+import Decoder from "../Decode.js";
 export default class MenuScene extends Phaser.Scene {
     constructor(){
-        super({key: "scene1"});
+        super({key: 'dialog'});
         this.data;
         this.decode;
     }
