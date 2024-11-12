@@ -6,7 +6,6 @@ a tu pasado gracias a la oportunidad que te brinda un curioso gato con corbata
 escondido en una caja de cartón. Junto con el y sus cartas rememora el pasado, 
 cambialo y redescubre ¿Volverás a ser el mismo o te devorarán las posibilidades?
 Capturas del juego:
-![Imagen de WhatsApp 2024-11-12 a las 15 35 06_e5c036a4](https://github.com/user-attachments/assets/d1675c3f-2fd1-4362-b3c6-2551b8937f39)
 
 Un enlace a la página web pública con la versión de publicación del juego:
 
