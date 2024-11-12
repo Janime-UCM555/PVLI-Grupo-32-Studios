@@ -1,74 +1,97 @@
 El proyecto es un trabajo universitario de la asignatura de PVLI
-Redes del proyecto: X/Twitter:https://x.com/Studios3220208
-Una descripción:
+
+Redes del proyecto: X/Twitter: https://x.com/Studios3220208
+
+**Una descripción:**
 Back to the Box es un divertido juego de aventura y decisiones donde volverás 
 a tu pasado gracias a la oportunidad que te brinda un curioso gato con corbata 
 escondido en una caja de cartón. Junto con el y sus cartas rememora el pasado, 
 cambialo y redescubre ¿Volverás a ser el mismo o te devorarán las posibilidades?
-Capturas del juego:
-![Imagen de WhatsApp 2024-11-12 a las 15 35 06_e5c036a4](https://github.com/user-attachments/assets/d1675c3f-2fd1-4362-b3c6-2551b8937f39)
 
-Un enlace a la página web pública con la versión de publicación del juego:
+**Capturas del juego:**
+![image](https://github.com/user-attachments/assets/6544c755-8dd0-47b9-a7f6-4a12791f4682)
+![Captura(1)](https://github.com/user-attachments/assets/dfa13644-e958-4992-8713-9b0164a65b17)
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________
-Back to the Box GDD
+Un enlace a la página web pública con la versión de publicación del juego: 
+
+
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+**Back to the Box GDD**
 
 Desarrollado por: 32 Studios
+
 Ismael Ortega, Jaime Nieto, Javier Gómez, Michel Herráiz
 
 
-Ficha técnica
-Título: Back to the Box (provisional)
+**Ficha técnica**
+
+Título: Back to the Box
+
 Géneros: Cartas, decisiones, coches
+
 Target: Ocasional, 12 años en adelante
+
 Plataforma: Juego web
+
 Rating: PEGI-12
+
 Modo de juego: 1 jugador
 
-Premisa
+**Premisa**
+
 Imagina cómo será tu vida en el futuro. Ahora imagínate que todo aquello que crees que vas a conseguir es pura ilusión, y vives una vida mediocre cuetionándote todas las decisiones que te han llevado a ese punto.
 Y cuando menos te lo esperas, llega a tu puerta un paquete que contiene un… ¿gato? Este felino con corbata conoce perfectamente todas tus vivencias y te propone un plan para cambiar algunas de las decisiones más importantes de tu vida. ¿Te atreves a seguirlo?
 
-Descripción
+**Descripción**
+
 En este juego deberás acompañar a un gato en una caja capaz de viajar al pasado y cambiar tus acciones más cuestionables. Moviéndote por una ciudad del futuro deberás viajar a los sitios clave que han marcado el discurrir de tu vida. En cada localización, este misterioso gato te permitirá elegir una acción de entre un mazo de cartas y se dispondrá a ejecutarla en el pasado para cambiar tu destino. Pero cada decisión que cambie en el pasado tendrá consecuencias en el futuro, afectando a tu karma. Tendrás que tener esto en cuenta si no quieres vivir en mundo post-apocalíptico.
-Mecánicas
-Desplazamiento en coche
+
+**Mecánicas**
+
+**Desplazamiento en coche**
+
 Para que el gato pueda viajar al pasado debe estar en el lugar donde vaya a cambiarlo. Es por ello que necesitarás moverte por la ciudad en tu coche futurista.
 En los momentos de desplazamiento serás llevado a una pantalla con el mapa de la ciudad y donde podrás mover tu coche por las calles haciendo uso de las teclas WASD.
 Deberás tener cuidado con el mobiliario público, ya que destruirlo podría afectar a tu karma. El jugador podrá encontrar obstáculos y superficies que afectarán al movimiento del coche (acelerando, ralentizando, frenándolo…) para que la travesía por la ciudad sea más inmersiva.
 En algún punto del mapa de la ciudad aparecerá una bandera que te indicará cuál es el destino seleccionado por el gato donde tendrá lugar la siguiente fase.
 
-Toma de decisiones por cartas
+**Toma de decisiones por cartas**
+
 En cada situación en la que el gato te enseñe tu pasado también te presentará unas cartas con acciones, distintas en cada ocasión. Tendrá un mazo de 6 cartas, con decisiones morales algunas más cuestionables que otras. Se te mostrarán 3 elegidas al azar de las que elegirás una.
 La probabilidad con la que salen dependerá mucho de tu karma, pues cuanto más malo sea, más probable será que te salgan cartas con decisiones moralmente negativas, y viceversa.
 Una vez seleccionada la carta, el gato entrará en su caja al más puro estilo Schrödinger y viajará al pasado para ejecutarla. Tú, desde el futuro, podrás ver proyectado el resultado de tu decisión.
-Karma
+
+**Karma**
+
 Todas tus acciones, tanto pasadas como futuras, tienen consecuencias. El Karma es un medidor que valora la moralidad de tus acciones, acercándose al extremo del bien o del mal. Se aproxima hacia un extremo u otro (aumenta o disminuye) en función de las cartas que elijas en cada situación y de tu comportamiento con el coche por las calles.
 La influencia de tu Karma en la partida es doble. Primeramente modifica la probabilidad de obtener cartas moralmente negativas o positivas. En segundo lugar, afecta a tu entorno y a ti mismo. Las buenas o malas acciones afectan a la integridad de la ciudad y a su aspecto, el transcurso de la historia y tu propio estatus social y económico. Estas diferencias se verán reflejadas en la estética de la ciudad y en el final del juego, que variará en función de tu karma.
 
-Diseño de Nivel
-Estructura
+**Diseño de Nivel**
+
+**Estructura**
+
 La estructura del juego se cimenta sobre una serie de niveles dispuestos a lo largo del minimapa. Estos albergarán una serie de situaciones en las que el jugador deberá tomar las decisiones pertinentes con sus correspondientes consecuencias. El jugador alternará entre dos pantallas: el minimapa sobre el que podrá conducir y el momento de toma de decisiones.
 Aunque en gran parte del juego las líneas de la historia serán convergentes, el transcurso y la estructura del juego darán lugar a algunas ramificaciones puntuales de acuerdo a las decisiones que haya dictaminado el jugador, pudiendo así generar situaciones exclusivas. Esto se observará, sobre todo, en los múltiples finales que pueden darse en la conclusión del juego.
 
+**Partida típica**
 
-
-
-
-Partida típica
 La partida comenzará con una introducción que pondrá al jugador en situación y le dará el contexto suficiente para encarar esta aventura con el conocimiento justo y necesario sobre la historia de la misma.
 Posteriormente, se expondrá el minimapa con los diferentes niveles. El primero de ellos será un tutorial que informará al jugador sobre la mecánica de las cartas y las decisiones que se ha explicado previamente en este documento. 
 Seguidamente, el jugador podrá comenzar a explorar el minimapa libremente buscando las localizaciones que se hayan desbloqueado tras su última elección, y se adentrará en los diferentes escenarios del juego para ir completándolo.
 Por último, todas las decisiones que el jugador haya tomado, reflejadas en el medidor de karma, alterarán la partida de una manera u otra, desenlazando en uno de los múltiples finales.
 
-Menús
+**Menús**
+
 El juego también contará con un sistema de menús básico. Primeramente existirá un menú de inicio que permita al jugador comenzar su partida. Dentro del juego también habrá un menú al que se accederá con la tecla “P”. Este permitirá al jugador acceder a las acciones básicas, como volver al menú de inicio, configurar los ajustes o acceder a un historial de la partida que mostrará el medidor de karma en su estado actual y todas las cartas que ha seleccionado el jugador en cada situación con sus consecuencias, para poder tener una noción general del desarrollo de la partida.
 
-Estética
-Arte
+**Estética**
+
+**Arte**
+
 El juego se centrará sobre todo en la estética futurista y aprovechará las alteraciones basadas en el karma para explorar los distintos modelos de futuro (distópico, post-apocalíptico, steampunk, tecnológico minimalista, dominancia de plantas…). Tendrá un estilo caricaturesco o de cómic.
 
-Música
+**Música**
+
 La música del juego, al igual que el juego, buscará la ambientación futurista que ponga al jugador en situación. Incluirá sonidos ambiente de coches, máquinas y personas que hagan sentir viva la exploración de la ciudad. La música se tornará juguetona cada vez que el gato entre en acción, pero también tendrá cierto toque misterioso o de tensión cuando el jugador tenga que tomar cartas en el asunto.   
 
 _______________________________________________________________________________________________________________________________________________________________________________________________________________________
@@ -87,7 +110,7 @@ Música:
 
 Tutorial, alegre, efectos de sonido de niños de fondo.
 
- Cartas/Opciones:
+Cartas/Opciones:
 
 Acercarte a la niña e intentar dialogar con ella:
 Título de carta: “Primer ligoteo”
