@@ -1,5 +1,5 @@
-import Coche from '.../gameObjects/Coche.js';
-import Flag from '.../gameObjects/Flag.js';
+import Coche from '../gameObjects/Coche.js';
+import Flag from '../gameObjects/Flag.js';
 
 class map extends Phaser.Scene{
 
