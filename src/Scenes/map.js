@@ -1,5 +1,5 @@
-import Coche from '../gameObjects/Coche.js';
-import Flag from '../gameObjects/Flag.js';
+import Coche from './gameObjects/Coche.js';
+import Flag from './gameObjects/Flag.js';
 
 class map extends Phaser.Scene{
 
@@ -11,14 +11,14 @@ class map extends Phaser.Scene{
 
     preload()
     {
-        this.load.image('car', '../assets/Coche.png')
-        this.load.image('ramp', '../assets/Rampa.png')
-        this.load.audio('claxon','../assets/claxon.mp3')
+        this.load.image('car', './assets/Coche.png')
+        this.load.image('ramp', './assets/Rampa.png')
+        this.load.audio('claxon','./assets/claxon.mp3')
 
 
-        this.load.tilemapTiledJSON('tilemap','../data/Road.json')
-        this.load.image('Ciudad', '../assets/Ciudad.png')
-        this.load.image('Bandera','../assets/Flag.png');
+        this.load.tilemapTiledJSON('tilemap','./data/Road.json')
+        this.load.image('Ciudad', './assets/Ciudad.png')
+        this.load.image('Bandera','./assets/Flag.png');
     }
     create()
     {

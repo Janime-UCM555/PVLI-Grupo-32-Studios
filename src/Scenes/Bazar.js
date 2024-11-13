@@ -5,7 +5,7 @@ class Bazar extends Phaser.Scene{
 
     preload()
     {
-        this.load.image('Apu', '../assets/Apu.png');
+        this.load.image('Apu', './assets/Apu.png');
     }
     create()
     {
