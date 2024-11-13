@@ -14,7 +14,11 @@ cambialo y redescubre ¿Volverás a ser el mismo o te devorarán las posibilidad
 
 Un enlace a la página web pública con la versión de publicación del juego: 
 
+**Assets utilizados**
 
+Sprite del gato por Javier Gómez Zúñiga para uso privado de este proyecto.
+Imagen de fondo de googles imagenes y un artículo de El Viajista
+Sprite Sheet de la cidad extraído de Itch.io
 ____________________________________________________________________________________________________________________________________________________________________________________________________________________
 **Back to the Box GDD**
 
