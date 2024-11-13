@@ -9,7 +9,6 @@ export default class MenuScene extends Phaser.Scene {
 
     preload(){
         this.load.json('data','./data/Prueba2.json');
-        this.load.image('carta', './assets/carta.jpeg');
         this.load.image('gato', './assets/Gato.png');
         this.load.image('background','./assets/KualaLumpur.jpg');
     }
