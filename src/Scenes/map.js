@@ -30,8 +30,7 @@ class map extends Phaser.Scene{
         
         const tileset = this.map.addTilesetImage('CP_V1.0.4', 'Ciudad');
        
-        var carretera = this.map.createLayer('Carretera', tileset);
-        carretera.setCollisionByProperty({collides: true});
+       
        
         var calle = this.map.createLayer('Calle', tileset);
         calle.setCollisionByProperty({collides: true});
@@ -40,6 +39,11 @@ class map extends Phaser.Scene{
         
         
         var terrenos = this.map.createLayer('Terrenos', tileset);
+        console.log(terrenos);
+        terrenos.setCollisionByProperty({collides: true});
+
+        var carretera = this.map.createLayer('Carretera', tileset);
+        carretera.setCollisionByProperty({collides: true});
         this.car = new Coche(this,100,125,'car');
         this.car.setScale(0.1);
         this.car.setSize(200,300);
@@ -70,7 +74,7 @@ class map extends Phaser.Scene{
 
         this.physics.add.collider(this.car,calle);
         this.physics.add.collider(this.car,carretera);
-        this.physics.add.collider(this.car, terrenos, this.checkSpeedChange, null, this);
+        this.physics.add.collider(this.car, terrenos);
         //this.physics.add.collider(this.car,  terrenos, () => {console.log(("Está"));});
         this.claxonSound =  this.sound.add('claxon');
         //this.ramp.setScale(0.1);
