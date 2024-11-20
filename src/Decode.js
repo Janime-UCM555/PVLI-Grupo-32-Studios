@@ -36,13 +36,9 @@ export default class Decoder{
                 this.dialog.setText(this.node.Sentence, true);
                 break;
             case 'NodeChoice':
-                var array = this.node.OptionsID;
-                for(var i = 0; i < array; ++i){
-                    new Carta(this.scene, 800 / i, 300);
-                }
                     break;
             case 'NodeEndPath':
-                console.log(this.karma);
+                this.scene.scene.start('map')
                 break;
         }        
     }
