@@ -1,5 +1,7 @@
 import Coche from '../gameObjects/Coche.js';
 import Flag from '../gameObjects/Flag.js';
+import Peaton from '../gameObjects/Flag.js';
+import Rampa from '../gameObjects/Rampa.js'
 class map extends Phaser.Scene{
 
     isonsand = false;
@@ -13,7 +15,7 @@ class map extends Phaser.Scene{
         this.load.image('car', '../assets/Coche.png')
         this.load.image('ramp', '../assets/Rampa.png')
         this.load.audio('claxon','../assets/claxon.mp3')
-
+        this.load.image('abuelita', '../assets/Peaton.png')
 
         this.load.tilemapTiledJSON('tilemap','../assets/Road.json')
         this.load.image('Ciudad', '../assets/Ciudad.png')
@@ -40,6 +42,9 @@ class map extends Phaser.Scene{
         
         var terrenos = this.map.createLayer('Terrenos', tileset);
         this.car = new Coche(this,100,125,'car');
+        this.abuela = new Peaton(this,200,125,'abuelita',"Abuelita Jojo", 20);
+        
+
         this.car.setScale(0.1);
         this.car.setSize(200,300);
         this.car.setCollideWorldBounds(true);
@@ -58,7 +63,7 @@ class map extends Phaser.Scene{
             if (obj.type === 'Flag') {
                 if(obj.name == 'FlagShop')
                 {
-                    const flag = new Flag(this, obj.x, obj.y, 'Bandera','scene1');
+                    const flag = new Flag(this, obj.x, obj.y, 'Bandera','Bazar');
                     this.flags.push(flag);
                 }
                 else
@@ -75,6 +80,7 @@ class map extends Phaser.Scene{
         this.physics.add.collider(this.car,calle);
         this.physics.add.collider(this.car,carretera);
         this.physics.add.collider(this.car, terrenos, this.checkSpeedChange, null, this);
+        
         //this.physics.add.collider(this.car,  terrenos, () => {console.log(("Está"));});
         this.claxonSound =  this.sound.add('claxon');
         //this.ramp.setScale(0.1);
@@ -87,7 +93,11 @@ class map extends Phaser.Scene{
 
 
     }
-    
+    choque(minusKarma)
+    {
+        this.game.config.karma-= minusKarma;
+        console.log(this.game.config.karma);
+    }
     checkFlags()
     {
         this.flags.forEach(flag => {
