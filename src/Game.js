@@ -1,5 +1,5 @@
 import map from './Scenes/map.js';
-import Dialog from './Scenes/Dialog.js';
+import Dialog from './Scenes/DialogScene.js';
 /**
  * Inicio del juego en Phaser. Creamos el archivo de configuración del juego y creamos
  * la clase Game de Phaser, encargada de crear e iniciar el juego.
