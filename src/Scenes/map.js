@@ -1,6 +1,7 @@
 import Coche from '../gameObjects/Coche.js';
 import Flag from '../gameObjects/Flag.js';
 import Peaton from '../gameObjects/Peaton.js';
+import Semaforo from '../gameObjects/Semaforo.js';
 class map extends Phaser.Scene{
 
    
@@ -22,6 +23,8 @@ class map extends Phaser.Scene{
         this.load.image('Deportista', '../assets/Deportista.png');
         this.load.image('Default', '../assets/Default.png');
         this.load.image('Chico', '../assets/Chico.png');
+        this.load.image('semaforo_rojo', '../assets/semaforo_rojo.png');
+        this.load.image('semaforo_verde', '../assets/semaforo_verde.png');
     }
     muestraFicha(peaton) {
         this.fichaPeaton.foto.setTexture(peaton.foto);
@@ -61,20 +64,6 @@ class map extends Phaser.Scene{
 
         var edificios = this.map.createLayer('Edificios', tileset);
         edificios.setCollisionByProperty({collides: true});
-
-       
-
-
-        this.abuela = new Peaton(this,200,125,'Abuelita', 20, "Abuelita Jojo", 80);
-        this.abuela.setScale(0.25);
-        this.chico = new Peaton(this,300,420,'Chico', 20, "ChicoPercebe", 21);
-        this.chico.setScale(0.25);
-        this.deportista = new Peaton(this,350,300,'Deportista', 20, "Sportacus", 35);
-        this.deportista.setScale(0.25);
-        this.physics.add.collider(this.car, this.abuela, () => this.choque(this.abuela), null, this);
-        this.physics.add.collider(this.car, this.chico, () => this.choque(this.chico), null, this);
-        this.physics.add.collider(this.car, this.deportista, () => this.choque(this.deportista), null, this);
-
 
 
         //this.ramp = new Rampa(this,250,250,'ramp');
@@ -121,6 +110,8 @@ class map extends Phaser.Scene{
 
 
         this.claxonSound =  this.sound.add('claxon');
+        
+        this.semaforo = new Semaforo(this,200,150);
         
 
 
