@@ -10,12 +10,12 @@
 export default class DialogText{
 
 	constructor(scene, opts){
-		this.scene = scene;
-		this.init(opts);
+		this.init(scene,opts);
 	}
 
-	init(opts) {
+	init(scene,opts) {
 		// Mira si hay parámetros que se pasan, en caso de que no, se usan los por defecto
+		this.scene = scene;
 		if (!opts) opts = {};
 		
 		// set properties from opts object or use defaults

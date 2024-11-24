@@ -74,12 +74,12 @@ class map extends Phaser.Scene{
             if (obj.type === 'Flag') {
                 if(obj.name == 'FlagShop')
                 {
-                    const flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog');
+                    const flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog', 1);
                     this.flags.push(flag);
                 }
                 else
                 {
-                    const flag = new Flag(this, obj.x, obj.y, 'Bandera',null);
+                    const flag = new Flag(this, obj.x, obj.y, 'Bandera', 'Dialog', 2);
                     this.flags.push(flag);
                 }              
                 

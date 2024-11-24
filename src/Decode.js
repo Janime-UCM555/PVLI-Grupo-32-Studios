@@ -36,8 +36,11 @@ export default class Decoder{
                 this.dialog.setText(this.node.Sentence, true);
                 break;
             case 'NodeChoice':
+                //Aqui se crea el Deck y por tanto las cartas
+                // al hacer click
                     break;
             case 'NodeEndPath':
+                this.scene.events.off('next');
                 this.scene.scene.start('map')
                 break;
         }        
