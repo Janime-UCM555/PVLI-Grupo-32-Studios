@@ -1,4 +1,5 @@
 import DialogText from "./dialog_plugin.js";
+import Deck from "./Deck.js";
 export default class Decoder{
     constructor(scene, data){
         this.scene = scene;
@@ -45,4 +46,8 @@ export default class Decoder{
                 break;
         }        
     }
+                                    //Evento
+    /*new Mazo(pathTojson, scene, (selectedCardId) => {
+        
+    })*/ // Construir mazo
 }
