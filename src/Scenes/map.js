@@ -8,7 +8,7 @@ class map extends Phaser.Scene{
     constructor(){
         super({ key:'map'});
     }
-
+    
     preload()
     {
         this.load.image('car', '../assets/Coche.png')
@@ -25,6 +25,8 @@ class map extends Phaser.Scene{
         this.load.image('Chico', '../assets/Chico.png');
         this.load.image('semaforo_rojo', '../assets/semaforo_rojo.png');
         this.load.image('semaforo_verde', '../assets/semaforo_verde.png');
+
+        this.registry.set('atropellados', 0);
     }
     muestraFicha(peaton) {
         this.fichaPeaton.foto.setTexture(peaton.foto);
@@ -122,6 +124,11 @@ class map extends Phaser.Scene{
             fill: '#ff0000',
             backgroundColor: '#000000',
         }).setScrollFactor(0);
+
+        this.input.keyboard.on('keydown-ESC', () => {
+            this.scene.launch('PauseMenu', { activeSceneKey: this.scene.key});
+            this.scene.pause();
+        });
         
 
     }
@@ -142,7 +149,10 @@ class map extends Phaser.Scene{
 
     choque(peaton)
     {  
+        
         this.registry.set('karma', this.registry.get('karma') - peaton.karma);
+        let count = this.registry.get('atropellados');
+        this.registry.set('atropellados', count + 1);
         this.karmaText.setText('Karma: ' + this.registry.get('karma'));
         this.events.emit('muestraFicha', peaton);
         peaton.destroy();
