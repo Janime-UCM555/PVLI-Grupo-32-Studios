@@ -1,4 +1,5 @@
 import map from './Scenes/map.js';
+import pause from './Scenes/PauseMenu.js';
 import Dialog from './Scenes/DialogScene.js';
 /**
  * Inicio del juego en Phaser. Creamos el archivo de configuración del juego y creamos
@@ -13,7 +14,7 @@ let config = {
 	scale: {
 		autoCenter: Phaser.Scale.CENTER_HORIZONTALLY
 	},
-	scene: [map, Dialog],	// Decimos a Phaser cual es nuestra escena
+	scene: [map, Dialog, pause],	// Decimos a Phaser cual es nuestra escena
 	physics: { 
 		default: 'arcade', 
 		arcade: { 
