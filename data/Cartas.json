@@ -4,42 +4,36 @@
         "Name":"nombre",
         "Image":"../assets/cards/?",
         "Description":"string",
-        "Consequence":"string",
         "Karma":"value"
     },
     {
         "Name":"nombre",
         "Image":"../assets/cards/?",
         "Description":"string",
-        "Consequence":"string",
         "Karma":"value"
     },
     {
         "Name":"nombre",
         "Image":"../assets/cards/?",
         "Description":"string",
-        "Consequence":"string",
         "Karma":"value"
     },
     {
         "Name":"nombre",
         "Image":"../assets/cards/?",
         "Description":"string",
-        "Consequence":"string",
         "Karma":"value"
     },
     {
         "Name":"nombre",
         "Image":"../assets/cards/?",
         "Description":"string",
-        "Consequence":"string",
         "Karma":"value"
     },
     {
         "Name":"nombre",
         "Image":"../assets/cards/?",
         "Description":"string",
-        "Consequence":"string",
         "Karma":"value"
     }
 ]
