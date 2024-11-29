@@ -4,7 +4,6 @@ export default class Decoder{
         this.scene = scene;
         this.data = data;
         this.node  = this._findId(this.data.RootNodeID);
-        this.karma = this.data.Variables[0].Value;
     }
 
     _findId(idToLookFor) {
@@ -20,18 +19,32 @@ export default class Decoder{
         this.node = this._findId(this.node.NextID);
         switch(this.node.$type){
             case 'NodeSentence':
+                let color;
+                if(this.node.SpeakerID == 0){
+                    this.scene.showSprite('gato');
+                    color = 0x1d7ba1;
+                }
+                else if(this.node.SpeakerID == 1){
+                    this.scene.showSprite('melchor');
+                    color = 0xba6e16;
+                }
+                else{
+                    this.scene.showSprite('');
+                    color = 0x808080;
+                }
                 this.dialog = new DialogText(this.scene, {
                     borderThickness: 4,
-                    borderColor: 0x66d4ed,
+                    borderColor: color,
                     borderAlpha: 1,
                     windowAlpha: 0.6,
-                    windowColor: 0x66d4ed,
-                    windowHeight: 150,
-                    padding: 32,
+                    windowColor: color,
+                    windowHeight: 100,
+                    padding: 16,
                     closeBtnColor: 'white',
                     dialogSpeed: 3,
                     fontSize: 24,
-                    fontFamily: "pixel"
+                    fontFamily: "pixel",
+                    fontColor: 'white'
                 });
                 this.dialog.setText(this.node.Sentence, true);
                 break;
