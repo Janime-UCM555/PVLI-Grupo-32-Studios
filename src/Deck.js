@@ -2,7 +2,6 @@ import Carta from "./Card.js";
 export default class Mazo
 {
     constructor(data,scene){
-        super({key: 'Mazo'});
         this.data = data;
         this.scene = scene;
         //this.onOptionSelected = (id) => {} // esto nos llega de fuera

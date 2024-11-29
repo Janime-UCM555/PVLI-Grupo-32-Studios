@@ -7,15 +7,17 @@ export default class MenuScene extends Phaser.Scene {
         super({key: 'Dialog'});
     }
     init(flag){
+        if (Object.keys(flag).length === 0) flag = 1;
+        
         this.IDscene = flag;
     }
 
     preload(){
-        this.load.json('data1','./data/Intro.json');
-        this.load.json('data2','./data/Prueba2.json');
+        this.load.json('data0','./data/Dialog0.json');
+        this.load.json('data1','./data/Prueba1.json');
         this.load.json('data2','./data/Prueba2.json');
 
-        this.load.image('background1','./assets/fondos/cajaPuerta.jpg');
+        this.load.image('background0','./assets/fondos/cajaPuerta.jpg');
 
         this.load.json('deck1','./data/Cartas.json')
         
@@ -27,8 +29,8 @@ export default class MenuScene extends Phaser.Scene {
     create(){
         switch (this.IDscene){
         case (1):
-            this.data = this.cache.json.get('data1');
-            this.add.image(0, 0, 'background1').setOrigin(0,0).setScale(1.9,1.9);
+            this.data = this.cache.json.get('data0');
+            this.add.image(0, 0, 'background0').setOrigin(0,0).setScale(1.9,1.9);
             break;
         case(2):
             this.data = this.cache.json.get('data2');
