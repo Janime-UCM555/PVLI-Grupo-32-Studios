@@ -1,0 +1,66 @@
+import Button from '../gameObjects/Button.js';
+class PauseMenu extends Phaser.Scene{
+    constructor()
+    {
+        super({key: 'PauseMenu'});
+    }
+    init(data) {
+        // Guardar la escena activa previamente
+        this.activeSceneKey = data.activeSceneKey; // Asumimos que se pasa el nombre de la escena activa
+
+    }
+    create()
+    {
+
+        
+        let graphics = this.add.graphics();
+        graphics.fillStyle(0x000000, 0.7); 
+        graphics.fillRect(0, 0, this.cameras.main.width, this.cameras.main.height);
+        this.add.text(100,50,'PAUSA',{fontSize: '32px', fill: '#FFF'}).setOrigin(0.5, 0);;
+
+        this.continueButton = new Button(this, 200, 150, 'CONTINUAR', () =>{
+            this.scene.stop();
+            this.scene.resume(this.activeSceneKey);
+        });
+        this.settingsButton = new Button(this, 200, 220, 'AJUSTES', () => {
+            this.hideButtons();
+            this.showVolumeSlider();
+        });
+        this.statButton = new Button(this, 200, 290, 'ESTADÍSTICAS', () => {
+            this.hideButtons();
+            this.showStats();
+        });
+    }
+    showStats() {
+        let cont = this.registry.get('atropellados');
+        this.statsText = this.add.text(this.cameras.main.width / 2, 350, 'Peatones atropellados: ' + cont , {
+            fontSize: '12px',
+            fill: '#FFF'
+        }).setOrigin(0.5);
+        this.returnStatButton = new Button(this, this.cameras.main.width / 2, 430, 'CERRAR', () => {
+            this.statsText.destroy(); 
+            this.showButtons();
+            this.returnStatButton.setVisible(false);
+        });
+    }
+    hideButtons()
+    {
+        this.continueButton.setVisible(false);
+        this.settingsButton.setVisible(false);
+        this.statButton.setVisible(false);
+    }
+    showButtons()
+    {
+        this.continueButton.setVisible(true);
+        this.settingsButton.setVisible(true);
+        this.statButton.setVisible(true);
+    }
+    showVolumeSlider()
+    {
+        const width = 200;
+        const length = 10;
+
+        
+    }
+}
+export default PauseMenu;
