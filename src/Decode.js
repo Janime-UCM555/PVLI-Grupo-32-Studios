@@ -1,10 +1,12 @@
 import DialogText from "./dialog_plugin.js";
 import Deck from "./Deck.js";
 export default class Decoder{
-    constructor(scene, data){
+    constructor(scene, data, deck){
         this.scene = scene;
         this.data = data;
+        this.deck = deck
         this.node  = this._findId(this.data.RootNodeID);
+        this.callback = (id) = {}
     }
 
     _findId(idToLookFor) {
@@ -51,8 +53,9 @@ export default class Decoder{
                 break;
             case 'NodeChoice':
                 //Aqui se crea el Deck y por tanto las cartas
+                var cartas = new Deck(this.deck,this.scene,)
                 // al hacer click
-                    break;
+                break;
             case 'NodeEndPath':
                 this.scene.events.off('next');
                 this.scene.scene.start('map')

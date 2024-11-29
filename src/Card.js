@@ -1,6 +1,6 @@
 export default class Carta extends Phaser.GameObjects.Sprite
 {
-    constructor(scene,data, x,y){
+    constructor(scene, x,y, data, callback){
         super(scene,x,y, 'carta');
         this.scene = scene;
         this.data = data;
@@ -15,10 +15,11 @@ export default class Carta extends Phaser.GameObjects.Sprite
     changeKarma(){
         var karmaQuintity = this.registry.get('karma') + this.data.Karma;
         this.registry.set('karma',karmaQuintity);
+        callback();
     }
     // set interactive
     // on("pointerdown", on option selected (en constructor))
-    static createFromData(jsonobject, scene, x, y){
+    static createFromData(scene, x, y, jsonobject, callback){
         this.carta = new Carta(scene,jsonobject,x,y) 
         //Valores de la carta 
         this.name = this.data.Name;
