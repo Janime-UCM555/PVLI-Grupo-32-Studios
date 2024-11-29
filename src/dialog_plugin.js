@@ -30,7 +30,6 @@ export default class DialogText{
 		this.dialogSpeed = opts.dialogSpeed || 3;
 		this.fontSize = opts.fontSize || 24
 		this.fontFamily = opts.fontFamily || undefined
-		this.fontColor = opts.fontColor || 'white'
 		
 		// se usa para animar el texto
 		this.eventCounter = 0;
@@ -233,8 +232,7 @@ export default class DialogText{
 				//se obliga al texto a permanecer dentro de unos limites determinados
 				wordWrap: { width: this._getGameWidth() - (this.padding * 2) - 25 },
 				fontSize: this.fontSize,
-				fontFamily: this.fontFamily,
-				color: this.fontColor
+				fontFamily: this.fontFamily
 			}
 		});
 	}
