@@ -5,25 +5,28 @@ import Cat from '../sprites/gato.js'
 export default class MenuScene extends Phaser.Scene {
     constructor(){
         super({key: 'Dialog'});
+        this.first = true;
     }
     init(flag){
-        if (Object.keys(flag).length === 0) flag = 1;
+        if (Object.keys(flag).length === 0 && this.first) flag = 1;
         
         this.IDscene = flag;
     }
 
     preload(){
-        this.load.json('data1','./data/Dialog1.json');
-        this.load.json('data2','./data/Prueba1.json');
-        this.load.json('data3','./data/Prueba2.json');
+        if(this.first){
+            this.load.json('data1','../data/Dialog1.json');
+            this.load.json('data2','../data/Dialog2.json');
 
-        this.load.image('background0','./assets/fondos/cajaPuerta.jpg');
+            this.load.image('background0','../assets/fondos/cajaPuerta.jpg');
 
-        this.load.json('cartas2','./data/Cartas.json')
-        
-        this.load.image('gato', './assets/Gato.png');
-        this.load.spritesheet('melchor', './assets/Melchor.png',{frameWidth: 500, frameHeight: 600})
-        
+            this.load.json('cartas2','../data/Cartas.json')
+            
+            this.load.image('gato', '../assets/sprites/Gato.png');
+            this.load.spritesheet('melchor', '../assets/sprites/Melchor.png',{frameWidth: 500, frameHeight: 600})
+
+            this.first = false;
+        }
     }
 
     create(){

@@ -1,0 +1,134 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "29fbcb55-1d28-480e-9fa7-68f55b2284ca",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "29fbcb55-1d28-480e-9fa7-68f55b2284ca",
+			"NextID": "f5604c90-19f9-4689-bea0-2147f2aa3f30",
+			"EditorPosition": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f5604c90-19f9-4689-bea0-2147f2aa3f30",
+			"NextID": "4999d7be-889f-424d-8e1f-6a5bc0653af9",
+			"Sentence": "Ala, ya estamos en el parque. Deberías comprarte un coche de esos que vuelan, esos baches son terribles...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 380,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4999d7be-889f-424d-8e1f-6a5bc0653af9",
+			"NextID": "b468644d-d801-4239-ae3e-488fdfe7b38b",
+			"Sentence": "¿Pero se puede saber que vas a hacer? Ese trozo de cartón no parece una máquina del tiempo. Espera... ¿Esto es una broma? Seguro que hay una holocámara por aquí",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 820,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b468644d-d801-4239-ae3e-488fdfe7b38b",
+			"NextID": "2e70606e-19fa-4582-820b-1c4e55f35a90",
+			"Sentence": "Esto es muy sencillo. En este parque, cuando tenias 6 años se produjo una segmentación de tu futuro.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1280,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "2e70606e-19fa-4582-820b-1c4e55f35a90",
+			"NextID": "bd5e84c3-bd7f-4766-8cfd-0197676e1b35",
+			"Sentence": "Esto ocurre cada segundo, pero algunas veces  con más significación que otras, y la decisión que uno tome en ese momento determinado puede redefinir tu vida entera.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1780,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "bd5e84c3-bd7f-4766-8cfd-0197676e1b35",
+			"NextID": "208dbae1-26bc-4612-89b9-eca9e6ff02a1",
+			"Sentence": "No se hasta qué punto algo que hice cuando tenía 6 años pudo haberme llevado a donde estoy hoy. Pero bueno, ¿Qué tengo que hacer?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2240,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "208dbae1-26bc-4612-89b9-eca9e6ff02a1",
+			"NextID": "73ad5a38-8f7f-4d67-828a-4cc7c1843277",
+			"Sentence": "Como me gusta el show, la decisión tendrás que elegirla entre 3 cartas que te daré, elegidas al azar de un mazo de 6. Yo me encargaré del resto y te comunicaré el resultado.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2720,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "73ad5a38-8f7f-4d67-828a-4cc7c1843277",
+			"NextID": "0933076f-bc29-4c1c-a9f9-261a07623901",
+			"Sentence": "¡¡PERO CUIDADO!! Como podrás adivinar, las acciones tienen consecuencias. Tienes un medidor de Karma, ahora mismo equilibrado. Con cada decisión se hará, al igual que tu vida, más negativo o positivo. Intenta que se lo segundo...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3180,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0933076f-bc29-4c1c-a9f9-261a07623901",
+			"NextID": -1,
+			"Sentence": "Bien, vamos allá. Nos encontramos en el parque en el que jugabas de pequeño. En un día específico te viste abrumado por la cantidad de cosas que hacer. Yo te pregunto, ¿qué harías ahora?",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3640,
+				"y": 0
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}

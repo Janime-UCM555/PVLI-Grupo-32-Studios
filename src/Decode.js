@@ -6,7 +6,9 @@ export default class Decoder{
         this.data = data;
         this.deck = deck
         this.node  = this._findId(this.data.RootNodeID);
-        this.callback = (id) = {}
+        this.callback = (id)=>{
+            this.node = this._findId(this.node.OptionsID[id]);
+        }
     }
 
     _findId(idToLookFor) {
@@ -52,9 +54,8 @@ export default class Decoder{
                 this.dialog.setText(this.node.Sentence, true);
                 break;
             case 'NodeChoice':
-                //Aqui se crea el Deck y por tanto las cartas
-                var cartas = new Deck(this.deck,this.scene,)
-                // al hacer click
+                this.scene.showSprite('');
+                new Deck(this.deck,this.scene,this.callback)
                 break;
             case 'NodeEndPath':
                 this.scene.events.off('next');
