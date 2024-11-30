@@ -40,7 +40,8 @@ class map extends Phaser.Scene{
     }
     create()
     {
-        this.registry.set('karma',200);
+
+        this.registry.set('karma',20);
        
         
 
@@ -74,7 +75,7 @@ class map extends Phaser.Scene{
         this.flags = [];
         objectLayer.objects.forEach((obj) => {
             if (obj.type === 'Flag') {
-                if(obj.name == 'FlagShop')
+                if(obj.name === 'FlagShop')
                 {
                     const flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog', 1);
                     this.flags.push(flag);
@@ -88,7 +89,21 @@ class map extends Phaser.Scene{
             }
         });
 
-        
+        const semaforoLayer = this.map.getObjectLayer('Crossings');
+        semaforoLayer.objects.forEach((obj) => {
+     
+            if(obj.name === 'H')
+            {
+                let random = Phaser.Math.Between(2000,5000);
+                const semaforo = new Semaforo(this,obj.x,obj.y,1,0,random);
+            }
+            else
+            {
+                let random = Phaser.Math.Between(2000,5000);
+                const semaforo = new Semaforo(this,obj.x,obj.y,0,1,random);
+            } 
+                
+        });
         //creamos la ficha
         this.fichaPeaton = this.add.container(600,50).setVisible(false);
         const fondo = this.add.rectangle(0, 0, 200, 200, 0x000000, 0.7).setOrigin(0);
@@ -113,7 +128,7 @@ class map extends Phaser.Scene{
 
         this.claxonSound =  this.sound.add('claxon');
         
-        this.semaforo = new Semaforo(this,200,150);
+    
         
 
 
