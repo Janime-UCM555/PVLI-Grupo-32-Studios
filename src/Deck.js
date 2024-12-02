@@ -5,8 +5,7 @@ export default class Mazo
         this.data = data;
         this.scene = scene;
         this.callback = (id)=>(callback(id));
-    }
-    create(){
+
         this.cardSelector();
         this.drawCards();
     }
@@ -18,7 +17,7 @@ export default class Mazo
     }
     drawCards(){
         for(let i = 0; i< 3; ++i){
-            createFromData(this.scene, (i/3*this.sys.game.canvas.width) + 10, this.sys.game.canvas.width/2, this.selectedCards[i], this.callback)
+            let carta = new Carta(this.scene, (i/3*this.scene.sys.game.canvas.width) + 10, this.scene.sys.game.canvas.width/2, this.selectedCards[i], this.callback)
         }
     }
 }

@@ -8,9 +8,8 @@ export default class Carta extends Phaser.GameObjects.Sprite
         this.setInteractive({useHandCursor: true});
         this.on("pointerdown",this.changeKarma);
         this.on("pointover",()=>{this.background.setFillStyle(0x8888ff);});       
-    }
-    create(){
-        const fondo = this.add.rectangle(0, 0, 200, 200, 0xd1c7cd).setOrigin(0);
+    
+        const fondo = this.add.rectangle(0, 0, 200, 200, 0xd1c7cd).setOrigin(0, 0.5);
     }
     changeKarma(){
         var karmaQuintity = this.registry.get('karma') + this.data.Karma;

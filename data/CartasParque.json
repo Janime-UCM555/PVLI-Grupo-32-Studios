@@ -4,14 +4,14 @@
         "id":"0",
         "Name":"Primer ligoteo",
         "Image":"imageID",
-        "Description":"Subes al castillo para interactuar con la niña. Mientras subes, te mira con recelo, como si la estuvieras molestando. Empiezas a hablar con ella y poco a poco os vais llevando mejor",
+        "Description":"Subes al castillo para interactuar con una niña solitaria. Mientras subes, te mira con recelo, como si la estuvieras molestando. Empiezas a hablar con ella y poco a poco os vais llevando mejor",
         "Karma":"-5"
     },
     {
         "id":"1",
         "Name":"¿Amigos?",
         "Image":"imageID",
-        "Description":"Te acercas a los niños y te dicen que le falta el foso al castillo de arena que están construyendo. Te ofreces a ayudar y te prestan una pala.",
+        "Description":"Te acercas a unos niños en el arenero y te dicen que les falta el foso al castillo que están construyendo. Te ofreces a ayudar y te prestan una pala.",
         "Karma":"+20"
     },
     {
@@ -39,7 +39,7 @@
         "id":"5",
         "Name":"La Banda del Parque",
         "Image":"imageID",
-        "Description":"Vas a hablar con los niños que estan jugando con un balon al futbol, para formar un equipo invencible y ser los mejores del parque.",
+        "Description":"Vas a hablar con los niños que estan jugando con un balon al fútbol para formar un equipo invencible y ser los mejores del parque.",
         "Karma":"+15"
     }
 ]

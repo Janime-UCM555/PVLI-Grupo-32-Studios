@@ -46,7 +46,7 @@ export default class Decoder{
                     windowHeight: 100,
                     padding: 16,
                     closeBtnColor: 'white',
-                    dialogSpeed: 3,
+                    dialogSpeed: 4,
                     fontSize: 24,
                     fontFamily: "pixel",
                     fontColor: 'white'
