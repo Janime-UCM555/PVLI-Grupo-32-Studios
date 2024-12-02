@@ -4,15 +4,15 @@
         "id":"0",
         "Name":"Universidad",
         "Image":"imageID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Hora de empezar a estudiar lo que te gusta. Así estaremos mejor preparados",
+        "Karma":"+10"
     },
     {
         "id":"1",
         "Name":"Grado Superior",
         "Image":"imageID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Será mejor prácticar y aprender mientras terminamos los estudios. Así estaremos mejor preparados",
+        "Karma":"+10"
     },
     {
         "id":"2",
@@ -25,22 +25,22 @@
         "id":"3",
         "Name":"Nini",
         "Image":"imageID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Ya tenemos lo mínimo y no estaría mal unn sabático para pensar en que hacer. Aunque a mis padres no les hará mucha gracia",
+        "Karma":"-15"
     },
     {
         "id":"4",
-        "Name":"Inventor Casero",
+        "Name":"Inventor Casero Crea-inetors",
         "Image":"imageID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Soy lo suficientemente habilidoso como para aportar algo importante al mundo. ¡Preparaos!",
+        "Karma":"+15"
     },
     {
         "id":"5",
         "Name":"Buscar Consejo",
         "Image":"imageID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"No sé bien que debería de hacer conmigo mismo, tal vez lo mejor es preguntar por consejo y ver que me apetece.",
+        "Karma":"0"
     }
 ]
 }
