@@ -1,0 +1,46 @@
+{
+    "Deck" : [
+    {
+        "id":"0",
+        "Name":"Genio Incomprendido",
+        "Image":"imageID",
+        "Description":"Es hora de demostrar a todos que si me lo propongo haré algo importante, Un verdadero descubrimiento",
+        "Karma":"+10"
+    },
+    {
+        "id":"1",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"2",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"3",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"4",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"5",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    }
+]
+}
