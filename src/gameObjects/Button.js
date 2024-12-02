@@ -1,9 +1,9 @@
 class Button extends Phaser.GameObjects.Container
 {
-    constructor(scene, x, y, text, callback)
+    constructor(scene, x, y, text, callback,color = 0x6666ff, selectionColor = 0x8888ff)
     {
         super(scene,x,y);
-        this.background = scene.add.rectangle(0, 0, 200, 50, 0x6666ff);
+        this.background = scene.add.rectangle(0, 0, 200, 50, color);
         this.background.setOrigin(0.5, 0.5);
 
         
@@ -21,10 +21,10 @@ class Button extends Phaser.GameObjects.Container
         // Agregar el evento del clic
         this.on('pointerdown', callback);
         this.on('pointerover', () => {
-            this.background.setFillStyle(0x8888ff); // Efecto al pasar el ratón
+            this.background.setFillStyle(selectionColor); // Efecto al pasar el ratón
         });
         this.on('pointerout', () => {
-            this.background.setFillStyle(0x6666ff); // Vuelve al color original
+            this.background.setFillStyle(color); // Vuelve al color original
         });
 
         // Agregar el botón a la escena
