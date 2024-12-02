@@ -1,0 +1,46 @@
+{
+    "Deck" : [
+    {
+        "id":"0",
+        "Name":"Universidad",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"1",
+        "Name":"Grado Superior",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"2",
+        "Name":"Chamba",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"3",
+        "Name":"Nini",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"4",
+        "Name":"Inventor Casero",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"5",
+        "Name":"Buscar Consejo",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    }
+]
+}
