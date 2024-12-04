@@ -20,7 +20,7 @@ export default class MenuScene extends Phaser.Scene {
 
             this.load.image('background0','../assets/fondos/cajaPuerta.jpg');
 
-            this.load.json('cartas2','../data/Cartas.json')
+            this.load.json('cartas2','../data/CartasParque.json')
             
             this.load.image('gato', '../assets/sprites/Gato.png');
             this.load.spritesheet('melchor', '../assets/sprites/Melchor.png',{frameWidth: 500, frameHeight: 600})

@@ -7,6 +7,7 @@ export default class Carta extends Phaser.GameObjects.Container
         this.callback = callback;
 
         scene.add.existing(this);
+		this.setInteractive({useHandCursor: true});
         this.setSize(200, 280); 
 
         this.background = scene.add.rectangle(0, 0, 200, 280, 0x333333);
@@ -47,6 +48,9 @@ export default class Carta extends Phaser.GameObjects.Container
         this.background.on('pointerout', () => {
             this.background.setFillStyle(0x333333);
         });
+      
+ 
+        const fondo = this.add.rectangle(0, 0, 200, 200, 0xd1c7cd).setOrigin(0, 0.5);
     }
     changeKarma(){
         const karmaQuantity = this.scene.sys.game.registry.get('karma') + this.data.Karma;

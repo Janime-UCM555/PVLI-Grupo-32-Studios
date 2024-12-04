@@ -183,13 +183,15 @@ export default class DialogText{
 			this.clearTint(); //vuelve al color original al quitar el cursor
 		});
 		this.closeBtn.on('pointerdown', function () {
-			this.scene.events.emit('next');
+			
 			self.toggleWindow(); //se llama al método que cierra o muestra la ventana de diálogo
 			// elimina el game object con el texto y borra el evento
+			
 			if (self.timedEvent) 
 				self.timedEvent.remove();
 			if (self.text) 
 				self.text.destroy();
+			this.scene.events.emit('next');
 		});
 	}
 

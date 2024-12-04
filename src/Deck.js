@@ -10,8 +10,7 @@ export default class Mazo
         this.drawCards();
     }
     cardSelector(){
-        let array = this.data.Deck;
-        this.selectedCards = [];      
+        let array = this.data.Deck;     
         let mix = Phaser.Utils.Array.Shuffle(array);
         this.selectedCards = mix.slice(0,3);
     }
