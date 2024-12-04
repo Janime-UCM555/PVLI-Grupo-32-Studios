@@ -37,9 +37,9 @@ class PauseMenu extends Phaser.Scene{
     }
     showStats() {
 
-        let cont = this.registry.get('atropellados');
+        let cont =  this.sys.game.registry.get('atropellados');
         const KarmaText = this.add.text(this.cameras.main.width/2,150,'KARMA',{fontSize: '26px', fill: '#FFF'}).setOrigin(0.5, 0);;
-        this.KarmaBar.RefreshBar(this.registry.get('karma'));
+        this.KarmaBar.RefreshBar( this.sys.game.registry.get('karma'));
         this.KarmaBar.setVisible(true);
         this.statsText = this.add.text(this.cameras.main.width / 2, 350, 'Peatones atropellados: ' + cont , {
             fontSize: '18px',

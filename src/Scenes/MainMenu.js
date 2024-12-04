@@ -11,6 +11,7 @@ class MainMenu extends Phaser.Scene{
     create()
     {
         this.startButton = new Button(this, this.cameras.main.width/2, 250, 'INICIAR', () =>{
+            this.scene.stop();
             this.scene.launch('Dialog');
         },0x572364, 0xf1d7ff);
 

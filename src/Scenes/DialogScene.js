@@ -30,6 +30,7 @@ export default class MenuScene extends Phaser.Scene {
     }
 
     create(){
+        console.log(this.IDscene);
         switch (this.IDscene){
         case (1):
             this.data = this.cache.json.get('data1');

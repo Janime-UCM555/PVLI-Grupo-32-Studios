@@ -134,7 +134,7 @@ class map extends Phaser.Scene{
 
 
         this.input.keyboard.on('keydown-E', this.checkFlags,this);
-        this.karmaText = this.add.text(16, 16, 'Karma: ' + this.registry.get('karma'), {
+        this.karmaText = this.add.text(16, 16, 'Karma: ' +  this.sys.game.registry.get('karma'), {
             fontSize: '20px',
             fill: '#ff0000',
             backgroundColor: '#000000',
@@ -165,10 +165,10 @@ class map extends Phaser.Scene{
     choque(peaton)
     {  
         
-        this.registry.set('karma', this.registry.get('karma') - peaton.karma);
-        let count = this.registry.get('atropellados');
+        this.sys.game.registry.set('karma', this.registry.get('karma') - peaton.karma);
+        let count =  this.sys.game.registry.get('atropellados');
         this.registry.set('atropellados', count + 1);
-        this.karmaText.setText('Karma: ' + this.registry.get('karma'));
+        this.karmaText.setText('Karma: ' +  this.sys.game.registry.get('karma'));
         this.events.emit('muestraFicha', peaton);
         peaton.destroy();
         

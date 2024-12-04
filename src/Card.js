@@ -1,30 +1,57 @@
-export default class Carta extends Phaser.GameObjects.Sprite
+export default class Carta extends Phaser.GameObjects.Container
 {
     constructor(scene, x,y, data, callback){
-        super(scene,x,y, 'carta');
+        super(scene,x,y);
         this.scene = scene;
         this.data = data;
-        this.scene.add.existing(this);
-        this.setInteractive({useHandCursor: true});
-        this.on("pointerdown",this.changeKarma);
-        this.on("pointover",()=>{this.background.setFillStyle(0x8888ff);});       
-    }
-    create(){
-        const fondo = this.add.rectangle(0, 0, 200, 200, 0xd1c7cd).setOrigin(0);
+        this.callback = callback;
+
+        scene.add.existing(this);
+        this.setSize(200, 280); 
+
+        this.background = scene.add.rectangle(0, 0, 200, 280, 0x333333);
+        this.background.setOrigin(0.5);
+        this.add(this.background);
+
+
+
+        this.name = scene.add.text(0, -110, this.data.Name, { 
+            fontSize: '22px',
+             fill: '#FFF', 
+             align: 'center'
+             });
+        this.name.setOrigin(0.5);
+        this.add(this.name);
+
+
+        this.desc = scene.add.text(0, 100, this.data.Description, { 
+            fontSize: '16px', 
+            fill: '#FFF',
+            align: 'center',
+            wordWrap: { width: 180 } 
+        });
+        this.desc.setOrigin(0.5);
+        this.add(this.desc);
+
+        this.image = scene.add.image(0, -10, this.data.Image);
+        this.image.setOrigin(0.5);
+        this.image.setScale(0.4);
+        this.add(this.image);
+
+        this.background.setInteractive({useHandCursor: true}); 
+
+        this.background.on('pointerdown', this.changeKarma, this);
+        this.background.on('pointerover', () => {
+            this.background.setFillStyle(0xFFE66D);
+        });
+        this.background.on('pointerout', () => {
+            this.background.setFillStyle(0x333333);
+        });
     }
     changeKarma(){
-        var karmaQuintity = this.registry.get('karma') + this.data.Karma;
-        this.registry.set('karma',karmaQuintity);
-        callback();
-    }
-    // set interactive
-    // on("pointerdown", on option selected (en constructor))
-    static createFromData(scene, x, y, jsonobject, callback){
-        this.carta = new Carta(scene,jsonobject,x,y) 
-        //Valores de la carta 
-        this.name = this.data.Name;
-        this.image = this.load.image('img',this.data.Image);
-        this.descrption = this.data.Description;
-        this.karma = this.data.Karma;     
+        const karmaQuantity = this.scene.sys.game.registry.get('karma') + this.data.Karma;
+        this.scene.sys.game.registry.set('karma', karmaQuantity);
+        console.log(this.scene.sys.game.registry.get('karma', karmaQuantity));
+        if (this.callback) this.callback();
     }
 }

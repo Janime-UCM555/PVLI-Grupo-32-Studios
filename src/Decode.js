@@ -4,7 +4,7 @@ export default class Decoder{
     constructor(scene, data, deck){
         this.scene = scene;
         this.data = data;
-        this.deck = deck
+        this.deck = deck;
         this.node  = this._findId(this.data.RootNodeID);
         this.callback = (id)=>{
             this.node = this._findId(this.node.OptionsID[id]);

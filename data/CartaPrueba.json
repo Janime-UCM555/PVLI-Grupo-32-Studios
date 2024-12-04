@@ -1,0 +1,46 @@
+{
+    "Deck" : [
+    {
+        "id":"0",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"1",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"2",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"3",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"4",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    },
+    {
+        "id":"5",
+        "Name":"nombre",
+        "Image":"imageID",
+        "Description":"string",
+        "Karma":"value"
+    }
+]
+}
