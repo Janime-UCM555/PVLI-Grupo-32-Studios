@@ -32,7 +32,7 @@ class PauseMenu extends Phaser.Scene{
             this.hideButtons();
             this.showStats();
         });
-        this.KarmaBar = new Barrita(this, 230, 220,0xFF0000 , 0x555555, 0, 40);
+        this.KarmaBar = new Barrita(this, 230, 220,0xFF0000 , 0x555555, 0, 100);
         this.KarmaBar.setVisible(false);
     }
     showStats() {

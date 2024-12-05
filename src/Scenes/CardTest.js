@@ -14,7 +14,7 @@ class CardTest extends Phaser.Scene{
     {
         this.data = this.cache.json.get('data1');
         this.sys.game.registry.set('karma',200);
-        this.mazo = new Mazo(this.data,this,() => {})
+        this.mazo = new Mazo(this.data,this,() => {console.log('click')})
     }
     update()
     {

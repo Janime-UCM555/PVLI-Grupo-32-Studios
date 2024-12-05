@@ -7,7 +7,6 @@ export default class Carta extends Phaser.GameObjects.Container
         this.callback = callback;
 
         scene.add.existing(this);
-		this.setInteractive({useHandCursor: true});
         this.setSize(200, 280); 
 
         this.background = scene.add.rectangle(0, 0, 200, 280, 0x333333);
@@ -48,14 +47,17 @@ export default class Carta extends Phaser.GameObjects.Container
         this.background.on('pointerout', () => {
             this.background.setFillStyle(0x333333);
         });
-      
- 
-        const fondo = this.add.rectangle(0, 0, 200, 200, 0xd1c7cd).setOrigin(0, 0.5);
     }
     changeKarma(){
-        const karmaQuantity = this.scene.sys.game.registry.get('karma') + this.data.Karma;
+        var karmaQuantity = this.scene.sys.game.registry.get('karma') + parseInt(this.data.Karma);
+        if(karmaQuantity < 0) karmaQuantity = 0;
+        else if(karmaQuantity > 100) karmaQuantity = 100;
         this.scene.sys.game.registry.set('karma', karmaQuantity);
         console.log(this.scene.sys.game.registry.get('karma', karmaQuantity));
-        if (this.callback) this.callback();
+        if (this.callback) this.callback(this.data.id);
+    }
+    deleteCard(){
+        this.data = null;
+        this.destroy();
     }
 }
