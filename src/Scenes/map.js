@@ -2,6 +2,7 @@ import Coche from '../gameObjects/Coche.js';
 import Flag from '../gameObjects/Flag.js';
 import Peaton from '../gameObjects/Peaton.js';
 import Semaforo from '../gameObjects/Semaforo.js';
+import CocheIA from '../gameObjects/CocheIA.js';
 class map extends Phaser.Scene{
 
    
@@ -71,7 +72,6 @@ class map extends Phaser.Scene{
 
         //this.ramp = new Rampa(this,250,250,'ramp');
         const objectLayer = this.map.getObjectLayer('Flags');
-        console.log(objectLayer.objects);
         this.flags = [];
         objectLayer.objects.forEach((obj) => {
             if (obj.type === 'Flag') {
@@ -88,6 +88,30 @@ class map extends Phaser.Scene{
                 
             }
         });
+        this.rutaA = [];    
+        const rutaLayer = this.map.getObjectLayer('Rutas');
+        rutaLayer.objects.forEach((obj) => {
+            if (obj.properties[0].value === "Coche1") {
+                
+              
+                let point = 
+                {
+                    x:obj.x,
+                    y:obj.y,
+                }
+                this.rutaA.push(point);                
+            }
+        });
+
+       console.log(this.rutaA);
+        const carGenLayer = this.map.getObjectLayer('CarGenerator');
+        
+
+       
+
+        this.cocheA = new CocheIA(this,100,200,'car',this.rutaA);
+       
+
 
         const semaforoLayer = this.map.getObjectLayer('Crossings');
         semaforoLayer.objects.forEach((obj) => {
