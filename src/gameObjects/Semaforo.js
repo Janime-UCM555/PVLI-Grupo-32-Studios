@@ -51,7 +51,7 @@ class Semaforo extends Phaser.GameObjects.Sprite
         let peaton = this.choosePeaton();       
         this.scene.add.existing(peaton);
         this.scene.physics.add.existing(peaton);
-        let distance = 100;
+        let distance = 85;
         let vel = peaton.speed ;
         
         this.scene.tweens.add(

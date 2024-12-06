@@ -17,7 +17,7 @@ class Coche extends Phaser.Physics.Arcade.Sprite
         let ishorizontal;
     }
 
-    update() {
+    preUpdate() {
       
         if(this.claxonKey.isDown)
         {

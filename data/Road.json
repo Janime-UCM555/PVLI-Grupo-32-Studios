@@ -338,7 +338,7 @@
                 }],
          "opacity":1,
          "type":"objectgroup",
-         "visible":false,
+         "visible":true,
          "x":0,
          "y":0
         }, 
@@ -553,7 +553,7 @@
                 {
                  "height":0,
                  "id":67,
-                 "name":"",
+                 "name":"1A",
                  "point":true,
                  "properties":[
                         {
@@ -571,7 +571,7 @@
                 {
                  "height":0,
                  "id":86,
-                 "name":"",
+                 "name":"2A",
                  "point":true,
                  "properties":[
                         {
@@ -584,12 +584,12 @@
                  "visible":true,
                  "width":0,
                  "x":350,
-                 "y":624.666666666667
+                 "y":626
                 }, 
                 {
                  "height":0,
-                 "id":88,
-                 "name":"",
+                 "id":98,
+                 "name":"3A",
                  "point":true,
                  "properties":[
                         {
@@ -601,13 +601,13 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":350.666666666667,
-                 "y":178.666666666667
+                 "x":348.5,
+                 "y":164
                 }, 
                 {
                  "height":0,
-                 "id":89,
-                 "name":"",
+                 "id":99,
+                 "name":"4A",
                  "point":true,
                  "properties":[
                         {
@@ -619,26 +619,152 @@
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":571.333333333333,
-                 "y":175.333333333333
+                 "x":934.5,
+                 "y":161
                 }, 
                 {
                  "height":0,
-                 "id":90,
-                 "name":"",
+                 "id":100,
+                 "name":"1B",
                  "point":true,
                  "properties":[
                         {
                          "name":"CarID",
                          "type":"string",
-                         "value":"Coche1"
+                         "value":"Coche2"
                         }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":0,
-                 "x":954.666666666667,
-                 "y":169.333333333333
+                 "x":341.333333333333,
+                 "y":718.666666666667
+                }, 
+                {
+                 "height":0,
+                 "id":101,
+                 "name":"2B",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"CarID",
+                         "type":"string",
+                         "value":"Coche2"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":346.666666666667,
+                 "y":397.333333333333
+                }, 
+                {
+                 "height":0,
+                 "id":102,
+                 "name":"3B",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"CarID",
+                         "type":"string",
+                         "value":"Coche2"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":348.166666666667,
+                 "y":204.166666666667
+                }, 
+                {
+                 "height":0,
+                 "id":103,
+                 "name":"4B",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"CarID",
+                         "type":"string",
+                         "value":"Coche2"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":357.333333333333,
+                 "y":16
+                }, 
+                {
+                 "height":0,
+                 "id":104,
+                 "name":"1C",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"CarID",
+                         "type":"string",
+                         "value":"Coche3"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":936.5,
+                 "y":123
+                }, 
+                {
+                 "height":0,
+                 "id":105,
+                 "name":"2C",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"CarID",
+                         "type":"string",
+                         "value":"Coche3"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":81,
+                 "y":134
+                }, 
+                {
+                 "height":0,
+                 "id":106,
+                 "name":"1D",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"CarID",
+                         "type":"string",
+                         "value":"Coche4"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":309,
+                 "y":34
+                }, 
+                {
+                 "height":0,
+                 "id":107,
+                 "name":"2D",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"CarID",
+                         "type":"string",
+                         "value":"Coche4"
+                        }],
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":307,
+                 "y":712
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -647,7 +773,7 @@
          "y":0
         }],
  "nextlayerid":13,
- "nextobjectid":93,
+ "nextobjectid":108,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.10.2",

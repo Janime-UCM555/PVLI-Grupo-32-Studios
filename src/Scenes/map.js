@@ -15,7 +15,11 @@ class map extends Phaser.Scene{
     preload()
     {
         if(this.first){
+            //cars
             this.load.image('car', '../assets/Coche.png')
+            this.load.image('car2', '../assets/Coche2.png')
+            this.load.image('car3', '../assets/Coche3.png')
+
             this.load.image('ramp', '../assets/Rampa.png')
             this.load.audio('claxon','../assets/claxon.mp3')
             
@@ -42,16 +46,17 @@ class map extends Phaser.Scene{
         this.fichaPeaton.edadTexto.setText(`Edad: ${peaton.edad}`);
         this.fichaPeaton.setVisible(true);
 
-        this.time.delayedCall(5000, () => {
+        this.time.delayedCall(1000, () => {
             this.fichaPeaton.setVisible(false);
         });
     }
     create()
     {
 
-       
-        
+        this.scale.resize(950, 700);
+        this.carTextures = ['car','car2','car3'];
 
+        // Cargamos el TileMap
         this.map = this.make.tilemap({
             key:'tilemap',
             tileWidth:16,
@@ -75,6 +80,66 @@ class map extends Phaser.Scene{
         var edificios = this.map.createLayer('Edificios', tileset);
         edificios.setCollisionByProperty({collides: true});
 
+        // Se cargan las rutas para los coches
+        this.rutaA = [];    
+        this.rutaB = []; 
+        this.rutaC = [];    
+        this.rutaD = []; 
+        const rutaLayer = this.map.getObjectLayer('Rutas');
+        rutaLayer.objects.forEach((obj) => {
+            if (obj.properties[0].value === "Coche1") {
+                let point = 
+                {
+                    x:obj.x,
+                    y:obj.y,
+                }
+                this.rutaA.push(point);                
+            }
+            else if (obj.properties[0].value === "Coche2") {
+                
+              
+                let point = 
+                {
+                    x:obj.x,
+                    y:obj.y,
+                }
+                this.rutaB.push(point);                
+            }
+            else if (obj.properties[0].value === "Coche3") {
+                
+              
+                let point = 
+                {
+                    x:obj.x,
+                    y:obj.y,
+                }
+                this.rutaC.push(point);                
+            }
+            else if (obj.properties[0].value === "Coche4") {
+                
+              
+                let point = 
+                {
+                    x:obj.x,
+                    y:obj.y,
+                }
+                this.rutaD.push(point);                
+            }
+        });
+        this.time.addEvent({
+            delay: Phaser.Math.Between(3000,5000),
+            callback: () =>
+            {
+                const ruta = Phaser.Math.RND.pick([this.rutaA,this.rutaB,this.rutaC,this.rutaD]);
+                const texture = Phaser.Math.RND.pick(this.carTextures);
+                this.createCoche(ruta,texture);
+            },
+            callbackScope: this,
+            loop: true
+        });
+
+
+
 
         //this.ramp = new Rampa(this,250,250,'ramp');
         const objectLayer = this.map.getObjectLayer('Flags');
@@ -94,31 +159,10 @@ class map extends Phaser.Scene{
                 
             }
         });
-        this.rutaA = [];    
-        const rutaLayer = this.map.getObjectLayer('Rutas');
-        rutaLayer.objects.forEach((obj) => {
-            if (obj.properties[0].value === "Coche1") {
-                
-              
-                let point = 
-                {
-                    x:obj.x,
-                    y:obj.y,
-                }
-                this.rutaA.push(point);                
-            }
-        });
+       
 
-       console.log(this.rutaA);
         const carGenLayer = this.map.getObjectLayer('CarGenerator');
         
-
-       
-
-        this.cocheA = new CocheIA(this,100,200,'car',this.rutaA);
-       
-
-
         const semaforoLayer = this.map.getObjectLayer('Crossings');
         semaforoLayer.objects.forEach((obj) => {
      
@@ -154,14 +198,9 @@ class map extends Phaser.Scene{
 
         this.physics.add.collider(this.car,calle);
         this.physics.add.collider(this.car,carretera);
-
+        
 
         this.claxonSound =  this.sound.add('claxon');
-        
-    
-        
-
-
 
         this.input.keyboard.on('keydown-E', this.checkFlags,this);
         this.karmaText = this.add.text(16, 16, 'Karma: ' +  this.sys.game.registry.get('karma'), {
@@ -176,6 +215,14 @@ class map extends Phaser.Scene{
         });
         
 
+    }
+    createCoche(ruta, textureKey) {
+        const coche = new CocheIA(this, ruta[0].x, ruta[0].y, textureKey, ruta);
+        this.physics.add.collider(coche, this.car, () => {
+            this.choque("COCHE");
+            coche.destroy();
+        });
+        return coche;
     }
     checkFlags()
     {
@@ -194,6 +241,14 @@ class map extends Phaser.Scene{
 
     choque(peaton)
     {  
+        if(peaton === "COCHE")
+        {
+            let p = new Peaton(this, 0, 0, 'Abuelita', 5, "Abuelita Jojo", 80, 25);
+            let a = new Peaton(this, 0, 0, 'Deportista', 2, "Sportacus", 30, 100);
+            let b = new Peaton(this, 0, 0, 'Chico', 1, "Chico Percebe", 20, 35);
+            const peatonInfo = Phaser.Math.RND.pick([p,a,b]);
+            peaton = peatonInfo;
+        }
         var karmaQuantity = this.sys.game.registry.get('karma') - peaton.karma;
         if(karmaQuantity < 0) karmaQuantity = 0;
         else if(karmaQuantity > 100) karmaQuantity = 100;
@@ -203,11 +258,6 @@ class map extends Phaser.Scene{
         this.karmaText.setText('Karma: ' +  this.sys.game.registry.get('karma'));
         this.events.emit('muestraFicha', peaton);
         peaton.destroy();
-        
-    }
-    update()
-    {
-        this.car.update();
         
     }
     

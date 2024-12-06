@@ -21,17 +21,37 @@ class CocheIA extends Phaser.Physics.Arcade.Sprite{
                 this.currentTargetIndex++;
                 if(this.currentTargetIndex >= this.ruta.length)
                 {
-                    this.isMoving = false;
+                    this.destroy();
                 }
                 else
                 {
                     this.target = this.ruta[this.currentTargetIndex];
                 }              
-            }          
+            }     
+            const dx = this.target.x - this.x;
+            const dy = this.target.y - this.y;
+            if (Math.abs(dx) > Math.abs(dy)) {
+                // Movimiento horizontal
+                if (dx > 0) {
+                    this.setAngle(90); // Derecha
+                } else {
+                    this.setAngle(-90); // Izquierda
+                }
+            } else {
+                // Movimiento vertical
+                if (dy > 0) {
+                    this.setAngle(180); // Abajo
+                } else {
+                    this.setAngle(0); // Arriba
+                }
+            }     
         }
         else
         {
             this.setVelocity(0,0);
         }
+
+       
+        
     }
 } export default CocheIA;
