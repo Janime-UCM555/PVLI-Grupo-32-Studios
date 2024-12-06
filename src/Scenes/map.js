@@ -8,26 +8,33 @@ class map extends Phaser.Scene{
    
     constructor(){
         super({ key:'map'});
+        this.first = true;
+        
     }
     
     preload()
     {
-        this.load.image('car', '../assets/Coche.png')
-        this.load.image('ramp', '../assets/Rampa.png')
-        this.load.audio('claxon','../assets/claxon.mp3')
-        
+        if(this.first){
+            this.load.image('car', '../assets/Coche.png')
+            this.load.image('ramp', '../assets/Rampa.png')
+            this.load.audio('claxon','../assets/claxon.mp3')
+            
 
-        this.load.tilemapTiledJSON('tilemap','../data/Road.json');
-        this.load.image('Ciudad', '../assets/Ciudad.png');
-        this.load.image('Bandera','../assets/Flag.png');
-        this.load.image('Abuelita', '../assets/Abuelita.png');
-        this.load.image('Deportista', '../assets/Deportista.png');
-        this.load.image('Default', '../assets/Default.png');
-        this.load.image('Chico', '../assets/Chico.png');
-        this.load.image('semaforo_rojo', '../assets/semaforo_rojo.png');
-        this.load.image('semaforo_verde', '../assets/semaforo_verde.png');
+            this.load.tilemapTiledJSON('tilemap','../data/Road.json');
+            this.load.image('Ciudad', '../assets/Ciudad.png');
+            this.load.image('Bandera','../assets/Flag.png');
+            this.load.image('Abuelita', '../assets/Abuelita.png');
+            this.load.image('Deportista', '../assets/Deportista.png');
+            this.load.image('Default', '../assets/Default.png');
+            this.load.image('Chico', '../assets/Chico.png');
+            this.load.image('semaforo_rojo', '../assets/semaforo_rojo.png');
+            this.load.image('semaforo_verde', '../assets/semaforo_verde.png');
+            
+            this.registry.set('karma',50);
+            this.registry.set('atropellados', 0);
 
-        this.registry.set('atropellados', 0);
+            this.first = false;
+        }
     }
     muestraFicha(peaton) {
         this.fichaPeaton.foto.setTexture(peaton.foto);
@@ -42,7 +49,6 @@ class map extends Phaser.Scene{
     create()
     {
 
-        this.registry.set('karma',20);
        
         
 
@@ -188,8 +194,10 @@ class map extends Phaser.Scene{
 
     choque(peaton)
     {  
-        
-        this.sys.game.registry.set('karma', this.registry.get('karma') - peaton.karma);
+        var karmaQuantity = this.sys.game.registry.get('karma') - peaton.karma;
+        if(karmaQuantity < 0) karmaQuantity = 0;
+        else if(karmaQuantity > 100) karmaQuantity = 100;
+        this.sys.game.registry.set('karma', karmaQuantity);
         let count =  this.sys.game.registry.get('atropellados');
         this.registry.set('atropellados', count + 1);
         this.karmaText.setText('Karma: ' +  this.sys.game.registry.get('karma'));

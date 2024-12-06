@@ -7,7 +7,9 @@ export default class Decoder{
         this.deck = deck;
         this.node  = this._findId(this.data.RootNodeID);
         this.callback = (id)=>{
-            this.node = this._findId(this.node.OptionsID[id]);
+            var next = this.node.OptionsID[id];
+            this.node = this._findId(next);
+            this.scene.events.emit('next')
         }
     }
 
@@ -59,12 +61,9 @@ export default class Decoder{
                 break;
             case 'NodeEndPath':
                 this.scene.events.off('next');
-                this.scene.scene.start('map')
+                this.scene.scene.stop();
+                this.scene.scene.start('map');
                 break;
         }        
     }
-                                    //Evento
-    /*new Mazo(pathTojson, scene, (selectedCardId) => {
-        
-    })*/ // Construir mazo
 }

@@ -25,6 +25,7 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('gato', '../assets/sprites/Gato.png');
             this.load.spritesheet('melchor', '../assets/sprites/Melchor.png',{frameWidth: 500, frameHeight: 600})
 
+            this.registry.set('karma',50);
             this.first = false;
         }
     }
