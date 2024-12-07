@@ -27,10 +27,16 @@ class map extends Phaser.Scene{
             this.load.tilemapTiledJSON('tilemap','../data/Road.json');
             this.load.image('Ciudad', '../assets/Ciudad.png');
             this.load.image('Bandera','../assets/Flag.png');
+
+            // Peatones
             this.load.image('Abuelita', '../assets/Abuelita.png');
             this.load.image('Deportista', '../assets/Deportista.png');
             this.load.image('Default', '../assets/Default.png');
             this.load.image('Chico', '../assets/Chico.png');
+            this.load.image('Villano', '../assets/ReyHielo.png');
+            this.load.image('Niño', '../assets/Bart.png');
+            this.load.image('Doctor', '../assets/Doctor.png');
+
             this.load.image('semaforo_rojo', '../assets/semaforo_rojo.png');
             this.load.image('semaforo_verde', '../assets/semaforo_verde.png');
             
@@ -41,12 +47,15 @@ class map extends Phaser.Scene{
         }
     }
     muestraFicha(peaton) {
+        const borde = this.add.rectangle(0, 0, 224, 184, 0xffffff, 0.8).setOrigin(0);
+        this.fichaPeaton.addAt(borde,0),
         this.fichaPeaton.foto.setTexture(peaton.foto);
         this.fichaPeaton.nombreTexto.setText(`Nombre: ${peaton.name}`);
         this.fichaPeaton.edadTexto.setText(`Edad: ${peaton.edad}`);
+        this.fichaPeaton.descripcionTexto.setText(`Descripción:${peaton.desc}`);
         this.fichaPeaton.setVisible(true);
 
-        this.time.delayedCall(1000, () => {
+        this.time.delayedCall(2000, () => {
             this.fichaPeaton.setVisible(false);
         });
     }
@@ -182,16 +191,17 @@ class map extends Phaser.Scene{
         this.fichaPeaton = this.add.container(600,50).setVisible(false);
         const fondo = this.add.rectangle(0, 0, 200, 200, 0x000000, 0.7).setOrigin(0);
         this.fichaPeaton.add(fondo);
-        const foto = this.add.image(100, 50, 'Default').setScale(0.5);
-        const nombreTexto = this.add.text(10, 130, '', { fontSize: '12px', fill: '#fff' });
-        const edadTexto = this.add.text(10, 160, '', { fontSize: '12px', fill: '#ccc' });
-        const descripcionTexto = this.add.text(10, 130, '', { fontSize: '12px', fill: '#bbb' });
+        const foto = this.add.image(100, 50, 'Default').setScale(0.35).setOrigin(0.5);
+        const nombreTexto = this.add.text(10, 100, '', { fontSize: '12px', fill: '#fff' });
+        const edadTexto = this.add.text(10, 120, '', { fontSize: '12px', fill: '#ccc' });
+        const descripcionTexto = this.add.text(10, 140, '', { fontSize: '12px', fill: '#bbb',  wordWrap: { width: 180, useAdvancedWrap: true }});
 
         this.fichaPeaton.add([fondo,foto,nombreTexto,edadTexto,descripcionTexto]);
         this.fichaPeaton.foto = foto;
         this.fichaPeaton.nombreTexto = nombreTexto;
         this.fichaPeaton.edadTexto = edadTexto;
         this.fichaPeaton.descripcionTexto = descripcionTexto;
+        
 
         this.events.on('muestraFicha',this.muestraFicha,this);
         
@@ -243,9 +253,16 @@ class map extends Phaser.Scene{
     {  
         if(peaton === "COCHE")
         {
-            let p = new Peaton(this, 0, 0, 'Abuelita', 5, "Abuelita Jojo", 80, 25);
-            let a = new Peaton(this, 0, 0, 'Deportista', 2, "Sportacus", 30, 100);
-            let b = new Peaton(this, 0, 0, 'Chico', 1, "Chico Percebe", 20, 35);
+            let peatones = [
+                new Peaton(this, 0, 0, 'Abuelita', 5, "Abuelita Jojo", 80,"Señora con dos nietos encantadores aunque con poca vida por delante", 25),
+                new Peaton(this, 0, 0, 'Deportista', 2, "Sportacus", 30, "Joven deportista que da charlas en colegios sobre salud y bienestar",100),
+                new Peaton(this, 0, 0, 'Chico', 1, "Chico Percebe", 20, "Joven que ayuda a luchar contra el crimen y mantener la paz en la ciudad", 35),
+                new Peaton(scene, x, y, 'Niño', 1, "Bart Simpson", 12, "Niño un poco travieso pero con un buen corazón que quiere a su familia más que a nada", 20),
+                new Peaton(scene, x, y, 'Doctor', 1, "Doctor Mario", 40, "Experto en la materia que estaba a punto de descubrir una cura contra una de las enfermedades más comunes del mundo", 35),
+                new Peaton(scene, x, y, 'Villano', 1, "Rey Hielo", 60, "Villano que se disponía a cometer alguna fechoría", -5),
+
+            ]
+            
             const peatonInfo = Phaser.Math.RND.pick([p,a,b]);
             peaton = peatonInfo;
         }

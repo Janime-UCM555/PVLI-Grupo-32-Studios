@@ -8,8 +8,28 @@ class MainMenu extends Phaser.Scene{
 
 
     }
+    preload()
+    {
+        this.load.image('frame1', '../assets/Gato1.jpg');
+        this.load.image('frame2', '../assets/Gato2.jpg');
+    }
     create()
     {
+        this.anims.create({
+            key:'backgroundAnim',
+            frames:[
+                {
+                    key:'frame1'
+                },
+                {
+                    key:'frame2'
+                }
+            ],
+            frameRate: 2,
+            repeat: -1
+        })
+        const bg = this.add.sprite(400,300,'frame1');
+        bg.play('backgroundAnim');
         this.startButton = new Button(this, this.cameras.main.width/2, 250, 'INICIAR', () =>{
             this.scene.stop();
             this.scene.launch('Dialog');

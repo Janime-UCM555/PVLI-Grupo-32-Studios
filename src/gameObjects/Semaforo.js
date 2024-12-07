@@ -8,9 +8,12 @@ class Semaforo extends Phaser.GameObjects.Sprite
         this.setScale(0.05);
         this.sprite = scene.add.existing(this);
         this.peatones = [
-            new Peaton(scene, x, y, 'Abuelita', 5, "Abuelita Jojo", 80, 25),
-            new Peaton(scene, x, y, 'Deportista', 2, "Sportacus", 30, 100),
-            new Peaton(scene, x, y, 'Chico', 1, "Chico Percebe", 20, 35)
+            new Peaton(scene, x, y, 'Abuelita', 5, "Abuelita Jojo", 80, "Señora con dos nietos encantadores aunque con poca vida por delante", 20),
+            new Peaton(scene, x, y, 'Deportista', 2, "Sportacus", 30, "Joven deportista que da charlas en colegios sobre salud y bienestar", 35),
+            new Peaton(scene, x, y, 'Chico',1, "Chico Percebe", 20, "Joven que ayuda a luchar contra el crimen y mantener la paz en la ciudad", 25),
+            new Peaton(scene, x, y, 'Niño', 3, "Bart Simpson", 12, "Niño un poco travieso pero con un buen corazón que quiere a su familia más que a nada", 30),
+            new Peaton(scene, x, y, 'Doctor', 4, "Doctor Mario", 40, "Estaba a punto de descubrir una cura contra una de las enfermedades más comunes del mundo", 30),
+            new Peaton(scene, x, y, 'Villano', -4, "Rey Hielo", 60, "Villano que se disponía a cometer alguna fechoría", 25),
         ];
         this.dirX = dirX;
         this.dirY = dirY;
@@ -42,7 +45,7 @@ class Semaforo extends Phaser.GameObjects.Sprite
 
         this.ElecPeaton = this.peatones[random];
     
-        return new Peaton(this.scene,this.x,this.y,this.ElecPeaton.texture,this.ElecPeaton.karma,this.ElecPeaton.name,this.ElecPeaton.edad,this.ElecPeaton.speed);
+        return new Peaton(this.scene,this.x,this.y,this.ElecPeaton.texture,this.ElecPeaton.karma,this.ElecPeaton.name,this.ElecPeaton.edad, this.ElecPeaton.desc, this.ElecPeaton.speed);
         
     }
 
