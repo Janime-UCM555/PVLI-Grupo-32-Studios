@@ -21,10 +21,12 @@ export default class Mazo
         this.cardsArr = [];
         for(let i = 0; i< 3; ++i)
         {         
-            let x = (i/3*this.scene.sys.game.canvas.width) + 10;
-            let y = this.scene.sys.game.canvas.width / 2;    
-            var card = new Carta(this.scene,x,y,this.selectedCards[i],this.callback);
+            let x = (i/3*this.scene.sys.game.canvas.width) + 134;
+            console.log(x);
+            let y = this.scene.sys.game.canvas.height / 2;    
+            var card = new Carta(this.scene,x,y,this.selectedCards[i],this.callback);         
             this.cardsArr.push(card);
+            this.scene.add.existing(card);
         }
     }
     deleteDeck(){

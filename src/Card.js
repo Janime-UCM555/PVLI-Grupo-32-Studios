@@ -6,7 +6,6 @@ export default class Carta extends Phaser.GameObjects.Container
         this.data = data;
         this.callback = callback;
 
-        scene.add.existing(this);
         this.setSize(200, 280); 
 
         this.background = scene.add.rectangle(0, 0, 200, 280, 0x333333);
@@ -18,17 +17,18 @@ export default class Carta extends Phaser.GameObjects.Container
         this.name = scene.add.text(0, -110, this.data.Name, { 
             fontSize: '22px',
              fill: '#FFF', 
-             align: 'center'
+             align: 'center',
+             wordWrap: { width: 180, useAdvancedWrap: true}
              });
         this.name.setOrigin(0.5);
         this.add(this.name);
 
 
-        this.desc = scene.add.text(0, 100, this.data.Description, { 
-            fontSize: '16px', 
+        this.desc = scene.add.text(0, 78, this.data.Description, { 
+            fontSize: '12px', 
             fill: '#FFF',
             align: 'center',
-            wordWrap: { width: 180 } 
+            wordWrap: { width: 180, useAdvancedWrap: true}
         });
         this.desc.setOrigin(0.5);
         this.add(this.desc);
@@ -49,6 +49,14 @@ export default class Carta extends Phaser.GameObjects.Container
         });
     }
     changeKarma(){
+        let auxCard = this.scene.sys.game.registry.get('myCards');
+        if(!Array.isArray(auxCard)){
+            auxCard = [];
+        }
+        let copyCard = new Carta(this.scene,this.x,this.y,this.data,this.callback);
+        auxCard.push(copyCard);
+        this.scene.sys.game.registry.set('myCards',auxCard);
+
         var karmaQuantity = this.scene.sys.game.registry.get('karma') + parseInt(this.data.Karma);
         if(karmaQuantity < 0) karmaQuantity = 0;
         else if(karmaQuantity > 100) karmaQuantity = 100;

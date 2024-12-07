@@ -30,21 +30,17 @@ class MainMenu extends Phaser.Scene{
         })
         const bg = this.add.sprite(400,300,'frame1');
         bg.play('backgroundAnim');
-        this.startButton = new Button(this, this.cameras.main.width/2, 250, 'INICIAR', () =>{
+        this.startButton = new Button(this, this.cameras.main.width/2, 250, 'NUEVA_PARTIDA', () =>{
             this.scene.stop();
             this.scene.launch('Dialog');
         },0x572364, 0xf1d7ff);
 
-        this.cardsButton = new Button(this, this.cameras.main.width/2, 350, 'CARTAS', () =>{
-
-
-        },0x572364,0xf1d7ff);
-
-        this.creditsButton = new Button(this, this.cameras.main.width/2, 450, 'CRÉDITOS', () =>{
+        this.creditsButton = new Button(this, this.cameras.main.width/2, 350, 'CRÉDITOS', () =>{
 
             this.hideButtons();
             this.showCredits();
         },0x572364,0xf1d7ff);
+
     }
     showCredits() {
 

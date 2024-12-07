@@ -16,12 +16,18 @@ class map extends Phaser.Scene{
     {
         if(this.first){
             //cars
-            this.load.image('car', '../assets/Coche.png')
-            this.load.image('car2', '../assets/Coche2.png')
-            this.load.image('car3', '../assets/Coche3.png')
+            this.load.image('car', '../assets/Coche.png');
+            this.load.image('car2', '../assets/Coche2.png');
+            this.load.image('car3', '../assets/Coche3.png');
 
-            this.load.image('ramp', '../assets/Rampa.png')
-            this.load.audio('claxon','../assets/claxon.mp3')
+            this.load.image('ramp', '../assets/Rampa.png');
+
+            this.load.audio('claxon','../assets/claxon.mp3');
+            this.load.audio('ambiente','../assets/Sonidos/AmbienteCiudad.mp3');
+            this.load.audio('choque','../assets/Sonidos/Choque.mp3');
+            this.load.audio('atropello','../assets/Sonidos/Hit.mp3');
+            this.load.audio('mario','../assets/Sonidos/MarioYell.mp3');
+            this.load.audio('luigi','../assets/Sonidos/Luigi.mp3')
             
 
             this.load.tilemapTiledJSON('tilemap','../data/Road.json');
@@ -36,6 +42,9 @@ class map extends Phaser.Scene{
             this.load.image('Villano', '../assets/ReyHielo.png');
             this.load.image('Niño', '../assets/Bart.png');
             this.load.image('Doctor', '../assets/Doctor.png');
+            this.load.image('Italiano', '../assets/FranccescoVirgolini.png');
+            this.load.image('Caustico', '../assets/MaxVerstappen.png');
+            this.load.image('Rencoroso', '../assets/Luigi.png');
 
             this.load.image('semaforo_rojo', '../assets/semaforo_rojo.png');
             this.load.image('semaforo_verde', '../assets/semaforo_verde.png');
@@ -61,7 +70,8 @@ class map extends Phaser.Scene{
     }
     create()
     {
-
+        this.ambientSound = this.sound.add('ambiente', {loop: true});
+        this.ambientSound.play();
         this.scale.resize(950, 700);
         this.carTextures = ['car','car2','car3'];
 
@@ -243,6 +253,7 @@ class map extends Phaser.Scene{
             if(Phaser.Geom.Intersects.RectangleToRectangle(playerBounds, flagBounds))
             {
                 flag.activate();
+                this.mute();
             }
         })
 
@@ -253,19 +264,28 @@ class map extends Phaser.Scene{
     {  
         if(peaton === "COCHE")
         {
-            let peatones = [
-                new Peaton(this, 0, 0, 'Abuelita', 5, "Abuelita Jojo", 80,"Señora con dos nietos encantadores aunque con poca vida por delante", 25),
-                new Peaton(this, 0, 0, 'Deportista', 2, "Sportacus", 30, "Joven deportista que da charlas en colegios sobre salud y bienestar",100),
-                new Peaton(this, 0, 0, 'Chico', 1, "Chico Percebe", 20, "Joven que ayuda a luchar contra el crimen y mantener la paz en la ciudad", 35),
-                new Peaton(scene, x, y, 'Niño', 1, "Bart Simpson", 12, "Niño un poco travieso pero con un buen corazón que quiere a su familia más que a nada", 20),
-                new Peaton(scene, x, y, 'Doctor', 1, "Doctor Mario", 40, "Experto en la materia que estaba a punto de descubrir una cura contra una de las enfermedades más comunes del mundo", 35),
-                new Peaton(scene, x, y, 'Villano', 1, "Rey Hielo", 60, "Villano que se disponía a cometer alguna fechoría", -5),
+            let conductores = [
+                new Peaton(this, 0, 0, 'Caustico', -3, "Max Verstapen", 27,"Joven temerario al volante qeu descuida las leyes de trafico", 120),
+                new Peaton(this, 0, 0, 'Rencoroso', 2, "Luigi", 32, "Adulto que considera que hace todo bien y el resto mal",100),
+                new Peaton(this, 0, 0, 'Italiano', 5, "Franccesco Virgolinni", 20, "Corredor retirado que solo qeuria vivir una vida tranquila", 55)
 
             ]
-            
-            const peatonInfo = Phaser.Math.RND.pick([p,a,b]);
+            if(peaton.name === 'Luigi'){
+                this.sonidoatropello = this.sound.add('luigi');
+            }
+            else{
+                this.sonidoatropello = this.sound.add('choque');
+            }
+            const peatonInfo = Phaser.Math.RND.pick(conductores);
             peaton = peatonInfo;
         }
+        else if(peaton.name === 'Doctor Mario'){
+            this.sonidoatropello = this.sound.add('mario')
+        }
+        else{
+            this.sonidoatropello = this.sound.add('atropello');
+        }
+        this.sonidoatropello.play();
         var karmaQuantity = this.sys.game.registry.get('karma') - peaton.karma;
         if(karmaQuantity < 0) karmaQuantity = 0;
         else if(karmaQuantity > 100) karmaQuantity = 100;
@@ -276,6 +296,10 @@ class map extends Phaser.Scene{
         this.events.emit('muestraFicha', peaton);
         peaton.destroy();
         
+    }
+    mute(){
+        this.ambientSound.stop();
+        this.sonidoatropello.stop();
     }
     
 }

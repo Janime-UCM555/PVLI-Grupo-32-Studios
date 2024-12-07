@@ -32,6 +32,10 @@ class PauseMenu extends Phaser.Scene{
             this.hideButtons();
             this.showStats();
         });
+        this.cartas = new Button(this, this.cameras.main.width/2, 500, 'CARTAS ELEGIDAS', () => {
+            this.hideButtons();
+            this.showCards();
+        });
         this.KarmaBar = new Barrita(this, 230, 220,0xFF0000 , 0x555555, 0, 100);
         this.KarmaBar.setVisible(false);
     }
@@ -53,17 +57,47 @@ class PauseMenu extends Phaser.Scene{
             this.returnStatButton.setVisible(false);
         });
     }
+    showCards()
+    {
+        let auxCards = this.sys.game.registry.get('myCards');
+        console.log(auxCards);
+        var startX = 200;
+        var startY = 200;
+        if(!Array.isArray(auxCards))
+            {
+            auxCards = [];
+        }
+        else
+        {
+            auxCards.forEach(element => {
+                this.add.existing(element);
+                element.setPosition(startX,startY);
+                element.setVisible(true);
+                startX += 50;
+            });
+          
+        }            
+        this.returnCardButton = new Button(this, this.cameras.main.width / 2, 430, 'CERRAR', () => {
+            auxCards.forEach(element => {
+                element.setVisible(false);
+            });
+            this.returnCardButton.setVisible(false);
+            this.showButtons();
+        });
+    }
     hideButtons()
     {
         this.continueButton.setVisible(false);
         this.settingsButton.setVisible(false);
         this.statButton.setVisible(false);
+        this.cartas.setVisible(false);
     }
     showButtons()
     {
         this.continueButton.setVisible(true);
         this.settingsButton.setVisible(true);
         this.statButton.setVisible(true);
+        this.cartas.setVisible(true);
     }
     showVolumeSlider()
     {
