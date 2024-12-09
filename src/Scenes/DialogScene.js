@@ -15,13 +15,16 @@ export default class MenuScene extends Phaser.Scene {
 
     preload(){
         if(this.first){
-            this.load.json('data1','../data/Dialog1.json');
-            this.load.json('data2','../data/Dialog2.json');
+            this.load.json('data1','../data/Dialogue/DialogInicio.json');
+            this.load.json('data2','../data/Dialogue/DialogParque.json');
+
 
             this.load.image('background0','../assets/fondos/cajaPuerta.jpg');
             this.load.image('background1','../assets/fondos/parque.png');
 
-            this.load.json('cartas2','../data/CartasParque.json')
+            this.load.json('cartas2','../data/Cartas/CartasParque.json');
+
+            this.load.image('conseqParque-1', '../assets/fondos/')
             
             this.load.image('gato', '../assets/sprites/Gato.png');
             this.load.spritesheet('melchor', '../assets/sprites/Melchor.png',{frameWidth: 500, frameHeight: 600})

@@ -62,7 +62,7 @@ export default class Decoder{
             case 'NodeEndPath':
                 this.scene.events.off('next');
                 this.scene.scene.stop();
-                this.scene.scene.start('map');
+                this.scene.scene.start('map',this.node.NextStoryName);
                 break;
         }        
     }

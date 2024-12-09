@@ -2,7 +2,6 @@ import map from './Scenes/map.js';
 import pause from './Scenes/PauseMenu.js';
 import Dialog from './Scenes/DialogScene.js';
 import MainMenu from './Scenes/MainMenu.js';
-import CardTest from './Scenes/CardTest.js';
 import PauseMenu from './Scenes/PauseMenu.js';
 /**
  * Inicio del juego en Phaser. Creamos el archivo de configuración del juego y creamos
