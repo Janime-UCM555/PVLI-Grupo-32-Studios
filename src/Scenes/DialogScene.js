@@ -15,19 +15,29 @@ export default class MenuScene extends Phaser.Scene {
 
     preload(){
         if(this.first){
-            this.load.json('data1','../data/Dialogue/DialogInicio.json');
-            this.load.json('data2','../data/Dialogue/DialogParque.json');
-            this.load.json('data3','../data/Dialogue/DialogInstituto.json');
+            //Intro
+            this.load.json('dataIntro','../data/Dialogue/DialogInicio.json');
+            this.load.image('backgroundIntro','../assets/fondos/cajaPuerta.jpg');
+            //Parque
+            this.load.json('dataParque','../data/Dialogue/DialogParque.json');
+            this.load.json('cartasParque','../data/Cartas/CartasParque.json');
+            this.load.image('backgroundParque','../assets/fondos/Parque/parque.png');
 
-            this.load.image('background0','../assets/fondos/cajaPuerta.jpg');
-            this.load.image('background1','../assets/fondos/parque.png');
-            this.load.image('background2','../assets/fondos/InstiFuturista.jpg');
+            this.load.image('parque-ligon','../assets/cardImages/Parque/PrimerLigoteo.jpg')
+            this.load.image('parque-amigos','../assets/cardImages/Parque/Amigos.jpg')
+            this.load.image('parque-antiSoc','../assets/cardImages/Parque/Antisocial.jpg')
+            this.load.image('parque-avInd','../assets/cardImages/Parque/columpio.jpg')
+            this.load.image('parque-robar','../assets/cardImages/Parque/MelchorNoRobes.jpg')
+            this.load.image('parque-banda','../assets/cardImages/Parque/LaBandadelParque.jpg')
 
-            this.load.json('cartas2','../data/Cartas/CartasParque.json');
-            this.load.json('cartas3','../data/Cartas/CartasInstituto.json');
+            this.load.image('conseqParque-1', '../assets/fondos/')
+            //Insti
+            this.load.json('dataInsti','../data/Dialogue/DialogInstituto.json');
+            this.load.json('cartasInsti','../data/Cartas/CartasInstituto.json');
+            this.load.image('backgroundInsti','../assets/fondos/InstiFuturista.jpg');
+            //Estudios
 
-            //this.load.image('conseqParque-1', '../assets/fondos/')
-            
+            //Sprites
             this.load.image('gato', '../assets/sprites/Gato.png');
             this.load.spritesheet('melchor', '../assets/sprites/Melchor.png',{frameWidth: 500, frameHeight: 600})
 
@@ -59,13 +69,13 @@ export default class MenuScene extends Phaser.Scene {
         this.scale.resize(800,600);
         switch (this.IDscene){
         case (1):
-            this.data = this.cache.json.get('data1');
-            this.add.image(0, 0, 'background0').setOrigin(0,0).setScale(1.9,1.9);
+            this.data = this.cache.json.get('dataIntro');
+            this.add.image(0, 0, 'backgroundIntro').setOrigin(0,0).setScale(1.9,1.9);
             break;
         case(2):
-            this.deck = this.cache.json.get('cartas2');
-            this.data = this.cache.json.get('data2');
-            this.add.image(800, 600, 'background1').setOrigin(1).setScale(0.8,0.8);
+            this.deck = this.cache.json.get('cartasParque');
+            this.data = this.cache.json.get('dataParque');
+            this.add.image(800, 600, 'backgroundParque').setOrigin(1).setScale(0.8,0.8);
             break;
             
         case(3):

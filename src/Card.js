@@ -32,9 +32,7 @@ export default class Carta extends Phaser.GameObjects.Container
         });
         this.desc.setOrigin(0.5);
         this.add(this.desc);
-
-        this.image = scene.add.image(0, -10, this.data.Image);
-        console.log("DATAIMAGE: " + this.data);
+        this.image = scene.add.image(0, -30, this.data.Image);
         this.image.setOrigin(0.5);
         this.image.setScale(0.2);
         this.add(this.image);
@@ -50,6 +48,7 @@ export default class Carta extends Phaser.GameObjects.Container
         });
     }
     changeKarma(){
+        this.scene.add.image(this.data.Background);
         let auxCard = this.scene.sys.game.registry.get('myCards');
         if(!Array.isArray(auxCard)){
             auxCard = [];
