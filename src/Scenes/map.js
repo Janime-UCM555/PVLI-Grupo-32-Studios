@@ -49,7 +49,6 @@ class map extends Phaser.Scene{
             this.load.image('semaforo_rojo', '../assets/semaforo_rojo.png');
             this.load.image('semaforo_verde', '../assets/semaforo_verde.png');
             
-            this.registry.set('karma',50);
             this.registry.set('atropellados', 0);
 
             this.first = false;

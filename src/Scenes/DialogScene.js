@@ -19,6 +19,7 @@ export default class MenuScene extends Phaser.Scene {
             this.load.json('data2','../data/Dialog2.json');
 
             this.load.image('background0','../assets/fondos/cajaPuerta.jpg');
+            this.load.image('background1','../assets/fondos/parque.png');
 
             this.load.json('cartas2','../data/CartasParque.json')
             
@@ -39,8 +40,9 @@ export default class MenuScene extends Phaser.Scene {
             this.add.image(0, 0, 'background0').setOrigin(0,0).setScale(1.9,1.9);
             break;
         case(2):
-            this.deck = this.cache.json.get('cartas2')
+            this.deck = this.cache.json.get('cartas2');
             this.data = this.cache.json.get('data2');
+            this.add.image(800, 600, 'background1').setOrigin(1).setScale(0.8,0.8);
             break;
         }
         this.Melch = new Melchor(this, 0, this.sys.game.canvas.height).setOrigin(0,1);
