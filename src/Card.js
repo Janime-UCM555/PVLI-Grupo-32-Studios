@@ -48,7 +48,7 @@ export default class Carta extends Phaser.GameObjects.Container
         });
     }
     changeKarma(){
-        this.scene.add.image(this.data.Background);
+        this.scene.add.image(this.scene.sys.game.canvas.width/2, this.scene.sys.game.canvas.height/2,this.data.Background);
         let auxCard = this.scene.sys.game.registry.get('myCards');
         if(!Array.isArray(auxCard)){
             auxCard = [];

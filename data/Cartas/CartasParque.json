@@ -4,7 +4,7 @@
         "id":"0",
         "Name":"Primer ligoteo",
         "Image":"parque-ligon",
-        "Background":"bgID",
+        "Background":"bgParque-ligon",
         "Description":"Subes al castillo para interactuar con una niña solitaria. Mientras subes, te mira con recelo, como si la estuvieras molestando. Empiezas a hablar con ella y poco a poco os vais llevando mejor",
         "Karma":"-5"
     },
@@ -12,7 +12,7 @@
         "id":"1",
         "Name":"¿Amigos?",
         "Image":"parque-amigos",
-        "Background":"bgID",
+        "Background":"bgParque-amigos",
         "Description":"Te acercas a unos niños en el arenero y te dicen que les falta el foso al castillo que están construyendo. Te ofreces a ayudar y te prestan una pala.",
         "Karma":"+20"
     },
@@ -20,7 +20,7 @@
         "id":"2",
         "Name":"Antisocial",
         "Image":"parque-antiSoc",
-        "Background":"bgID",
+        "Background":"bgParque-antiSoc",
         "Description":"La situación te abruma y vuelves a tu zona de confort, tus padres, y juntos volvéis a casa.",
         "Karma":"+5"
     },
@@ -28,7 +28,7 @@
         "id":"3",
         "Name":"Aventura Individual",
         "Image":"parque-avInd",
-        "Background":"bgID",
+        "Background":"bgParque-avInd",
         "Description":"Pocas veces se puede disfrutar de un balanceo en los columpios o de tirarse del tobogán en este parque así que no piensas desaprovechar tal oportunidad.",
         "Karma":"-10"
     },
@@ -36,7 +36,7 @@
         "id":"4",
         "Name":"Melchor, no Robes",
         "Image":"parque-robar",
-        "Background":"bgID",
+        "Background":"bgParque-robar",
         "Description":"Ves un trenecito precioso en el arenero lleno de barro y aparentemente abandonado por su dueño. Por ello, sientes la necesidad de darle una vida mejor.",
         "Karma":"-15"
     },
@@ -44,7 +44,7 @@
         "id":"5",
         "Name":"La Banda del Parque",
         "Image":"parque-banda",
-        "Background":"bgID",
+        "Background":"bgParque-banda",
         "Description":"Vas a hablar con los niños que estan jugando con un balon al fútbol para formar un equipo invencible y ser los mejores del parque.",
         "Karma":"+15"
     }

@@ -23,14 +23,19 @@ export default class MenuScene extends Phaser.Scene {
             this.load.json('cartasParque','../data/Cartas/CartasParque.json');
             this.load.image('backgroundParque','../assets/fondos/Parque/parque.png');
 
-            this.load.image('parque-ligon','../assets/cardImages/Parque/PrimerLigoteo.jpg')
-            this.load.image('parque-amigos','../assets/cardImages/Parque/Amigos.jpg')
-            this.load.image('parque-antiSoc','../assets/cardImages/Parque/Antisocial.jpg')
-            this.load.image('parque-avInd','../assets/cardImages/Parque/columpio.jpg')
-            this.load.image('parque-robar','../assets/cardImages/Parque/MelchorNoRobes.jpg')
-            this.load.image('parque-banda','../assets/cardImages/Parque/LaBandadelParque.jpg')
+            this.load.image('parque-ligon','../assets/cardImages/Parque/PrimerLigoteo.jpg');
+            this.load.image('parque-amigos','../assets/cardImages/Parque/Amigos.jpg');
+            this.load.image('parque-antiSoc','../assets/cardImages/Parque/Antisocial.jpg');
+            this.load.image('parque-avInd','../assets/cardImages/Parque/columpio.jpg');
+            this.load.image('parque-robar','../assets/cardImages/Parque/MelchorNoRobes.jpg');
+            this.load.image('parque-banda','../assets/cardImages/Parque/LaBandadelParque.jpg');
 
-            this.load.image('conseqParque-1', '../assets/fondos/')
+            this.load.image('bgParque-ligon', '../assets/fondos/Parque/Ligoteo.jpg');
+            this.load.image('bgParque-amigos', '../assets/fondos/Parque/amigos.jpg');
+            this.load.image('bgParque-antiSoc', '../assets/fondos/Parque/antisocial.jpg');
+            this.load.image('bgParque-avInd', '../assets/fondos/Parque/Aventura.jpg');
+            this.load.image('bgParque-robar', '../assets/fondos/Parque/Ladron.jpg');
+            this.load.image('bgParque-banda', '../assets/fondos/Parque/banda.jpg');
             //Insti
             this.load.json('dataInsti','../data/Dialogue/DialogInstituto.json');
             this.load.json('cartasInsti','../data/Cartas/CartasInstituto.json');
