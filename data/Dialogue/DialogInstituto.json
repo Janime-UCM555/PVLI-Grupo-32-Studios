@@ -213,7 +213,7 @@
 		{
 			"$type": "NodeEndPath",
 			"ID": "2d4a0841-e64e-4ac4-9611-a311a6df4a30",
-			"NextStoryName": "",
+			"NextStoryName": "3",
 			"EditorPosition": {
 				"x": 4020,
 				"y": -80
@@ -288,7 +288,7 @@
 			"ID": "9775eb1c-dfbc-441f-afb6-32ddc2405caf",
 			"NextID": "09c82722-d9c3-43d2-acbb-dd19de9f01ab",
 			"Sentence": "Ahí tienes razón, ¿qué cartas tienes para mí, minino?.",
-			"SpeakerID": 1,
+			"SpeakerID": "1",
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {

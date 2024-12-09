@@ -11,7 +11,11 @@ class map extends Phaser.Scene{
         this.first = true;
         
     }
-    
+    init(data)
+    {
+        this.flagIndex = data.NextStoryName;
+        console.log( data.NextStoryName);
+    }
     preload()
     {
         if(this.first){
@@ -158,27 +162,18 @@ class map extends Phaser.Scene{
 
 
 
-
+        console.log("FLAGINDEX:  "+ this.flagIndex);
         //this.ramp = new Rampa(this,250,250,'ramp');
         const objectLayer = this.map.getObjectLayer('Flags');
         this.flags = [];
-        objectLayer.objects.forEach((obj) => {
-            if (obj.type === 'Flag') {
-                if(obj.name === 'FlagShop')
-                {
-                    const flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog', 1);
-                    this.flags.push(flag);
-                }
-                else
-                {
-                    const flag = new Flag(this, obj.x, obj.y, 'Bandera', 'Dialog', 2);
-                    this.flags.push(flag);
-                }              
-                
-            }
-        });
-       
-
+        
+        for(let i = 0; i < this.flagIndex; i++)
+        {
+            let newflag = i + 2;
+            console.log(newflag);
+            const flag = new Flag(this, objectLayer.objects[i].x, objectLayer.objects[i].y, 'Bandera','Dialog', newflag);
+            this.flags.push(flag);               
+        }
         const carGenLayer = this.map.getObjectLayer('CarGenerator');
         
         const semaforoLayer = this.map.getObjectLayer('Crossings');
@@ -298,7 +293,6 @@ class map extends Phaser.Scene{
     }
     mute(){
         this.ambientSound.stop();
-        this.sonidoatropello.stop();
     }
     
 }

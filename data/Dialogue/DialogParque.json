@@ -598,7 +598,7 @@
 		{
 			"$type": "NodeEndPath",
 			"ID": "2d94bfdd-fa6e-4c38-b1fa-4658fb5db1aa",
-			"NextStoryName": "",
+			"NextStoryName": "2",
 			"EditorPosition": {
 				"x": 9467.6396484375,
 				"y": 64.2261810302734

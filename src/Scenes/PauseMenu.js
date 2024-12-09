@@ -73,7 +73,7 @@ class PauseMenu extends Phaser.Scene{
                 this.add.existing(element);
                 element.setPosition(startX,startY);
                 element.setVisible(true);
-                startX += 50;
+                startX += 150;
             });
           
         }            

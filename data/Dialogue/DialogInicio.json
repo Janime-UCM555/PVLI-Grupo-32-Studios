@@ -131,7 +131,7 @@
 		{
 			"$type": "NodeEndPath",
 			"ID": "2cc2297c-fcc9-4d97-84db-c7855934f44a",
-			"NextStoryName": "",
+			"NextStoryName": "1",
 			"EditorPosition": {
 				"x": 6940,
 				"y": 40

@@ -34,8 +34,9 @@ export default class Carta extends Phaser.GameObjects.Container
         this.add(this.desc);
 
         this.image = scene.add.image(0, -10, this.data.Image);
+        console.log("DATAIMAGE: " + this.data);
         this.image.setOrigin(0.5);
-        this.image.setScale(0.4);
+        this.image.setScale(0.2);
         this.add(this.image);
 
         this.background.setInteractive({useHandCursor: true}); 
