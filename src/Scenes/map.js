@@ -186,6 +186,7 @@ class map extends Phaser.Scene{
             this.flags[i].checked = true;
         }
         this.flags[this.flagIndex-1].checked = false;
+        console.log(this.flags);
         const carGenLayer = this.map.getObjectLayer('CarGenerator');
         
         const semaforoLayer = this.map.getObjectLayer('Crossings');

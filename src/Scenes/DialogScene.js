@@ -59,6 +59,19 @@ export default class MenuScene extends Phaser.Scene {
         this.load.image('Pestoso','../assets/Pestoso.jpg');
         this.load.image('Juego','../assets/Juega.jpg');
         this.load.image('Mertxor','../assets/Mertxor.jpg');
+
+        // Bar
+        this.load.json('dataBar','../data/Dialogue/DialogBar.json');
+        this.load.json('cartasBar','../data/Cartas/CartasBar.json');
+        this.load.image('backgroundBar','../assets/fondos/Bar/BarBG.jpg');
+
+        this.load.image('bar-ayuda','../assets/cardImages/Bar/Llorando.jpg');
+        this.load.image('bar-NuevoLigoteo','../assets/cardImages/Bar/Ligoteo2.jpg');
+        this.load.image('bar-Baño','../assets/cardImages/Bar/Baños.jpg');
+        this.load.image('bar-Irte','../assets/cardImages/Bar/Saliendo.jpg');
+        this.load.image('bar-Mano','../assets/cardImages/Bar/Mano.jpg');
+        this.load.image('bar-Ahogar','../assets/cardImages/Bar/beber.jpg');
+        
     }
 
     create(){
@@ -80,7 +93,14 @@ export default class MenuScene extends Phaser.Scene {
             this.data = this.cache.json.get('dataInsti');
             this.add.image(800, 600, 'backgroundInsti').setOrigin(1,1);
             break;
+        case(4):
+            this.deck = this.cache.json.get('cartasBar');
+            this.data = this.cache.json.get('dataBar');
+            this.add.image(800, 600, 'backgroundBar').setOrigin(1,1);
+            break;
         }
+        
+
         
     
         this.Melch = new Melchor(this, 0, this.sys.game.canvas.height).setOrigin(0,1);

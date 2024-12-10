@@ -1,0 +1,493 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "948e832c-3261-4762-9fac-d7063cacf468",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "948e832c-3261-4762-9fac-d7063cacf468",
+			"NextID": "4e6fcead-b619-4ea5-9801-ca27aca7d50d",
+			"EditorPosition": {
+				"x": 20,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4e6fcead-b619-4ea5-9801-ca27aca7d50d",
+			"NextID": "f7238700-ede5-49c4-9012-b8189e6754db",
+			"Sentence": "Hemos llegado al bar de la ciudad. Imagino que te será familiar, ¿verdad?",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 420,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f7238700-ede5-49c4-9012-b8189e6754db",
+			"NextID": "cf21e6a1-4a0e-482a-b714-9bd1a4a3aa86",
+			"Sentence": "Y tanto. Aquí he pasado mis mejores y peores momentos. ",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 840,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "cf21e6a1-4a0e-482a-b714-9bd1a4a3aa86",
+			"NextID": "722e9446-4788-4afe-9968-87cd7aaa509d",
+			"Sentence": "¡Cuánta gente!, se nota que estamos en hora punta.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1260,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "722e9446-4788-4afe-9968-87cd7aaa509d",
+			"NextID": "6901d4e0-9b82-4add-843c-81bcbe06897d",
+			"Sentence": "Sobre todo por la cantidad de borrachos que hay.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1700,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "67361e6d-e3ce-45ca-85ea-c1d826e33f64",
+			"NextID": "0b1be6cf-3e6f-4fda-9fa5-fdc02390d953",
+			"Sentence": "¡Resulta que ese chico al que acaba de ayudar tu yo del pasado era el señor Burns!",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4920,
+				"y": -460
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "d1570739-509c-4ef5-9aeb-b2879add21e3",
+			"NextID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"Sentence": "Tienes que creerme más a menudo.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6540,
+				"y": -460
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7bcc7f94-d71f-4243-b32c-f1525f7b9c54",
+			"NextID": "93a653df-8bff-45e4-aace-47a8a6c5a343",
+			"Sentence": "Mira lo que ha dejado en la mesa.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4940,
+				"y": -320
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "93a653df-8bff-45e4-aace-47a8a6c5a343",
+			"NextID": "e308f487-0289-4c19-9ed2-6b8829ef0089",
+			"Sentence": "¡Anda, pero si es su número de teléfono!",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5400,
+				"y": -320
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e308f487-0289-4c19-9ed2-6b8829ef0089",
+			"NextID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"Sentence": "Menudo casanova estabas hecho.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5840,
+				"y": -320
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "75ef85d3-2a47-4b6c-9779-68a81ee67471",
+			"NextID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"Sentence": "Y tanto, vámonos de aquí gato, no quiero ver como me rompen la nariz.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5380,
+				"y": -200
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4d9710ad-043f-4d20-9eae-44416cfe5021",
+			"NextID": "75ef85d3-2a47-4b6c-9779-68a81ee67471",
+			"Sentence": "Pobre de tu yo del pasado, eso debe doler.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4960,
+				"y": -200
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "d987ade3-29af-4ea2-8603-59a0ff82cfd7",
+			"NextID": "17b64365-cf54-42ad-9d61-77496d9d0c67",
+			"Sentence": "Al salir alguien ha atracado a tu yo del pasado.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4960,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "17b64365-cf54-42ad-9d61-77496d9d0c67",
+			"NextID": "10f49c22-4bc5-4d52-93aa-278b5e5f605b",
+			"Sentence": "¡¿Qué?!",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5400,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "10f49c22-4bc5-4d52-93aa-278b5e5f605b",
+			"NextID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"Sentence": "Si es que esta zona es muy conflictiva.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5840,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "31153af9-3d18-4768-890d-a8592cdfa6e4",
+			"NextID": "5aa65c31-b54d-48d2-87ed-58a35a051932",
+			"Sentence": "¿No reconoces su cara?.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4960,
+				"y": 20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "5aa65c31-b54d-48d2-87ed-58a35a051932",
+			"NextID": "32914589-0982-47ed-860d-079a1ec9284d",
+			"Sentence": "No me suena.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5400,
+				"y": 40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "32914589-0982-47ed-860d-079a1ec9284d",
+			"NextID": "31a7a3f8-2642-405c-9155-d6397eab557d",
+			"Sentence": "¡Ah, claro!, pero si es Larry.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5840,
+				"y": 40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "31a7a3f8-2642-405c-9155-d6397eab557d",
+			"NextID": "c81a39b7-89de-4136-8123-a685ef150fc1",
+			"Sentence": "Al contrario que tú, tu yo del pasado lo ha reconocido al instante y se le está echando una mano con el curro.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6320,
+				"y": 20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c81a39b7-89de-4136-8123-a685ef150fc1",
+			"NextID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"Sentence": "Si es que soy muy buen amigo, ¿verdad que sí, gato?.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6894.8427734375,
+				"y": 66.0700759887695
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"NextID": "8e1d0b82-4856-44f0-8ef3-e62d2a3ee060",
+			"Sentence": "Anda, salgamos ya de aquí por favor.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 7000,
+				"y": -260
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "33154e8b-7a0d-4370-80f9-caf6d93ca8b3",
+			"OptionsID": [
+				"3b19c6c3-578c-4c08-afca-6cb0d93913b1",
+				"0ea82b63-b0ce-480b-990f-ef58d0fb1cde",
+				"c20c9eb1-8ac5-4c87-8095-f2b9d02bafa1",
+				"e9c9d942-b8f1-4a80-9db8-be7302fc3be4",
+				"e97697bf-47df-4c2a-9516-3d10a05352ac",
+				"8de9fa03-e096-4536-960e-aea2c0f32e72"
+			],
+			"EditorPosition": {
+				"x": 4580,
+				"y": -460
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "3b19c6c3-578c-4c08-afca-6cb0d93913b1",
+			"NextID": "67361e6d-e3ce-45ca-85ea-c1d826e33f64",
+			"Sentence": "Acercarse a Borracho (Millonario)",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "0ea82b63-b0ce-480b-990f-ef58d0fb1cde",
+			"NextID": "7bcc7f94-d71f-4243-b32c-f1525f7b9c54",
+			"Sentence": "Acercarte a una chica (Buena)",
+			"Enable": false,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "c20c9eb1-8ac5-4c87-8095-f2b9d02bafa1",
+			"NextID": "4d9710ad-043f-4d20-9eae-44416cfe5021",
+			"Sentence": "Ir al baño (Pelea)",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "e9c9d942-b8f1-4a80-9db8-be7302fc3be4",
+			"NextID": "d987ade3-29af-4ea2-8603-59a0ff82cfd7",
+			"Sentence": "Salir del bar",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "e97697bf-47df-4c2a-9516-3d10a05352ac",
+			"NextID": "31153af9-3d18-4768-890d-a8592cdfa6e4",
+			"Sentence": "Acercarse al Camarero",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "8de9fa03-e096-4536-960e-aea2c0f32e72",
+			"NextID": "99c177da-b18b-484b-87d8-ef92962c8584",
+			"Sentence": "Ahogar tus penas",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "99c177da-b18b-484b-87d8-ef92962c8584",
+			"NextID": "b7c345de-34bd-4f73-8634-41e08f0691ba",
+			"Sentence": "¡Menuda elección has hecho!, tu yo del pasado se va a pasar toda la noche vomitando.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5040,
+				"y": 160
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e911d9b5-7499-4899-b71c-8903ccb04ecb",
+			"NextID": "d1570739-509c-4ef5-9aeb-b2879add21e3",
+			"Sentence": "¡Alguien me ha hecho una transferencia de 1.000.000$!",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6102.3564453125,
+				"y": -462.976440429688
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c1217cd3-14bf-4375-a743-ca2ea0dc9558",
+			"NextID": "e911d9b5-7499-4899-b71c-8903ccb04ecb",
+			"Sentence": "Mira tu cuenta bancaria.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5780,
+				"y": -460
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0b1be6cf-3e6f-4fda-9fa5-fdc02390d953",
+			"NextID": "c1217cd3-14bf-4375-a743-ca2ea0dc9558",
+			"Sentence": "¡¿En serio?!, me estás tomando el pelo, ¿no?.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5360,
+				"y": -460
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "aef04f42-7fd2-4395-af02-3bfb21db30d8",
+			"NextID": "33154e8b-7a0d-4370-80f9-caf6d93ca8b3",
+			"Sentence": "En fin, ¡es hora de elegir!",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3880,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "578349cb-8f74-42e0-9c5e-66f015e571b8",
+			"NextID": "aef04f42-7fd2-4395-af02-3bfb21db30d8",
+			"Sentence": "No gracias, estamos bien",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3440,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f8578d61-cdd0-499b-b904-77629ff26578",
+			"NextID": "578349cb-8f74-42e0-9c5e-66f015e571b8",
+			"Sentence": "Dueño del bar: ¡Venga, que tengo clientela!",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3000,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "10a31ea1-2475-405b-86fc-d8963c3842d3",
+			"NextID": "f8578d61-cdd0-499b-b904-77629ff26578",
+			"Sentence": "¿Eh?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2560,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6901d4e0-9b82-4add-843c-81bcbe06897d",
+			"NextID": "10a31ea1-2475-405b-86fc-d8963c3842d3",
+			"Sentence": "Dueño del bar: ¡Eh, vosotros!, ¿vais a pedir algo?.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2120,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b7c345de-34bd-4f73-8634-41e08f0691ba",
+			"NextID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"Sentence": "Cliente: ¡PUAJ!, ¡¿Quién me ha vomitado en el asiento?!",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5406.033203125,
+				"y": 180.194839477539
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "8e1d0b82-4856-44f0-8ef3-e62d2a3ee060",
+			"NextStoryName": "4",
+			"EditorPosition": {
+				"x": 7700,
+				"y": -280
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}
