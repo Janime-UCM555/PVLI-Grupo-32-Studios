@@ -9,37 +9,37 @@
     },
     {
         "id":"1",
-        "Name":"nombre",
+        "Name":"Fan incondicional",
         "Image":"imageID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Les pides a tus padres que te lleven a ver una pelicula que quieres ver en el estreno, lo que todavia no saben es que tambien quieres todo el merch posible.",
+        "Karma":"-10"
     },
     {
         "id":"2",
-        "Name":"nombre",
+        "Name":"Otro dia más",
         "Image":"imageID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"No te apetece hacer nada todos los días parecen ser iguales ya no sabes ni para que te levantas. ¡Qué lo hagan tus padres!",
+        "Karma":"-10"
     },
     {
         "id":"3",
-        "Name":"nombre",
+        "Name":"Apoyar en Casa",
         "Image":"imageID",
-        "Description":"string",
+        "Description":"Con la ayuda de tus padres es hora de ir preguntado a conocidos y hechar curriculums. Así puedo ayudar en casa.",
         "Karma":"value"
     },
     {
         "id":"4",
-        "Name":"nombre",
+        "Name":"Hacuma Mapapa",
         "Image":"imageID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Lo mejor es no estresarse ya llegará el momento de que tengas una oportunidad para darle una vuelta a tu vida, así que mientras tanto hay que relajarse.",
+        "Karma":"-15"
     },
     {
         "id":"5",
-        "Name":"nombre",
+        "Name":"Pufffffffffff",
         "Image":"imageID",
-        "Description":"string",
+        "Description":"Después de todo este tiempo parece que tus padres no se han dado cuenta deben mantenerte ya que eres su hijo. Ahora, ¿Dónde esta la comida?",
         "Karma":"value"
     }
 ]
