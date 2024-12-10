@@ -9,11 +9,15 @@ class Flag extends Phaser.Physics.Arcade.Sprite
         this.nextScene = nextScene;
         this.flag = flag;
         console.log(nextScene);
+        this.checked = false;
     }
 
     activate()
     {
-        this.mainscene.scene.start(this.nextScene, this.flag);
+        if(!this.checked)
+        {
+            this.mainscene.scene.start(this.nextScene, this.flag);
+        }
     }
 }
 export default Flag;

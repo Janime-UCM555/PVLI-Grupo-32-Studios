@@ -52,17 +52,9 @@ export default class MenuScene extends Phaser.Scene {
 
         // Imágenes de las cartas:
 
-        // Parque
-        this.load.image('Ligoteo','../assets/PrimerLigoteo.jpg');
-        this.load.image('Amigos','../assets/Amigos.jpg');
-        this.load.image('Antisocial','../assets/Antisocial.jpg');
-        this.load.image('Individual','../assets/AventuraIndividual.jpg');
-        this.load.image('Robes','../assets/MelchorNoRobes.jpg');
-        this.load.image('Banda','../assets/LaBandadelParque.jpg');
-
         // Instituto
         this.load.image('Pelota','../assets/Pelota.jpg');
-        this.load.image('Uno','Uno.jpg');
+        this.load.image('Uno','../assets/Uno.jpg');
         this.load.image('Apadrinado','../assets/Apadrinado.jpg');
         this.load.image('Pestoso','../assets/Pestoso.jpg');
         this.load.image('Juego','../assets/Juega.jpg');
@@ -84,9 +76,9 @@ export default class MenuScene extends Phaser.Scene {
             break;
             
         case(3):
-        this.deck = this.cache.json.get('cartas3');
-            this.data = this.cache.json.get('data3');
-            this.add.image(800, 600, 'background2').setOrigin(1,1);
+            this.deck = this.cache.json.get('cartasInsti');
+            this.data = this.cache.json.get('dataInsti');
+            this.add.image(800, 600, 'backgroundInsti').setOrigin(1,1);
             break;
         }
         

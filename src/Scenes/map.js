@@ -55,7 +55,11 @@ class map extends Phaser.Scene{
             
             this.registry.set('atropellados', 0);
 
+            this.registry.set('carX',100);
+            this.registry.set('carY',125);
             this.first = false;
+
+
         }
     }
     muestraFicha(peaton) {
@@ -86,18 +90,20 @@ class map extends Phaser.Scene{
         });
         
         const tileset = this.map.addTilesetImage('CP_V1.0.4', 'Ciudad');
+        var terrenos = this.map.createLayer('Terrenos', tileset);
         var calle = this.map.createLayer('Calle', tileset);
         calle.setCollisionByProperty({collides: true});
-        var terrenos = this.map.createLayer('Terrenos', tileset);
         var carretera = this.map.createLayer('Carretera', tileset);
         carretera.setCollisionByProperty({collides: true});
-       
-        this.car = new Coche(this,100,125,'car');
+        var block = this.map.createLayer('Block', tileset);
+        block.setCollisionByProperty({collides: true});
+        this.car = new Coche(this,this.registry.get('carX'),this.registry.get('carY'),'car');
+        
 
         this.car.setScale(0.1);
         this.car.setSize(200,300);
-        this.car.setCollideWorldBounds(true);
 
+        this.physics.add.collider(this.car,block);
 
         var edificios = this.map.createLayer('Edificios', tileset);
         edificios.setCollisionByProperty({collides: true});
@@ -166,14 +172,20 @@ class map extends Phaser.Scene{
         //this.ramp = new Rampa(this,250,250,'ramp');
         const objectLayer = this.map.getObjectLayer('Flags');
         this.flags = [];
-        
+        let cont = 0;
+        objectLayer.objects.forEach((obj) =>{
+            let newflag = cont + 2;
+            const flag = new Flag(this, objectLayer.objects[cont].x, objectLayer.objects[cont].y, 'Bandera','Dialog', newflag);
+            this.flags.push(flag);
+            this.flags[cont].setVisible(false);
+            cont++;   
+        })
         for(let i = 0; i < this.flagIndex; i++)
         {
-            let newflag = i + 2;
-            console.log(newflag);
-            const flag = new Flag(this, objectLayer.objects[i].x, objectLayer.objects[i].y, 'Bandera','Dialog', newflag);
-            this.flags.push(flag);               
+            this.flags[i].setVisible(true);
+            this.flags[i].checked = true;
         }
+        this.flags[this.flagIndex-1].checked = false;
         const carGenLayer = this.map.getObjectLayer('CarGenerator');
         
         const semaforoLayer = this.map.getObjectLayer('Crossings');
@@ -240,6 +252,8 @@ class map extends Phaser.Scene{
     }
     checkFlags()
     {
+        this.registry.set('carX',this.car.x);
+        this.registry.set('carY',this.car.y);
         this.flags.forEach(flag => {
             const playerBounds = this.car.getBounds();
             const flagBounds = flag.getBounds();
