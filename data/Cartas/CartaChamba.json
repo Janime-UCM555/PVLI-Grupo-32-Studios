@@ -1,0 +1,52 @@
+{
+    "Deck" : [
+    {
+        "id":"0",
+        "Name":"Muy Cansado",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"El trabajo es más cansado de lo que te esperabas lo mejor será dejarlo.",
+        "Karma":"-15"
+    },
+    {
+        "id":"1",
+        "Name":"Ay Ho",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"Aunque no tienes demasiado tiempo ahora por fin vas a reunir suficiente dinero para una casa propia. ¡Ha trabajar duro!",
+        "Karma":"+10"
+    },
+    {
+        "id":"2",
+        "Name":"Empleado del mes",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"Tu objetivo de ser empleado del mes se cumplirá si o si. Aunque si hay que jugar sucio la paga extra lo cubrira tu conciencia.",
+        "Karma":"-5"
+    },
+    {
+        "id":"3",
+        "Name":"Apoyo Laboral",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"El trabajo se te hace tan sencillo que incluso lo mejor sería ayudar a tus compañeros en lo que puedas. Lo mejor es tener un gran ambiente de trabajo.",
+        "Karma":"+15"
+    },
+    {
+        "id":"4",
+        "Name":"¡Vamos a Chambear!",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"Bueno parece que la gente no sabe cual es tu horario de trabajo. Lo mejor es intentar equilibrar tu vida aunque el resto tenga problemas y ya trabajaras todo lo que puedas en tu horarion. ¡Di no la crunch!",
+        "Karma":"+10"
+    },
+    {
+        "id":"5",
+        "Name":"No me fastidies",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"Algún día alguien tiene que poner a toda esta gente en su sitio. Escribes todos tus pensamientos y te toca prepararte para la cantinela.",
+        "Karma":"-10"
+    }
+]
+}

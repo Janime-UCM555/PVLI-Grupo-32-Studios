@@ -1,0 +1,52 @@
+{
+    "Deck" : [
+    {
+        "id":"0",
+        "Name":"Probar el detector de futuros",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"Tu creación guardada cuidadosamente en una caja de cartón esta esperando a que la enciendas. ¿Qué es lo que hiciste? ¿Cuándo creaste eso?",
+        "Karma":"0"
+    },
+    {
+        "id":"1",
+        "Name":"Pelador de Repollos-inetor",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"Todos tus conocimientos invertidos en esta magnifica creación. Con la positiva opinión de tu madre, ¡Saldrá al mercado!",
+        "Karma":"+5"
+    },
+    {
+        "id":"2",
+        "Name":"Crisis artistica",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"No sabes que hacer. Tienes varios inventos sin acabar y no sabes por cual seguir.",
+        "Karma":"-5"
+    },
+    {
+        "id":"3",
+        "Name":"Compañero Ayudante",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"AL final fuiste capaz de crear un compañero para ayudarte a diseñar nuevos inventos. Aunque este compañero podría hacete rico si lo vendes prefieres que sea tu amigo.",
+        "Karma":"+10"
+    },
+    {
+        "id":"4",
+        "Name":"Genio Villano",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"Tras tanto tiempo sin poder hacer nada la frustación te consume. Igual un genio como tú debería enseñar a apreciar la Grandeza de tu persona.",
+        "Karma":"-15"
+    },
+    {
+        "id":"5",
+        "Name":"Vivir este Sueño",
+        "Image":"imageID",
+        "Background":"bgID",
+        "Description":"Por fin tienes algo que va a ayudar a mucha gente a vivir mejor. ¡Una forma de energía limpia y gratuita! Parace que los sueños si se cumplen.",
+        "Karma":"+15"
+    }
+]
+}
