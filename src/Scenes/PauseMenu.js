@@ -103,8 +103,6 @@ class PauseMenu extends Phaser.Scene{
     {
         const width = 200;
         const length = 10;
-
-        
     }
 }
 export default PauseMenu;
