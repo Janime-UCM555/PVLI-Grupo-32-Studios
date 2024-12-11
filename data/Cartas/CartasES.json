@@ -21,8 +21,8 @@
         "Name":"Chamba",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"+10"
+        "Description":"Ves que hay una oferta de trabajo en un bar cercano y no vas a desaprovechar la oportunidad",
+        "Karma":"+5"
     },
     {
         "id":"3",
