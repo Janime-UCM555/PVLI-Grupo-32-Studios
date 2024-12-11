@@ -48,6 +48,27 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('Juego','../assets/Juega.jpg');
             this.load.image('Mertxor','../assets/Mertxor.jpg');
 
+            
+             //Mantenido
+             this.load.json('dataMantenido','../data/Dialogue/DialogMantenido.json');
+             this.load.json('cartasMantenido','../data/Cartas/CartasMantenido.json');
+            //  this.load.image('backgroundMantenido','../assets/fondos/Mantenido/Mantenido.png');
+ 
+             this.load.image('mantenido-genio','../assets/cardImages/Mantenido/GenioIncomprendido.jpeg');
+             this.load.image('mantenido-fan','../assets/cardImages/Mantenido/fan.jpg');
+             this.load.image('mantenido-otro','../assets/cardImages/Mantenido/OtroDiaMas.jpg');
+             this.load.image('mantenido-apoyo','../assets/cardImages/Mantenido/ApoyarEnCasa.png');
+             this.load.image('mantenido-hacuma','../assets/cardImages/Mantenido/Hacuma Mapapa.jpg');
+             this.load.image('mantenido-puf','../assets/cardImages/Mantenido/puffffffff.jpg');
+ 
+            //  this.load.image('bgParque-ligon', '../assets/fondos/Parque/Ligoteo.jpg');
+            //  this.load.image('bgParque-amigos', '../assets/fondos/Parque/amigos.jpg');
+            //  this.load.image('bgParque-antiSoc', '../assets/fondos/Parque/antisocial.jpg');
+            //  this.load.image('bgParque-avInd', '../assets/fondos/Parque/Aventura.jpg');
+            //  this.load.image('bgParque-robar', '../assets/fondos/Parque/Ladron.jpg');
+            //  this.load.image('bgParque-banda', '../assets/fondos/Parque/banda.jpg');
+
+
             // Bar
             this.load.json('dataBar','../data/Dialogue/DialogBar.json');
             this.load.json('cartasBar','../data/Cartas/CartasBar.json');
