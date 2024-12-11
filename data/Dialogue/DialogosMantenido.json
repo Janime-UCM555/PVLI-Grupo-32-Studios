@@ -1,0 +1,22 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "dfec22fe-c98d-4ced-83e8-0ca9911c0b76",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "dfec22fe-c98d-4ced-83e8-0ca9911c0b76",
+			"NextID": -1,
+			"EditorPosition": {
+				"x": 0,
+				"y": 0
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "_NARRATOR",
+			"ID": 0
+		}
+	],
+	"Variables": []
+}
