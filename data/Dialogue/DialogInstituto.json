@@ -17,19 +17,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "db138961-5807-4831-85e5-f22b4b51aa55",
-			"NextID": "bbbeb854-b296-4adb-b469-b03f0b0d4108",
-			"Sentence": "Prefiero no opinar sobre tu decisión",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2486.94140625,
-				"y": -306.395843505859
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "9d421755-717c-4237-89b4-bdc34dbd0940",
 			"NextID": "cd93936f-2c35-467c-bc2a-4033bac0a48f",
 			"Sentence": "Sí, seguro...",
@@ -56,6 +43,72 @@
 		},
 		{
 			"$type": "NodeSentence",
+			"ID": "9775eb1c-dfbc-441f-afb6-32ddc2405caf",
+			"NextID": "09c82722-d9c3-43d2-acbb-dd19de9f01ab",
+			"Sentence": "Ahí tienes razón, ¿qué cartas tienes para mí, minino?.",
+			"SpeakerID": "1",
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1400,
+				"y": -300
+			}
+		},
+		{
+			"$type": "NodeRoot",
+			"ID": "fa6cc23a-8d45-4251-bf76-8ed98c5f8e00",
+			"NextID": "b4a016c0-c0d4-4d85-8a65-dad7ec9e2e43",
+			"EditorPosition": {
+				"x": -440,
+				"y": -280
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "2d4a0841-e64e-4ac4-9611-a311a6df4a30",
+			"NextStoryName": "2",
+			"EditorPosition": {
+				"x": 4020,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
+			"NextID": "2d4a0841-e64e-4ac4-9611-a311a6df4a30",
+			"Sentence": "En fin, continuemos.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3560,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "90748da7-85f6-44d5-aa18-e712384fe3c7",
+			"NextStoryName": "7",
+			"EditorPosition": {
+				"x": 4020,
+				"y": 220
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "db138961-5807-4831-85e5-f22b4b51aa55",
+			"NextID": "bbbeb854-b296-4adb-b469-b03f0b0d4108",
+			"Sentence": "Prefiero no opinar sobre tu decisión, humano. Con esto contentaste a tus padres y a tu profe, sí, pero ya nadie quiere acercarse a ti.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2486.94140625,
+				"y": -306.395843505859
+			}
+		},
+		{
+			"$type": "NodeSentence",
 			"ID": "bbbeb854-b296-4adb-b469-b03f0b0d4108",
 			"NextID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
 			"Sentence": "¿Qué pasa?,  siempre fui un alumno comprometido.",
@@ -69,74 +122,9 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "6a277a1a-5219-4d3f-aac8-42a7a725c417",
-			"NextID": "8fc722a1-a736-4224-b488-ca385e46f009",
-			"Sentence": "¿Rodearte de la gente importante, eh?, me gusta eso, ¡buena elección Melchor!.\n",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2480,
-				"y": -200
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "8fc722a1-a736-4224-b488-ca385e46f009",
-			"NextID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
-			"Sentence": "Gracias, nunca viene mal darle categoría a mi círculo de amigos.",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2920,
-				"y": -180
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "085cde55-83c8-4a9c-9423-099457fefaa8",
-			"NextID": "9c18a246-f93a-4ef4-abad-c604ea7fdd0d",
-			"Sentence": "¡Eso es, demuestra quién manda!.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2480,
-				"y": -100
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "9c18a246-f93a-4ef4-abad-c604ea7fdd0d",
-			"NextID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
-			"Sentence": "Gato, eso fue hace 20 años",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2920,
-				"y": -60
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "ddc786b5-0452-4c64-b831-b54edbfe7845",
-			"NextID": "d434b346-968f-4230-b17e-8bf213222857",
-			"Sentence": "¡Qué peste!, lo huelo desde aquí",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2480,
-				"y": 0
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "d434b346-968f-4230-b17e-8bf213222857",
 			"NextID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
-			"Sentence": "Y yo. Gato, vámonos de aquí, me voy a desmayar.",
+			"Sentence": "Muy gracioso, gato. Vámonos de aquí, me voy a desmayar.",
 			"SpeakerID": 1,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
@@ -147,54 +135,28 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "96f1ef98-d318-4035-a93b-23c1d81119cf",
-			"NextID": "3ff75218-17fe-4979-bada-62aaa4f86fe1",
-			"Sentence": "No se te da nada mal.",
+			"ID": "ddc786b5-0452-4c64-b831-b54edbfe7845",
+			"NextID": "d434b346-968f-4230-b17e-8bf213222857",
+			"Sentence": "¡Qué peste!, lo huelo desde aquí.  Tus profesores te dieron tu debido castigo, pero el castigo mayor castigo es tu nuevo mote: ¡MALHECHOR!.",
 			"SpeakerID": 0,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
 				"x": 2480,
-				"y": 100
+				"y": 0
 			}
 		},
 		{
 			"$type": "NodeSentence",
 			"ID": "3ff75218-17fe-4979-bada-62aaa4f86fe1",
 			"NextID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
-			"Sentence": "Fui subcampeón de Kuala Lumpur, no pude con el campeón vigente de por aquel entonces.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2960,
-				"y": 140
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "f5a57b59-77a1-4475-a26d-1dfe3cb11e0f",
-			"NextID": "d6920b88-d7c8-4497-b918-07c4e01c854d",
-			"Sentence": "¿En serio acabas de elegir eso?.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2480,
-				"y": 200
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "d6920b88-d7c8-4497-b918-07c4e01c854d",
-			"NextID": "43f2b345-279d-4efe-a67d-6686faf905ee",
-			"Sentence": "Gato, la vida son dos días",
+			"Sentence": "No está nada mal, jaja.",
 			"SpeakerID": 1,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
 				"x": 2960,
-				"y": 240
+				"y": 140
 			}
 		},
 		{
@@ -263,55 +225,28 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "9775eb1c-dfbc-441f-afb6-32ddc2405caf",
-			"NextID": "09c82722-d9c3-43d2-acbb-dd19de9f01ab",
-			"Sentence": "Ahí tienes razón, ¿qué cartas tienes para mí, minino?.",
-			"SpeakerID": "1",
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1400,
-				"y": -300
-			}
-		},
-		{
-			"$type": "NodeRoot",
-			"ID": "fa6cc23a-8d45-4251-bf76-8ed98c5f8e00",
-			"NextID": "b4a016c0-c0d4-4d85-8a65-dad7ec9e2e43",
-			"EditorPosition": {
-				"x": -440,
-				"y": -280
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "2d4a0841-e64e-4ac4-9611-a311a6df4a30",
-			"NextStoryName": "2",
-			"EditorPosition": {
-				"x": 4020,
-				"y": -80
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
-			"NextID": "2d4a0841-e64e-4ac4-9611-a311a6df4a30",
-			"Sentence": "En fin, continuemos.",
+			"ID": "f5a57b59-77a1-4475-a26d-1dfe3cb11e0f",
+			"NextID": "d6920b88-d7c8-4497-b918-07c4e01c854d",
+			"Sentence": "¿En serio acabas de elegir eso?. Tus padres, obviamente, no lo vieron con buenos ojos y te dijeron que si para llevar esa vida, mejor quedarte en casa.",
 			"SpeakerID": 0,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 3560,
-				"y": 0
+				"x": 2480,
+				"y": 200
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "90748da7-85f6-44d5-aa18-e712384fe3c7",
-			"NextStoryName": "7",
+			"$type": "NodeSentence",
+			"ID": "d6920b88-d7c8-4497-b918-07c4e01c854d",
+			"NextID": "43f2b345-279d-4efe-a67d-6686faf905ee",
+			"Sentence": "Gato, la vida son dos días",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 4020,
-				"y": 220
+				"x": 2960,
+				"y": 240
 			}
 		},
 		{
@@ -325,6 +260,71 @@
 			"EditorPosition": {
 				"x": 3480.99780273438,
 				"y": 199.746963500977
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "8fc722a1-a736-4224-b488-ca385e46f009",
+			"NextID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
+			"Sentence": "Gracias, nunca viene mal darle categoría a mi círculo de amigos.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2920,
+				"y": -180
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "96f1ef98-d318-4035-a93b-23c1d81119cf",
+			"NextID": "3ff75218-17fe-4979-bada-62aaa4f86fe1",
+			"Sentence": "Fuiste subcampeón de Kuala Lumpur, no pudiste con el campeón vigente de por aquel entonces pero te ganaste un renombre.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2480,
+				"y": 100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6a277a1a-5219-4d3f-aac8-42a7a725c417",
+			"NextID": "8fc722a1-a736-4224-b488-ca385e46f009",
+			"Sentence": "¿Rodearte de la gente importante, eh?, me gusta eso, ¡buena elección Melchor!. Aunque no les guste a tus profes, hacer los recados de los de años superiores te hizo muy popular entre ellos.\n",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2480,
+				"y": -340
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "9c18a246-f93a-4ef4-abad-c604ea7fdd0d",
+			"NextID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
+			"Sentence": "¡Genial!, no gané pero ¿qué mas da?.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3000,
+				"y": -60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "085cde55-83c8-4a9c-9423-099457fefaa8",
+			"NextID": "9c18a246-f93a-4ef4-abad-c604ea7fdd0d",
+			"Sentence": "¡Eso es, demuestra quién manda!. Después de demostrar tu valía, Tiparraco y tú os hicistéis amigos.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2460,
+				"y": -200
 			}
 		}
 	],

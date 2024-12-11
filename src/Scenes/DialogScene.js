@@ -38,6 +38,7 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('bgParque-banda', '../assets/fondos/Parque/banda.jpg');
             
             //Insti
+
             this.load.json('dataInsti','../data/Dialogue/DialogInstituto.json');
             this.load.json('cartasInsti','../data/Cartas/CartasInstituto.json');
             this.load.image('backgroundInsti','../assets/fondos/InstiFuturista.jpg');
@@ -69,7 +70,14 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('Universidad','../assets/fondos/Estudios/estudios-consejo.jpg');
 
 
+            this.load.image('bgInsti-Pelota','../assets/bgInsti-pelota.jpg');
+            this.load.image('bgInsti-Uno','../assets/bgInsti-uno.jpg');
+            this.load.image('bgInti-Apadrinado','../assets/bgInsti-apadrinado.jpg');
+            this.load.image('bgInsti-Pestoso','../assets/bgInsti.jpg');
+            this.load.image('bgInsti-Juega','../assets/bgInsti-juega.jpg');
+            this.load.image('bgInsti-Mertxor','../assets/bgInti-mertxor.jpg');
             
+
              //Mantenido
              this.load.json('dataMantenido','../data/Dialogue/DialogMantenido.json');
              this.load.json('cartasMantenido','../data/Cartas/CartasMantenido.json');
