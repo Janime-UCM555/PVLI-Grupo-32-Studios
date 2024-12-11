@@ -2,51 +2,51 @@
     "Deck" : [
     {
         "id":"0",
-        "Name":"nombre",
+        "Name":"Y encima sin cobrar",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Para la explotación que ya recives en las practicas de clase al menos podrías cobrar. ¡Déjalo!",
+        "Karma":"-5"
     },
     {
         "id":"1",
-        "Name":"nombre",
+        "Name":"Si tiene miedo al cambio dejelo aquí",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Al final tras pensar bastante al final crees que es mejor empezar a ahorrar. Buscarás un trabajo y dejaras esto.",
+        "Karma":"+10"
     },
     {
         "id":"2",
-        "Name":"nombre",
+        "Name":"Eso lo hago yo 100% y sin cobrar",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Las practicas sin sentido y materias te agotan. Mejor aprendes según intentas hacer tus proyectos personales.",
+        "Karma":"+15"
     },
     {
         "id":"3",
-        "Name":"nombre",
+        "Name":"Se vienen cositas",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Con lo que estas aprendido sientes que en el futuro llegará el momento de inventar algo grande de verdad.",
+        "Karma":"+10"
     },
     {
         "id":"4",
-        "Name":"nombre",
+        "Name":"Café con una rosquilla",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Aparece en tu cabeza la idea de por fin ir al bar del barrio a probar la famosa cerveza que de la que todos tus compañeros hablan.",
+        "Karma":"+5"
     },
     {
         "id":"5",
-        "Name":"nombre",
+        "Name":"Aplicar lo aprendido",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Te llega una carta de recomendación bastante alagadora para trabajar en un bar.",
+        "Karma":"+10"
     }
 ]
 }

@@ -2,51 +2,51 @@
     "Deck" : [
     {
         "id":"0",
-        "Name":"nombre",
+        "Name":"Pruebas con el Profesor",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Hablas con el profesor y quieres poner en practica tus conocimientos en un trabajo.",
+        "Karma":"+10"
     },
     {
         "id":"1",
-        "Name":"nombre",
+        "Name":"Ideaca",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Creas un gran invento e ignorando las advertencias de todos decides enchufarlo.",
+        "Karma":"-5"
     },
     {
         "id":"2",
-        "Name":"nombre",
+        "Name":"La luz del Balcón",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Ves que hay una luz encendida en el balcón de clases. Por eso vas asubir y verás que es lo que pasa allí",
+        "Karma":"+5"
     },
     {
         "id":"3",
-        "Name":"nombre",
+        "Name":"Emprendedores",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Con tus grandes ideas igual puedes empezar un negocio... O tal vez al menos meterte a trabajar de algo.",
+        "Karma":"+15"
     },
     {
         "id":"4",
-        "Name":"nombre",
+        "Name":"Entre lo amargo del café",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Agobiado por los estudios esta noche iras al bar a despejarte, tal vez así puedas estar ocupado con otras cosas.",
+        "Karma":"-10"
     },
     {
         "id":"5",
-        "Name":"nombre",
+        "Name":"Prestamo no tan generoso",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Cansado de estar aguantando en clase todo el día sin poder construir ni probar nada vas a dejar esto y de paso te llevarás una comisión por las molestias.",
+        "Karma":"-15"
     }
 ]
 }

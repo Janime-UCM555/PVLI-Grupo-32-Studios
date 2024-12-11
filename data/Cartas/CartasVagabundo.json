@@ -2,51 +2,51 @@
     "Deck" : [
     {
         "id":"0",
-        "Name":"nombre",
+        "Name":"Reinvención",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Aunque todo vaya mal, la suerte te sonrie. Ves la oportunidad de reahacer tu vida claramente. ¡Aprovecha!",
+        "Karma":"+50"
     },
     {
         "id":"1",
-        "Name":"nombre",
+        "Name":"¿Para qué si todo sale mal?",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Decides que lo mejor es ya no hacer nada, total todo lo que has decidido te ha llevado a esto.",
+        "Karma":"0"
     },
     {
         "id":"2",
-        "Name":"nombre",
+        "Name":"Destino Fatal",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Todo lo que has hecho te ha llevado a esto. Te lo mereces...",
+        "Karma":"-25"
     },
     {
         "id":"3",
-        "Name":"nombre",
+        "Name":"Perdiendo el tiempo",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Al final de que sirvio tu vida. ¿Dónde estan tus sueños ahora Melchor?",
+        "Karma":"-25"
     },
     {
         "id":"4",
-        "Name":"nombre",
+        "Name":"Error fatal",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Te dieron la oportunidad de ser lo mejor que pudiste ser. Al final solo mostras lo que eras.",
+        "Karma":"-25"
     },
     {
         "id":"5",
-        "Name":"nombre",
+        "Name":"Levantarse para caer",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"string",
-        "Karma":"value"
+        "Description":"Esta vez no hay una gran oportunidad ni un gran invento para la humanidad. Bien hecho Melchor",
+        "Karma":"-25"
     }
 ]
 }
