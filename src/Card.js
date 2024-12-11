@@ -1,9 +1,9 @@
 export default class Carta extends Phaser.GameObjects.Container
 {
-    constructor(scene, x,y, data, callback){
+    constructor(scene, x,y, datos, callback){
         super(scene,x,y);
         this.scene = scene;
-        this.data = data;
+        this.datos = datos;
         this.callback = callback;
 
         this.setSize(200, 280); 
@@ -14,7 +14,7 @@ export default class Carta extends Phaser.GameObjects.Container
 
 
 
-        this.name = scene.add.text(0, -110, this.data.Name, { 
+        this.name = scene.add.text(0, -110, this.datos.Name, { 
             fontSize: '22px',
              fill: '#FFF', 
              align: 'center',
@@ -24,7 +24,7 @@ export default class Carta extends Phaser.GameObjects.Container
         this.add(this.name);
 
 
-        this.desc = scene.add.text(0, 78, this.data.Description, { 
+        this.desc = scene.add.text(0, 78, this.datos.Description, { 
             fontSize: '12px', 
             fill: '#FFF',
             align: 'center',
@@ -32,7 +32,7 @@ export default class Carta extends Phaser.GameObjects.Container
         });
         this.desc.setOrigin(0.5);
         this.add(this.desc);
-        this.image = scene.add.image(0, -30, this.data.Image);
+        this.image = scene.add.image(0, -30, this.datos.Image);
         this.image.setOrigin(0.5);
         this.image.setScale(0.2);
         this.add(this.image);
@@ -48,24 +48,25 @@ export default class Carta extends Phaser.GameObjects.Container
         });
     }
     changeKarma(){
-        this.scene.add.image(this.scene.sys.game.canvas.width/2, this.scene.sys.game.canvas.height/2 - 80,this.data.Background);
+        this.scene.add.image(this.scene.sys.game.canvas.width/2, this.scene.sys.game.canvas.height/2 - 80,this.datos.Background);
         let auxCard = this.scene.sys.game.registry.get('myCards');
         if(!Array.isArray(auxCard)){
             auxCard = [];
         }
-        let copyCard = new Carta(this.scene,this.x,this.y,this.data,this.callback);
+        let copyCard = new Carta(this.scene,this.x,this.y,this.datos,this.callback);
         auxCard.push(copyCard);
         this.scene.sys.game.registry.set('myCards',auxCard);
 
-        var karmaQuantity = this.scene.sys.game.registry.get('karma') + parseInt(this.data.Karma);
+        var karmaQuantity = this.scene.sys.game.registry.get('karma') + parseInt(this.datos.Karma);
         if(karmaQuantity < 0) karmaQuantity = 0;
         else if(karmaQuantity > 200) karmaQuantity = 200;
         this.scene.sys.game.registry.set('karma', karmaQuantity);
         console.log(this.scene.sys.game.registry.get('karma', karmaQuantity));
-        if (this.callback) this.callback(this.data.id);
+        if (this.callback) this.callback(this.datos.id);
     }
     deleteCard(){
-        this.data = null;
+        this.datos = null;
         this.destroy();
     }
+    getDatos(){return this.datos;}
 }

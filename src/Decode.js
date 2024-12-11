@@ -1,11 +1,11 @@
 import DialogText from "./dialog_plugin.js";
 import Deck from "./Deck.js";
 export default class Decoder{
-    constructor(scene, data, deck){
+    constructor(scene, datos, deck){
         this.scene = scene;
-        this.data = data;
+        this.datos = datos;
         this.deck = deck;
-        this.node  = this._findId(this.data.RootNodeID);
+        this.node  = this._findId(this.datos.RootNodeID);
         this.callback = (id)=>{
             var next = this.node.OptionsID[id];
             this.node = this._findId(next);
@@ -14,7 +14,7 @@ export default class Decoder{
     }
 
     _findId(idToLookFor) {
-        var array = this.data.ListNodes;
+        var array = this.datos.ListNodes;
         for (var i = 0; i < array.length; i++) {
             if (array[i].ID == idToLookFor) {
                 return(array[i]);

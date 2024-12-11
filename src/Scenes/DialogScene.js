@@ -124,22 +124,22 @@ export default class MenuScene extends Phaser.Scene {
         this.scale.resize(800,600);
         switch (this.IDscene){
         case (0):
-            this.data = this.cache.json.get('dataIntro');
+            this.datos = this.cache.json.get('dataIntro');
             this.add.image(0, 0, 'backgroundIntro').setOrigin(0,0).setScale(1.9,1.9);
             break;
         case(1):
             this.deck = this.cache.json.get('cartasParque');
-            this.data = this.cache.json.get('dataParque');
+            this.datos = this.cache.json.get('dataParque');
             this.add.image(800, 600, 'backgroundParque').setOrigin(1).setScale(0.8,0.8);
             break;
         case(2):
             this.deck = this.cache.json.get('cartasInsti');
-            this.data = this.cache.json.get('dataInsti');
+            this.datos = this.cache.json.get('dataInsti');
             this.add.image(800, 600, 'backgroundInsti').setOrigin(1,1).setScale(1.2,1.2);
             break;
         case(6):
             this.deck = this.cache.json.get('cartasBar');
-            this.data = this.cache.json.get('dataBar');
+            this.datos = this.cache.json.get('dataBar');
             this.add.image(800, 600, 'backgroundBar').setOrigin(1,1);
             break;
         }
@@ -150,7 +150,7 @@ export default class MenuScene extends Phaser.Scene {
         this.Melch = new Melchor(this, 0, this.sys.game.canvas.height).setOrigin(0,1);
         this.Gato = new Cat(this, this.sys.game.canvas.width, this.sys.game.canvas.height).setOrigin(1,1);
 
-        this.decoder = new Decoder(this, this.data, this.deck);
+        this.decoder = new Decoder(this, this.datos, this.deck);
         this.events.on('next',() => {this.decoder.decode()});
         
         // Empieza el decode del JSON por el RootNode

@@ -58,8 +58,6 @@ class map extends Phaser.Scene{
             this.registry.set('carX',100);
             this.registry.set('carY',125);
             this.first = false;
-
-
         }
     }
     muestraFicha(peaton) {

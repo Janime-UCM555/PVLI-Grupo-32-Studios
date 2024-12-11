@@ -1,5 +1,6 @@
 import Button from '../gameObjects/Button.js';
 import Barrita from '../gameObjects/Barrita.js';
+import Carta from '../Card.js'
 class PauseMenu extends Phaser.Scene{
     constructor()
     {
@@ -8,22 +9,19 @@ class PauseMenu extends Phaser.Scene{
     init(data) {
         // Guardar la escena activa previamente
         this.activeSceneKey = data.activeSceneKey; // Asumimos que se pasa el nombre de la escena activa
-
+        
     }
     create()
     {
-
-        
-      
         let graphics = this.add.graphics();
         graphics.fillStyle(0x000000, 0.7); 
         graphics.fillRect(0, 0, this.cameras.main.width, this.cameras.main.height);
         this.add.text(this.cameras.main.width/2,50,'PAUSA',{fontSize: '32px', fill: '#FFF'}).setOrigin(0.5, 0);;
 
         this.continueButton = new Button(this, this.cameras.main.width/2, 200, 'CONTINUAR', () =>{
-            this.auxCards.forEach(element => {
-                element.deleteCard();
-            });
+            this.auxCards.forEach((carta)=>{
+                carta.deleteCard();
+            })
             this.scene.stop();
             this.scene.resume(this.activeSceneKey);
         });
@@ -62,24 +60,19 @@ class PauseMenu extends Phaser.Scene{
     }
     showCards()
     {
-        this.auxCards = this.sys.game.registry.get('myCards');
-        console.log(this.auxCards);
+        let cartas = this.sys.game.registry.get('myCards');
+        this.auxCards = []
         var startX = 200;
         var startY = 200;
-        if(!Array.isArray(this.auxCards))
-            {
-            auxCards = [];
-        }
-        else
-        {
-            this.auxCards.forEach(element => {
-                this.add.existing(element);
-                element.setPosition(startX,startY);
-                element.setVisible(true);
-                startX += 150;
-            });
-          
-        }            
+
+        cartas.forEach(element => {
+            let c = new Carta(this,startX,startY, element.getDatos());
+            this.auxCards.push(c);
+            this.add.existing(c);
+            c.setVisible(true);
+            startX += 150;
+        });
+            
         this.returnCardButton = new Button(this, this.cameras.main.width / 2, 430, 'CERRAR', () => {
             this.auxCards.forEach(element => {
                 element.setVisible(false);

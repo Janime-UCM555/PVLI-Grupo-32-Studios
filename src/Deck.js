@@ -1,8 +1,8 @@
 import Carta from "./Card.js";
 export default class Mazo
 {
-    constructor(data,scene,callback){
-        this.data = data;
+    constructor(datos,scene,callback){
+        this.datos = datos;
         this.scene = scene;
         this.callback = (id)=>{
             this.deleteDeck();
@@ -13,7 +13,7 @@ export default class Mazo
         this.drawCards();
     }
     cardSelector(){
-        let array = this.data.Deck;     
+        let array = this.datos.Deck;     
         let mix = Phaser.Utils.Array.Shuffle(array);
         this.selectedCards = mix.slice(0,3);
     }
