@@ -172,21 +172,19 @@ class map extends Phaser.Scene{
         //this.ramp = new Rampa(this,250,250,'ramp');
         const objectLayer = this.map.getObjectLayer('Flags');
         this.flags = [];
-        let cont = 0;
         objectLayer.objects.forEach((obj) =>{
-            let newflag = cont + 2;
-            const flag = new Flag(this, objectLayer.objects[cont].x, objectLayer.objects[cont].y, 'Bandera','Dialog', newflag);
+            const flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog',parseInt(this.flagIndex) + 1);
             this.flags.push(flag);
-            this.flags[cont].setVisible(false);
-            cont++;   
+            obj.visible = false;
         })
-        for(let i = 0; i < this.flagIndex; i++)
+
+        this.flags.forEach((obj) =>
         {
-            this.flags[i].setVisible(true);
-            this.flags[i].checked = true;
-        }
-        this.flags[this.flagIndex-1].checked = false;
-        console.log(this.flags);
+            obj.setVisible(false);
+        })
+        this.flags[this.flagIndex].setVisible(true);
+
+
         const carGenLayer = this.map.getObjectLayer('CarGenerator');
         
         const semaforoLayer = this.map.getObjectLayer('Crossings');

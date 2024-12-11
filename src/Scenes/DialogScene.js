@@ -8,7 +8,7 @@ export default class MenuScene extends Phaser.Scene {
         this.first = true;
     }
     init(flag){
-        if (Object.keys(flag).length === 0 && this.first) flag = 1;
+        if (Object.keys(flag).length === 0 && this.first) flag = 0;
         console.log("FLAG: " + flag);
         this.IDscene = flag;
     }
@@ -75,25 +75,25 @@ export default class MenuScene extends Phaser.Scene {
     }
 
     create(){
-        console.log("IDScene" + this.IDscene);
+        console.log(this.IDscene);
         this.scale.resize(800,600);
         switch (this.IDscene){
-        case (1):
+        case (0):
             this.data = this.cache.json.get('dataIntro');
             this.add.image(0, 0, 'backgroundIntro').setOrigin(0,0).setScale(1.9,1.9);
             break;
-        case(2):
+        case(1):
             this.deck = this.cache.json.get('cartasParque');
             this.data = this.cache.json.get('dataParque');
             this.add.image(800, 600, 'backgroundParque').setOrigin(1).setScale(0.8,0.8);
             break;
             
-        case(3):
+        case(2):
             this.deck = this.cache.json.get('cartasInsti');
             this.data = this.cache.json.get('dataInsti');
             this.add.image(800, 600, 'backgroundInsti').setOrigin(1,1);
             break;
-        case(4):
+        case(6):
             this.deck = this.cache.json.get('cartasBar');
             this.data = this.cache.json.get('dataBar');
             this.add.image(800, 600, 'backgroundBar').setOrigin(1,1);

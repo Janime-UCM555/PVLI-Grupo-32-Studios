@@ -12,70 +12,6 @@
 			}
 		},
 		{
-			"$type": "NodeChoice",
-			"ID": "50aa8a81-29b3-48fe-88fe-a8b1b47d5692",
-			"OptionsID": [
-				"fd52e61c-c5fa-48fe-8a3a-76cd681d896c",
-				"46293a87-3333-4d34-9ba4-b1b1480ab88f",
-				"1af0fd8f-11f3-47f9-8325-36ae583f63e4",
-				"d4edd565-e7f6-422a-857e-a15f1db39df8",
-				"b6d36db5-8a85-4197-a767-2be75bf68045",
-				"2945362d-fc2a-4d9a-b042-1c2015b1a413"
-			],
-			"EditorPosition": {
-				"x": 1340,
-				"y": -460
-			}
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "fd52e61c-c5fa-48fe-8a3a-76cd681d896c",
-			"NextID": "4e6fd1e0-cc9b-4534-8935-0a6327f5f1fe",
-			"Sentence": "Muy Cansado",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "46293a87-3333-4d34-9ba4-b1b1480ab88f",
-			"NextID": "205a2043-44a1-4365-8339-aa61c471aa87",
-			"Sentence": "Ay Ho",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "1af0fd8f-11f3-47f9-8325-36ae583f63e4",
-			"NextID": "c1f7e69e-a49b-42bd-b0d8-3c2e4ad14923",
-			"Sentence": "Empleado del mes",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "d4edd565-e7f6-422a-857e-a15f1db39df8",
-			"NextID": "7efe8c32-79e5-4d05-90a8-a8518f2fd8af",
-			"Sentence": "Apoyo Laboral",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "b6d36db5-8a85-4197-a767-2be75bf68045",
-			"NextID": "eca4321b-f551-415a-b387-4c7a8ff583b3",
-			"Sentence": "¡Vamos a Chambear!",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "2945362d-fc2a-4d9a-b042-1c2015b1a413",
-			"NextID": "e48d0131-68bb-40eb-9499-da25edaa0f0e",
-			"Sentence": "No me fastidies",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "4e6fd1e0-cc9b-4534-8935-0a6327f5f1fe",
 			"NextID": "1a5da0a8-bcc9-41da-9222-dd760af1f03c",
@@ -128,15 +64,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "b5e94264-06e2-4801-bff3-b7bb2190009a",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3320,
-				"y": -620
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "10f9894b-8e5f-459a-8306-3e903f612739",
 			"NextID": "02d76846-f3ae-48f9-8df5-0bd4fedcb295",
@@ -186,28 +113,6 @@
 			"EditorPosition": {
 				"x": 1900,
 				"y": 180
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 2860,
-				"y": -180
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "1b6424f0-f257-4047-809a-8f7d29cd81c5",
-			"NextID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
-			"Sentence": "Gracias estoy muy feliz por haber sido capaz de organizarme lo suficientemente bien como para porde llegar a este punto gato.",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2360,
-				"y": -200
 			}
 		},
 		{
@@ -277,8 +182,30 @@
 		},
 		{
 			"$type": "NodeSentence",
+			"ID": "1b6424f0-f257-4047-809a-8f7d29cd81c5",
+			"NextID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
+			"Sentence": "Gracias estoy muy feliz por haber sido capaz de organizarme lo suficientemente bien como para porde llegar a este punto gato.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2360,
+				"y": -200
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "b5e94264-06e2-4801-bff3-b7bb2190009a",
+			"NextStoryName": "8",
+			"EditorPosition": {
+				"x": 3320,
+				"y": -620
+			}
+		},
+		{
+			"$type": "NodeSentence",
 			"ID": "ed3d34b7-f904-4f46-b9a6-927fa1c67990",
-			"NextID": -1,
+			"NextID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
 			"Sentence": "Es un sueño hecho realidad gato. Ojalá hubiese hecho esto mucho antes. Tal vez no viene mal confiar y tratar bien a las personas que tienes cerca de ti.",
 			"SpeakerID": 1,
 			"DisplaySpeakerName": "",
@@ -286,6 +213,79 @@
 			"EditorPosition": {
 				"x": 2424.7763671875,
 				"y": 28.2240829467773
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "50aa8a81-29b3-48fe-88fe-a8b1b47d5692",
+			"OptionsID": [
+				"fd52e61c-c5fa-48fe-8a3a-76cd681d896c",
+				"46293a87-3333-4d34-9ba4-b1b1480ab88f",
+				"1af0fd8f-11f3-47f9-8325-36ae583f63e4",
+				"d4edd565-e7f6-422a-857e-a15f1db39df8",
+				"b6d36db5-8a85-4197-a767-2be75bf68045",
+				"2945362d-fc2a-4d9a-b042-1c2015b1a413"
+			],
+			"EditorPosition": {
+				"x": 1340,
+				"y": -460
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "fd52e61c-c5fa-48fe-8a3a-76cd681d896c",
+			"NextID": "4e6fd1e0-cc9b-4534-8935-0a6327f5f1fe",
+			"Sentence": "Muy Cansado",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "46293a87-3333-4d34-9ba4-b1b1480ab88f",
+			"NextID": "205a2043-44a1-4365-8339-aa61c471aa87",
+			"Sentence": "Ay Ho",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "1af0fd8f-11f3-47f9-8325-36ae583f63e4",
+			"NextID": "c1f7e69e-a49b-42bd-b0d8-3c2e4ad14923",
+			"Sentence": "Empleado del mes",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "d4edd565-e7f6-422a-857e-a15f1db39df8",
+			"NextID": "7efe8c32-79e5-4d05-90a8-a8518f2fd8af",
+			"Sentence": "Apoyo Laboral",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "b6d36db5-8a85-4197-a767-2be75bf68045",
+			"NextID": "eca4321b-f551-415a-b387-4c7a8ff583b3",
+			"Sentence": "¡Vamos a Chambear!",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "2945362d-fc2a-4d9a-b042-1c2015b1a413",
+			"NextID": "e48d0131-68bb-40eb-9499-da25edaa0f0e",
+			"Sentence": "No me fastidies",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
+			"NextStoryName": "9",
+			"EditorPosition": {
+				"x": 2860,
+				"y": -180
 			}
 		}
 	],

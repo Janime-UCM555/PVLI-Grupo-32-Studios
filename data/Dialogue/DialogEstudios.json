@@ -299,84 +299,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "bec64839-a55d-4a8b-a48f-024371d86dcb",
-			"NextID": "685e75d2-e749-4f76-842e-c37871fc1677",
-			"Sentence": "Como no sabías que hacer y estabas indeciso pues preguntaste por consejo",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4520,
-				"y": 720
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "0205beb2-0aa1-4601-b3b4-15a52e0195fc",
-			"NextID": "bec64839-a55d-4a8b-a48f-024371d86dcb",
-			"Sentence": "Sencillo, pero eficaz",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4040,
-				"y": 720
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "685e75d2-e749-4f76-842e-c37871fc1677",
-			"NextID": "5bfc05c5-0a3f-470f-8fef-810731e360e2",
-			"Sentence": "¿A quien pregunté?",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4960,
-				"y": 720
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "5bfc05c5-0a3f-470f-8fef-810731e360e2",
-			"NextID": "bcbf2dd3-ac63-4125-abc9-95891c3c6a17",
-			"Sentence": "Pues practicamente, a todo el mundo: a tus padre, profesores, orientador e incluso a tus amigos de siempre.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 5420,
-				"y": 720
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "bcbf2dd3-ac63-4125-abc9-95891c3c6a17",
-			"NextID": "e208eaa8-d180-4d50-9697-917eea457f28",
-			"Sentence": "Por desgracia, no sacaste nada en claro y seguiste buscando.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 5860,
-				"y": 720
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "e208eaa8-d180-4d50-9697-917eea457f28",
-			"NextID": "5c94a8dc-274c-45a9-8e92-451699b45376",
-			"Sentence": "Al menos no decayó los animos y lo intenté",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 6320,
-				"y": 720
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "cca7486a-3a17-4352-9925-50344f27872a",
 			"NextID": "7146b49b-f672-456b-99c6-529200cdfc1e",
 			"Sentence": "Además, de que tus creaciones funcionaban y con resultados bastante impresionante",
@@ -532,15 +454,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "a47c6294-c746-4b2e-be08-3a66057fc49a",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 9163.3125,
-				"y": -157.099395751953
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "d453d09b-69dd-4fc7-a5e2-859421b0c077",
 			"NextID": "c6beb97b-500d-4c78-bf4a-6defee89b769",
@@ -642,122 +555,6 @@
 			"EditorPosition": {
 				"x": 8660,
 				"y": 80
-			}
-		},
-		{
-			"$type": "NodeChoice",
-			"ID": "983c817f-c1ea-45b7-87e5-9e7d91c42185",
-			"OptionsID": [
-				"4165279a-a4d7-453b-97d7-e4fe65d5475e",
-				"5c0e212d-c935-4d63-a3d5-4858e06e86e8",
-				"679b9261-c850-4b2b-b9ac-4d210f33e69e",
-				"6efbe69b-43ce-49a3-a014-c771cd3ed430",
-				"039715f6-f6ab-4d83-9a48-601fac8c63bb",
-				"bc4a48ad-a831-48e8-8167-cf58d6fa619b"
-			],
-			"EditorPosition": {
-				"x": 3580,
-				"y": 80
-			}
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "4165279a-a4d7-453b-97d7-e4fe65d5475e",
-			"NextID": "9066ddeb-7f7b-48fc-beea-92f1826fb672",
-			"Sentence": "Universidad",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "5c0e212d-c935-4d63-a3d5-4858e06e86e8",
-			"NextID": "4e6233af-8dab-4216-a1fe-bb9c48947bbe",
-			"Sentence": "Grado Superior",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "679b9261-c850-4b2b-b9ac-4d210f33e69e",
-			"NextID": "6ce44825-542c-4f3f-96f0-f8b83cebd7d0",
-			"Sentence": "Chamba",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "6efbe69b-43ce-49a3-a014-c771cd3ed430",
-			"NextID": "af00ce38-0929-420e-9691-bd536a6fc5d4",
-			"Sentence": "Nini",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "039715f6-f6ab-4d83-9a48-601fac8c63bb",
-			"NextID": "6cf4d526-7342-4ae8-840a-990dcafe78fe",
-			"Sentence": "Inventor Casero Crea-inetors",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "bc4a48ad-a831-48e8-8167-cf58d6fa619b",
-			"NextID": "0205beb2-0aa1-4601-b3b4-15a52e0195fc",
-			"Sentence": "Buscar Consejo",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "5c94a8dc-274c-45a9-8e92-451699b45376",
-			"NextID": "6318ccca-81ad-4b30-b10b-7f4925d76f6a",
-			"Sentence": "No va a ser sencillo lo sabes,no?",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 6820,
-				"y": 220
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "6318ccca-81ad-4b30-b10b-7f4925d76f6a",
-			"NextID": "0ee5d34b-bc2e-41d4-ad7e-db23bb62d803",
-			"Sentence": "A ver, empezar a trabajar temprano nunca lo  ha sido, ¿pero que otra opción tenía?",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 7260,
-				"y": 220
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "0ee5d34b-bc2e-41d4-ad7e-db23bb62d803",
-			"NextID": "3ec82dd9-5d96-480d-9c1b-bb2dc4d7edd5",
-			"Sentence": "Mejor que quedarme sin hacer nada es mejor, además por lo que me ha dicho la gente, por como soy empezar a trabajar sería lo óptimo.",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 7760,
-				"y": 220
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "3ec82dd9-5d96-480d-9c1b-bb2dc4d7edd5",
-			"NextID": "e7485db2-9f8b-4bfa-9a3b-78f8e577a6d9",
-			"Sentence": "¿Pero es lo que tu quieres?",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 8220,
-				"y": 240
 			}
 		},
 		{
@@ -893,7 +690,7 @@
 		{
 			"$type": "NodeSentence",
 			"ID": "53ae755d-28f3-46aa-944c-3f75a744d9f3",
-			"NextID": "10ef2659-a951-4262-b9d3-e49b0179c7ff",
+			"NextID": -1,
 			"Sentence": "No, nada, nada. Sigamos con el recorrido.",
 			"SpeakerID": 0,
 			"DisplaySpeakerName": "",
@@ -901,33 +698,6 @@
 			"EditorPosition": {
 				"x": 8680,
 				"y": 460
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "a099c104-4930-4585-aca6-1c9a079c7f5b",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 9120,
-				"y": 60
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "6f68bef3-a2d7-4499-8134-af0b09d7b9ed",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 9120,
-				"y": 260
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "10ef2659-a951-4262-b9d3-e49b0179c7ff",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 9120,
-				"y": 440
 			}
 		},
 		{
@@ -996,12 +766,242 @@
 			}
 		},
 		{
+			"$type": "NodeSentence",
+			"ID": "0205beb2-0aa1-4601-b3b4-15a52e0195fc",
+			"NextID": "bec64839-a55d-4a8b-a48f-024371d86dcb",
+			"Sentence": "Sencillo, pero eficaz",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4040,
+				"y": 720
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "bec64839-a55d-4a8b-a48f-024371d86dcb",
+			"NextID": "685e75d2-e749-4f76-842e-c37871fc1677",
+			"Sentence": "Como no sabías que hacer y estabas indeciso pues preguntaste por consejo",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4520,
+				"y": 720
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "685e75d2-e749-4f76-842e-c37871fc1677",
+			"NextID": "5bfc05c5-0a3f-470f-8fef-810731e360e2",
+			"Sentence": "¿A quien pregunté?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4960,
+				"y": 720
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "5bfc05c5-0a3f-470f-8fef-810731e360e2",
+			"NextID": "bcbf2dd3-ac63-4125-abc9-95891c3c6a17",
+			"Sentence": "Pues practicamente, a todo el mundo: a tus padre, profesores, orientador e incluso a tus amigos de siempre.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5420,
+				"y": 720
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "bcbf2dd3-ac63-4125-abc9-95891c3c6a17",
+			"NextID": "e208eaa8-d180-4d50-9697-917eea457f28",
+			"Sentence": "Por desgracia, no sacaste nada en claro y seguiste buscando.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5860,
+				"y": 720
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e208eaa8-d180-4d50-9697-917eea457f28",
+			"NextID": "5c94a8dc-274c-45a9-8e92-451699b45376",
+			"Sentence": "Al menos no decayó los animos y lo intenté",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6320,
+				"y": 720
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "5c94a8dc-274c-45a9-8e92-451699b45376",
+			"NextID": "6318ccca-81ad-4b30-b10b-7f4925d76f6a",
+			"Sentence": "No va a ser sencillo lo sabes,no?",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6820,
+				"y": 220
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6318ccca-81ad-4b30-b10b-7f4925d76f6a",
+			"NextID": "0ee5d34b-bc2e-41d4-ad7e-db23bb62d803",
+			"Sentence": "A ver, empezar a trabajar temprano nunca lo  ha sido, ¿pero que otra opción tenía?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 7260,
+				"y": 220
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0ee5d34b-bc2e-41d4-ad7e-db23bb62d803",
+			"NextID": "3ec82dd9-5d96-480d-9c1b-bb2dc4d7edd5",
+			"Sentence": "Mejor que quedarme sin hacer nada es mejor, además por lo que me ha dicho la gente, por como soy empezar a trabajar sería lo óptimo.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 7760,
+				"y": 220
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "3ec82dd9-5d96-480d-9c1b-bb2dc4d7edd5",
+			"NextID": "e7485db2-9f8b-4bfa-9a3b-78f8e577a6d9",
+			"Sentence": "¿Pero es lo que tu quieres?",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 8220,
+				"y": 240
+			}
+		},
+		{
 			"$type": "NodeEndPath",
 			"ID": "dfae2a5b-21a1-4a3d-8bb4-27dcf5346b6e",
-			"NextStoryName": "",
+			"NextStoryName": "5",
 			"EditorPosition": {
 				"x": 9120,
 				"y": 660
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "983c817f-c1ea-45b7-87e5-9e7d91c42185",
+			"OptionsID": [
+				"4165279a-a4d7-453b-97d7-e4fe65d5475e",
+				"5c0e212d-c935-4d63-a3d5-4858e06e86e8",
+				"679b9261-c850-4b2b-b9ac-4d210f33e69e",
+				"6efbe69b-43ce-49a3-a014-c771cd3ed430",
+				"039715f6-f6ab-4d83-9a48-601fac8c63bb",
+				"bc4a48ad-a831-48e8-8167-cf58d6fa619b"
+			],
+			"EditorPosition": {
+				"x": 3580,
+				"y": 80
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "4165279a-a4d7-453b-97d7-e4fe65d5475e",
+			"NextID": "9066ddeb-7f7b-48fc-beea-92f1826fb672",
+			"Sentence": "Universidad",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "5c0e212d-c935-4d63-a3d5-4858e06e86e8",
+			"NextID": "4e6233af-8dab-4216-a1fe-bb9c48947bbe",
+			"Sentence": "Grado Superior",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "679b9261-c850-4b2b-b9ac-4d210f33e69e",
+			"NextID": "6ce44825-542c-4f3f-96f0-f8b83cebd7d0",
+			"Sentence": "Chamba",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "6efbe69b-43ce-49a3-a014-c771cd3ed430",
+			"NextID": "af00ce38-0929-420e-9691-bd536a6fc5d4",
+			"Sentence": "Nini",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "039715f6-f6ab-4d83-9a48-601fac8c63bb",
+			"NextID": "6cf4d526-7342-4ae8-840a-990dcafe78fe",
+			"Sentence": "Inventor Casero Crea-inetors",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "bc4a48ad-a831-48e8-8167-cf58d6fa619b",
+			"NextID": "0205beb2-0aa1-4601-b3b4-15a52e0195fc",
+			"Sentence": "Buscar Consejo",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "10ef2659-a951-4262-b9d3-e49b0179c7ff",
+			"NextStoryName": "7",
+			"EditorPosition": {
+				"x": 9120,
+				"y": 440
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "6f68bef3-a2d7-4499-8134-af0b09d7b9ed",
+			"NextStoryName": "6",
+			"EditorPosition": {
+				"x": 9120,
+				"y": 260
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "a099c104-4930-4585-aca6-1c9a079c7f5b",
+			"NextStoryName": "4",
+			"EditorPosition": {
+				"x": 9120,
+				"y": 60
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "a47c6294-c746-4b2e-be08-3a66057fc49a",
+			"NextStoryName": "3",
+			"EditorPosition": {
+				"x": 9163.3125,
+				"y": -157.099395751953
 			}
 		}
 	],

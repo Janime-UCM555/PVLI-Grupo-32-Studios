@@ -187,7 +187,7 @@
 		{
 			"$type": "NodeSentence",
 			"ID": "d6920b88-d7c8-4497-b918-07c4e01c854d",
-			"NextID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
+			"NextID": "43f2b345-279d-4efe-a67d-6686faf905ee",
 			"Sentence": "Gato, la vida son dos días",
 			"SpeakerID": 1,
 			"DisplaySpeakerName": "",
@@ -195,28 +195,6 @@
 			"EditorPosition": {
 				"x": 2960,
 				"y": 240
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
-			"NextID": "2d4a0841-e64e-4ac4-9611-a311a6df4a30",
-			"Sentence": "En fin, continuemos.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3500,
-				"y": -60
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "2d4a0841-e64e-4ac4-9611-a311a6df4a30",
-			"NextStoryName": "3",
-			"EditorPosition": {
-				"x": 4020,
-				"y": -80
 			}
 		},
 		{
@@ -303,6 +281,50 @@
 			"EditorPosition": {
 				"x": -440,
 				"y": -280
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "2d4a0841-e64e-4ac4-9611-a311a6df4a30",
+			"NextStoryName": "2",
+			"EditorPosition": {
+				"x": 4020,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b46c1212-947f-4e8d-b016-179d85e1ad5f",
+			"NextID": "2d4a0841-e64e-4ac4-9611-a311a6df4a30",
+			"Sentence": "En fin, continuemos.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3560,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "90748da7-85f6-44d5-aa18-e712384fe3c7",
+			"NextStoryName": "7",
+			"EditorPosition": {
+				"x": 4020,
+				"y": 220
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "43f2b345-279d-4efe-a67d-6686faf905ee",
+			"NextID": "90748da7-85f6-44d5-aa18-e712384fe3c7",
+			"Sentence": "En fin, continuemos.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3480.99780273438,
+				"y": 199.746963500977
 			}
 		}
 	],

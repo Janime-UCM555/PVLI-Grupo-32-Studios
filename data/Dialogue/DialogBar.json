@@ -78,19 +78,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "d1570739-509c-4ef5-9aeb-b2879add21e3",
-			"NextID": "12614a33-ad82-4302-9c69-fe555e64bc65",
-			"Sentence": "Tienes que creerme más a menudo.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 6540,
-				"y": -460
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "7bcc7f94-d71f-4243-b32c-f1525f7b9c54",
 			"NextID": "93a653df-8bff-45e4-aace-47a8a6c5a343",
 			"Sentence": "Mira lo que ha dejado en la mesa.",
@@ -256,19 +243,6 @@
 			"EditorPosition": {
 				"x": 6894.8427734375,
 				"y": 66.0700759887695
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "12614a33-ad82-4302-9c69-fe555e64bc65",
-			"NextID": "8e1d0b82-4856-44f0-8ef3-e62d2a3ee060",
-			"Sentence": "Anda, salgamos ya de aquí por favor.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 7000,
-				"y": -260
 			}
 		},
 		{
@@ -455,7 +429,7 @@
 		{
 			"$type": "NodeSentence",
 			"ID": "b7c345de-34bd-4f73-8634-41e08f0691ba",
-			"NextID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"NextID": "c2c00734-b9c8-4217-9748-3fe4fbd6d089",
 			"Sentence": "Cliente: ¡PUAJ!, ¡¿Quién me ha vomitado en el asiento?!",
 			"SpeakerID": 2,
 			"DisplaySpeakerName": "",
@@ -466,12 +440,47 @@
 			}
 		},
 		{
+			"$type": "NodeSentence",
+			"ID": "d1570739-509c-4ef5-9aeb-b2879add21e3",
+			"NextID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"Sentence": "Tienes que creerme más a menudo.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6540,
+				"y": -460
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "12614a33-ad82-4302-9c69-fe555e64bc65",
+			"NextID": "8e1d0b82-4856-44f0-8ef3-e62d2a3ee060",
+			"Sentence": "Anda, salgamos ya de aquí por favor.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 7000,
+				"y": -260
+			}
+		},
+		{
 			"$type": "NodeEndPath",
 			"ID": "8e1d0b82-4856-44f0-8ef3-e62d2a3ee060",
-			"NextStoryName": "4",
+			"NextStoryName": "6",
 			"EditorPosition": {
-				"x": 7700,
-				"y": -280
+				"x": 7800,
+				"y": -560
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "c2c00734-b9c8-4217-9748-3fe4fbd6d089",
+			"NextStoryName": "8",
+			"EditorPosition": {
+				"x": 6700,
+				"y": 200
 			}
 		}
 	],

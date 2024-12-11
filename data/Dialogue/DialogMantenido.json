@@ -64,70 +64,6 @@
 			}
 		},
 		{
-			"$type": "NodeChoice",
-			"ID": "3557be39-1223-4823-a2c1-5482f9089f0c",
-			"OptionsID": [
-				"8daf4ccf-b06b-4f50-b9ad-c6bbc1856687",
-				"eee494b6-6fb9-4a9d-b6d9-4ec5c7f81efe",
-				"0658e5b6-c91d-41c2-9cd7-27b0aa37cdad",
-				"3823de50-d1bd-49e7-99fa-a56211c424e2",
-				"215d7e86-89ad-4ccb-9b73-b1fa6e11de0e",
-				"c27e3de8-1123-487f-be0c-5d4c400ed39c"
-			],
-			"EditorPosition": {
-				"x": 2000,
-				"y": -400
-			}
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "8daf4ccf-b06b-4f50-b9ad-c6bbc1856687",
-			"NextID": "a1ad977c-d447-4795-b58a-aeae6281ac88",
-			"Sentence": "Genio Incomprendido",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "eee494b6-6fb9-4a9d-b6d9-4ec5c7f81efe",
-			"NextID": "ae03e41c-9f8b-488d-b809-639dfa89a077",
-			"Sentence": "Fan incondicional",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "0658e5b6-c91d-41c2-9cd7-27b0aa37cdad",
-			"NextID": "1bc89ffa-57fa-46c7-85c4-8e632b3df294",
-			"Sentence": "Otro dia más",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "3823de50-d1bd-49e7-99fa-a56211c424e2",
-			"NextID": "a83378d7-da86-467a-a4bb-6cd54ec85cb5",
-			"Sentence": "Apoyar en Casa",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "215d7e86-89ad-4ccb-9b73-b1fa6e11de0e",
-			"NextID": "49e8776a-ebf5-4363-b86f-a4e1ec79f3d3",
-			"Sentence": "Hacuma Mapapa",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
-			"$type": "NodeOption",
-			"ID": "c27e3de8-1123-487f-be0c-5d4c400ed39c",
-			"NextID": "70de51ab-63b0-4afe-ab48-9b986d3a0771",
-			"Sentence": "Pufffffffffff",
-			"Enable": true,
-			"OneShot": false
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "a1ad977c-d447-4795-b58a-aeae6281ac88",
 			"NextID": "b4d9c879-4ef3-46b5-b9c8-ee39993caf13",
@@ -151,15 +87,6 @@
 			"EditorPosition": {
 				"x": 2980,
 				"y": -600
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "c1af7f7f-70c5-47a0-8036-7d92f3803359",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3560,
-				"y": -620
 			}
 		},
 		{
@@ -202,15 +129,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "7a649009-51cb-4a16-a712-8a7746e65b73",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 4540,
-				"y": -400
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "5ee428f7-14e3-4a47-a48d-1900ab79bf14",
 			"NextID": "482e88e3-5a14-44f6-9423-267a5e6e4e20",
@@ -247,15 +165,6 @@
 			"EditorPosition": {
 				"x": 4020,
 				"y": -100
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "fcecb25b-b126-452b-8d08-01b7e033785d",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 4520,
-				"y": -120
 			}
 		},
 		{
@@ -347,6 +256,97 @@
 			"EditorPosition": {
 				"x": 4020,
 				"y": -380
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "3557be39-1223-4823-a2c1-5482f9089f0c",
+			"OptionsID": [
+				"8daf4ccf-b06b-4f50-b9ad-c6bbc1856687",
+				"eee494b6-6fb9-4a9d-b6d9-4ec5c7f81efe",
+				"0658e5b6-c91d-41c2-9cd7-27b0aa37cdad",
+				"3823de50-d1bd-49e7-99fa-a56211c424e2",
+				"215d7e86-89ad-4ccb-9b73-b1fa6e11de0e",
+				"c27e3de8-1123-487f-be0c-5d4c400ed39c"
+			],
+			"EditorPosition": {
+				"x": 2000,
+				"y": -400
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "8daf4ccf-b06b-4f50-b9ad-c6bbc1856687",
+			"NextID": "a1ad977c-d447-4795-b58a-aeae6281ac88",
+			"Sentence": "Genio Incomprendido",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "eee494b6-6fb9-4a9d-b6d9-4ec5c7f81efe",
+			"NextID": "ae03e41c-9f8b-488d-b809-639dfa89a077",
+			"Sentence": "Fan incondicional",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "0658e5b6-c91d-41c2-9cd7-27b0aa37cdad",
+			"NextID": "1bc89ffa-57fa-46c7-85c4-8e632b3df294",
+			"Sentence": "Otro dia más",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "3823de50-d1bd-49e7-99fa-a56211c424e2",
+			"NextID": "a83378d7-da86-467a-a4bb-6cd54ec85cb5",
+			"Sentence": "Apoyar en Casa",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "215d7e86-89ad-4ccb-9b73-b1fa6e11de0e",
+			"NextID": "49e8776a-ebf5-4363-b86f-a4e1ec79f3d3",
+			"Sentence": "Hacuma Mapapa",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "c27e3de8-1123-487f-be0c-5d4c400ed39c",
+			"NextID": "70de51ab-63b0-4afe-ab48-9b986d3a0771",
+			"Sentence": "Pufffffffffff",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "c1af7f7f-70c5-47a0-8036-7d92f3803359",
+			"NextStoryName": "9",
+			"EditorPosition": {
+				"x": 3560,
+				"y": -620
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "7a649009-51cb-4a16-a712-8a7746e65b73",
+			"NextStoryName": "8",
+			"EditorPosition": {
+				"x": 4540,
+				"y": -400
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "fcecb25b-b126-452b-8d08-01b7e033785d",
+			"NextStoryName": "6",
+			"EditorPosition": {
+				"x": 4520,
+				"y": -120
 			}
 		}
 	],

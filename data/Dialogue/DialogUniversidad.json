@@ -180,24 +180,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "8283d6f8-d21c-4858-b1cf-aac61fb2e09c",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3560,
-				"y": 100
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "21082d23-53b1-44df-9872-05e048758801",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 2600,
-				"y": -500
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "4057004b-4960-4635-bdec-9ed8fa6d0b2d",
 			"NextID": "21082d23-53b1-44df-9872-05e048758801",
@@ -302,15 +284,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "ccd6e5fd-cb58-4f69-b141-2a283d40a0f3",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 2317.17504882813,
-				"y": -75.0929641723633
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "3c51ad02-2b01-4497-ba22-a83cd28cca3e",
 			"NextID": "ccd6e5fd-cb58-4f69-b141-2a283d40a0f3",
@@ -347,6 +320,33 @@
 			"EditorPosition": {
 				"x": 1200,
 				"y": -20
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "21082d23-53b1-44df-9872-05e048758801",
+			"NextStoryName": "6",
+			"EditorPosition": {
+				"x": 2600,
+				"y": -500
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "ccd6e5fd-cb58-4f69-b141-2a283d40a0f3",
+			"NextStoryName": "9",
+			"EditorPosition": {
+				"x": 2317.17504882813,
+				"y": -75.0929641723633
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "8283d6f8-d21c-4858-b1cf-aac61fb2e09c",
+			"NextStoryName": "5",
+			"EditorPosition": {
+				"x": 3560,
+				"y": 100
 			}
 		}
 	],

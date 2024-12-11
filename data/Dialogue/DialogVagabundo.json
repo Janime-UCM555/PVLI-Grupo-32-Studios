@@ -128,15 +128,6 @@
 			"OneShot": false
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "20ef49b8-039c-495d-99ae-d91009613a7f",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3260,
-				"y": -40
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "024d5b5d-b17c-4bff-bce5-8a793fd77ef3",
 			"NextID": "3ac1e470-717e-4ace-9d88-17ccc7fde7f9",
@@ -203,8 +194,17 @@
 		},
 		{
 			"$type": "NodeEndPath",
-			"ID": "d50063a6-3d3f-4e61-9dbc-256fe5e69fb8",
+			"ID": "20ef49b8-039c-495d-99ae-d91009613a7f",
 			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 3260,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "d50063a6-3d3f-4e61-9dbc-256fe5e69fb8",
+			"NextStoryName": "9",
 			"EditorPosition": {
 				"x": 5540,
 				"y": -260

@@ -128,15 +128,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "1d1fd429-77e2-4bda-b41e-9d06bf0cd7a4",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3280,
-				"y": -660
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "b9503ee0-81d4-4f26-a6a6-818a950f4211",
 			"NextID": "1d1fd429-77e2-4bda-b41e-9d06bf0cd7a4",
@@ -147,15 +138,6 @@
 			"EditorPosition": {
 				"x": 2820,
 				"y": -740
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "ed23ad7d-e667-4db3-91b9-a922ca925bf9",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3120,
-				"y": -400
 			}
 		},
 		{
@@ -195,19 +177,6 @@
 			"EditorPosition": {
 				"x": 1900,
 				"y": -380
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "7e799a3f-139e-47a9-adbc-8dd93a9fdce9",
-			"NextID": "a36cd053-3a3c-402e-8ea2-0854b3743a06",
-			"Sentence": "Tu idea falla estrepitosamente. El circuito se funde quedando destrozado tu invento. Por otro lado el pedazo de ejemplar que lamentablemente llamas amigo al ver el humo se pone a rezar un padre nuestro por la muerte de tu invento.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1880,
-				"y": -520
 			}
 		},
 		{
@@ -263,15 +232,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "634ab1fa-2eb0-48a8-b77c-b94b8c98fb74",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3360,
-				"y": -120
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "0520d854-15fd-4ec9-aa5f-341e406da875",
 			"NextID": "634ab1fa-2eb0-48a8-b77c-b94b8c98fb74",
@@ -295,6 +255,46 @@
 			"EditorPosition": {
 				"x": 1920,
 				"y": 140
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7e799a3f-139e-47a9-adbc-8dd93a9fdce9",
+			"NextID": "a36cd053-3a3c-402e-8ea2-0854b3743a06",
+			"Sentence": "Tu idea falla estrepitosamente. El circuito se funde quedando destrozado tu invento. Por otro lado el pedazo de ejemplar que lamentablemente llamas amigo al ver el humo se pone a rezar un padre nuestro por la muerte de tu invento.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1880,
+				"y": -520
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "ed23ad7d-e667-4db3-91b9-a922ca925bf9",
+			"NextStoryName": "9",
+			"EditorPosition": {
+				"x": 3120,
+				"y": -400
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "1d1fd429-77e2-4bda-b41e-9d06bf0cd7a4",
+			"NextStoryName": "6",
+			"EditorPosition": {
+				"x": 3280,
+				"y": -660
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "634ab1fa-2eb0-48a8-b77c-b94b8c98fb74",
+			"NextStoryName": "5",
+			"EditorPosition": {
+				"x": 3360,
+				"y": -120
 			}
 		}
 	],
