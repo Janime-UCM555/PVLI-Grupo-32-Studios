@@ -49,8 +49,15 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('Pestoso','../assets/Pestoso.jpg');
             this.load.image('Juego','../assets/Juega.jpg');
             this.load.image('Mertxor','../assets/Mertxor.jpg');
+            this.load.image('bgInsti-Pelota','../assets/bgInsti-pelota.jpg');
+            this.load.image('bgInsti-Uno','../assets/bgInsti-uno.jpg');
+            this.load.image('bgInti-Apadrinado','../assets/bgInsti-apadrinado.jpg');
+            this.load.image('bgInsti-Pestoso','../assets/bgInsti.jpg');
+            this.load.image('bgInsti-Juega','../assets/bgInsti-juega.jpg');
+            this.load.image('bgInsti-Mertxor','../assets/bgInti-mertxor.jpg');
             
             //Estudios
+
             this.load.json('dataEstudios','../../data/Dialogue/DialogEstudios.json');
             this.load.json('cartasEstudios','../data/Cartas/CartasES.json');
             this.load.image('backgroundEstudios','../assets/fondos/Estudios/backgorund-estudios.jpg');
@@ -62,21 +69,13 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('estudios-creaInator','../assets/cardImages/Estudios/estudios-creainators.png');
             this.load.image('estudios-consejo','../assets/cardImages/Estudios/estudios-consejo.jpg');
 
-            this.load.image('Universidad','../assets/fondos/Estudios/estudios-uni.jpeg');
-            this.load.image('Universidad','../assets/fondos/Estudios/estudios-fp.jpeg');
-            this.load.image('Universidad','../assets/fondos/Estudios/estudios-chamba.jpg');
-            this.load.image('Universidad','../assets/fondos/Estudios/estudios-mantenido.jpeg');
-            this.load.image('Universidad','../assets/fondos/Estudios/estudios-creainators.png');
-            this.load.image('Universidad','../assets/fondos/Estudios/estudios-consejo.jpg');
+            this.load.image('universidad','../assets/fondos/Estudios/estudios-uni.jpeg');
+            this.load.image('gradosuperior','../assets/fondos/Estudios/estudios-fp.jpeg');
+            this.load.image('chamba','../assets/fondos/Estudios/estudios-chamba.jpg');
+            this.load.image('nini','../assets/fondos/Estudios/estudios-mantenido.jpeg');
+            this.load.image('inventorcaserocrea-inetors','../assets/fondos/Estudios/estudios-creainators.png');
+            this.load.image('buscarconsejo','../assets/fondos/Estudios/estudios-consejo.jpg');
 
-
-            this.load.image('bgInsti-Pelota','../assets/bgInsti-pelota.jpg');
-            this.load.image('bgInsti-Uno','../assets/bgInsti-uno.jpg');
-            this.load.image('bgInti-Apadrinado','../assets/bgInsti-apadrinado.jpg');
-            this.load.image('bgInsti-Pestoso','../assets/bgInsti.jpg');
-            this.load.image('bgInsti-Juega','../assets/bgInsti-juega.jpg');
-            this.load.image('bgInsti-Mertxor','../assets/bgInti-mertxor.jpg');
-            
 
              //Mantenido
              this.load.json('dataMantenido','../data/Dialogue/DialogMantenido.json');
@@ -89,14 +88,6 @@ export default class MenuScene extends Phaser.Scene {
              this.load.image('mantenido-apoyo','../assets/cardImages/Mantenido/ApoyarEnCasa.png');
              this.load.image('mantenido-hacuma','../assets/cardImages/Mantenido/Hacuma Mapapa.jpg');
              this.load.image('mantenido-puf','../assets/cardImages/Mantenido/puffffffff.jpg');
- 
-            //  this.load.image('bgParque-ligon', '../assets/fondos/Parque/Ligoteo.jpg');
-            //  this.load.image('bgParque-amigos', '../assets/fondos/Parque/amigos.jpg');
-            //  this.load.image('bgParque-antiSoc', '../assets/fondos/Parque/antisocial.jpg');
-            //  this.load.image('bgParque-avInd', '../assets/fondos/Parque/Aventura.jpg');
-            //  this.load.image('bgParque-robar', '../assets/fondos/Parque/Ladron.jpg');
-            //  this.load.image('bgParque-banda', '../assets/fondos/Parque/banda.jpg');
-
 
             // Bar
             this.load.json('dataBar','../data/Dialogue/DialogBar.json');
@@ -109,6 +100,25 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('bar-Irte','../assets/cardImages/Bar/Saliendo.jpg');
             this.load.image('bar-Mano','../assets/cardImages/Bar/Mano.jpg');
             this.load.image('bar-Ahogar','../assets/cardImages/Bar/beber.jpg');
+
+            //Grado Superior
+            this.load.json('dataGSuperior','../data/Dialogue/DialogFP.json');
+            this.load.json('cardGSuperior','../data/Cartas/CartasFP.json');
+            this.load.image('backgroundFP','../assets/fondos/Grado Superior/gs-background.jpg');
+
+            this.load.image('gs-PruebaProfesor','../assets/cardImages/Grado Superior/gs-PruebasProfesor.jpeg');
+            this.load.image('gs-Ideaca','../assets/cardImages/Grado Superior/gs-Ideaca.jpg');
+            this.load.image('gs-LuzBalcón','../assets/cardImages/Grado Superior/gs-LuzBalcón.jpeg');
+            this.load.image('gs-Emprendedor','../assets/cardImages/Grado Superior/gs-Emprendedor.jpeg');
+            this.load.image('gs-CafeAmargo','../assets/cardImages/Grado Superior/gs-CaféAmargo.jpeg');
+            this.load.image('gs-PrestamoEgoista','../assets/cardImages/Grado Superior/gs-PrestamoEgoista.jpg');
+
+            this.load.image('bg-PruebaProfesor','../assets/fondos/Grado Superior/gs-PruebaPRofesor.png');
+            this.load.image('bg-Ideaca','../assets/fondos/Grado Superior/gs-Ideaca.png');
+            this.load.image('bg-LuzBalcon','../assets/fondos/Grado Superior/gs-LuzBalcón.png');
+            this.load.image('bg-Emprededor','../assets/fondos/Grado Superior/gs-Empreddedor.jpg');
+            this.load.image('bg-CafeAmargo','../assets/fondos/Grado Superior/gs-CaféAmargo.jpg');
+            this.load.image('bg-PrestamoEgoista','../assets/fondos/Grado Superior/gs-PrestamonoGeneroso.jpg');
 
             //Sprites
             this.load.image('gato', '../assets/sprites/Gato.png');
