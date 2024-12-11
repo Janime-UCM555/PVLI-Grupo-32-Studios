@@ -36,6 +36,7 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('bgParque-avInd', '../assets/fondos/Parque/Aventura.jpg');
             this.load.image('bgParque-robar', '../assets/fondos/Parque/Ladron.jpg');
             this.load.image('bgParque-banda', '../assets/fondos/Parque/banda.jpg');
+            
             //Insti
             this.load.json('dataInsti','../data/Dialogue/DialogInstituto.json');
             this.load.json('cartasInsti','../data/Cartas/CartasInstituto.json');
@@ -47,6 +48,26 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('Pestoso','../assets/Pestoso.jpg');
             this.load.image('Juego','../assets/Juega.jpg');
             this.load.image('Mertxor','../assets/Mertxor.jpg');
+            
+            //Estudios
+            this.load.json('dataEstudios','../../data/Dialogue/DialogEstudios.json');
+            this.load.json('cartasEstudios','../data/Cartas/CartasES.json');
+            this.load.image('backgroundEstudios','../assets/fondos/Estudios/backgorund-estudios.jpg');
+
+            this.load.image('estudios-uni','../assets/cardImages/Estudios/estudios-universidad.jpg');
+            this.load.image('estudios-fp','../assets/cardImages/Estudios/estudios-fp.jpg');
+            this.load.image('estudios-chamba','../assets/cardImages/Estudios/estudios-chamba.png');
+            this.load.image('estudios-nini','../assets/cardImages/Estudios/estudios-nini.jpg');
+            this.load.image('estudios-creaInator','../assets/cardImages/Estudios/estudios-creainators.png');
+            this.load.image('estudios-consejo','../assets/cardImages/Estudios/estudios-consejo.jpg');
+
+            this.load.image('Universidad','../assets/fondos/Estudios/estudios-uni.jpeg');
+            this.load.image('Universidad','../assets/fondos/Estudios/estudios-fp.jpeg');
+            this.load.image('Universidad','../assets/fondos/Estudios/estudios-chamba.jpg');
+            this.load.image('Universidad','../assets/fondos/Estudios/estudios-mantenido.jpeg');
+            this.load.image('Universidad','../assets/fondos/Estudios/estudios-creainators.png');
+            this.load.image('Universidad','../assets/fondos/Estudios/estudios-consejo.jpg');
+
 
             
              //Mantenido
