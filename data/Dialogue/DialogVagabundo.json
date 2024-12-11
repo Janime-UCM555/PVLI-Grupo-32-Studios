@@ -1,0 +1,229 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "bc1c0be7-8a69-489c-ba46-ec517d622350",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "bc1c0be7-8a69-489c-ba46-ec517d622350",
+			"NextID": "b2f3ecee-bba5-4bbe-a2ae-c9ca17065d53",
+			"EditorPosition": {
+				"x": 240,
+				"y": -60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b2f3ecee-bba5-4bbe-a2ae-c9ca17065d53",
+			"NextID": "4ff42e5d-a6df-4880-8c80-86c78b97bd6f",
+			"Sentence": "Venga te presento las opciones...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 700,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4ff42e5d-a6df-4880-8c80-86c78b97bd6f",
+			"NextID": "f01ff6ca-b193-4a0f-ba78-12789963bd9c",
+			"Sentence": "Ostras ¿qué prisas tienes esta vez? Ahora que estoy mal al menos podrías ser más comprensivo. O bueno espera ¿ Puedes sacarme de aquí?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1140,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f01ff6ca-b193-4a0f-ba78-12789963bd9c",
+			"NextID": "0e4979d0-efd0-446b-9c79-a2cf542fcc67",
+			"Sentence": "Eso depende de ti yo solo estoy impaciente por ver tu final.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1600,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0e4979d0-efd0-446b-9c79-a2cf542fcc67",
+			"NextID": "ca5b5a80-1fe1-4c82-bb0a-36f3a994c408",
+			"Sentence": "¿Eso es una amenaza?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2080,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "ca5b5a80-1fe1-4c82-bb0a-36f3a994c408",
+			"OptionsID": [
+				"b5626a32-befd-4f0a-9971-af4f56b0c9f9",
+				"acda727a-5bef-46e3-be30-e2ca97216cc7",
+				"bb0440e1-0a3c-48ab-aa2e-8765a6d91fbd",
+				"da4ebd3a-8f62-4e8c-9eaa-0037a953685a",
+				"5a7a33dc-a61e-4c96-bf88-fb2a1d43a343",
+				"8d862adc-9286-4322-9fb7-24ed61ff0c38"
+			],
+			"EditorPosition": {
+				"x": 2580,
+				"y": -300
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "b5626a32-befd-4f0a-9971-af4f56b0c9f9",
+			"NextID": "024d5b5d-b17c-4bff-bce5-8a793fd77ef3",
+			"Sentence": "Reinvención",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "acda727a-5bef-46e3-be30-e2ca97216cc7",
+			"NextID": "20ef49b8-039c-495d-99ae-d91009613a7f",
+			"Sentence": "¿Para qué si todo sale mal?",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "bb0440e1-0a3c-48ab-aa2e-8765a6d91fbd",
+			"NextID": "20ef49b8-039c-495d-99ae-d91009613a7f",
+			"Sentence": "Destino Fatal",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "da4ebd3a-8f62-4e8c-9eaa-0037a953685a",
+			"NextID": "20ef49b8-039c-495d-99ae-d91009613a7f",
+			"Sentence": "Perdiendo el tiempo",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "5a7a33dc-a61e-4c96-bf88-fb2a1d43a343",
+			"NextID": "20ef49b8-039c-495d-99ae-d91009613a7f",
+			"Sentence": "Error fatal",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "8d862adc-9286-4322-9fb7-24ed61ff0c38",
+			"NextID": "20ef49b8-039c-495d-99ae-d91009613a7f",
+			"Sentence": "Levantarse para caer",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "20ef49b8-039c-495d-99ae-d91009613a7f",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 3260,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "024d5b5d-b17c-4bff-bce5-8a793fd77ef3",
+			"NextID": "3ac1e470-717e-4ace-9d88-17ccc7fde7f9",
+			"Sentence": "Bueno, al menos parece que no estas del todo perdido, pero tal vez sea tarde para llegar a ser todo lo que pudiste aspirar.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2951.37915039063,
+				"y": -282.289733886719
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4a09d7b3-7aad-4721-8d26-99f6bfdfde3b",
+			"NextID": "cec79ee7-3efc-473f-b59f-6cf15a158188",
+			"Sentence": "Nada humano no te preocupes es hora de empezar con las ideas que le rondan la cabeza ¿No? es hora de inventar.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4000,
+				"y": -260
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "3ac1e470-717e-4ace-9d88-17ccc7fde7f9",
+			"NextID": "4a09d7b3-7aad-4721-8d26-99f6bfdfde3b",
+			"Sentence": "¿Cómo? ¿A qué te refieres gato?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3480,
+				"y": -260
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "cec79ee7-3efc-473f-b59f-6cf15a158188",
+			"NextID": "75f26079-5634-45ba-bb1c-761de265c475",
+			"Sentence": "Bien eso es lo que pretendo",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4500,
+				"y": -220
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "75f26079-5634-45ba-bb1c-761de265c475",
+			"NextID": "d50063a6-3d3f-4e61-9dbc-256fe5e69fb8",
+			"Sentence": "Buena suerte en tu siguiente elección Melchor confio en que harás lo correcto.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5060,
+				"y": -240
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "d50063a6-3d3f-4e61-9dbc-256fe5e69fb8",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 5540,
+				"y": -260
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}

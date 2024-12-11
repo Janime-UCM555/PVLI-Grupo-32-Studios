@@ -1,0 +1,368 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "adb9bf20-3116-49b6-a9f9-88b7ed73d789",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "adb9bf20-3116-49b6-a9f9-88b7ed73d789",
+			"NextID": "c973fe25-ca50-49d0-8735-912946fdcb06",
+			"EditorPosition": {
+				"x": -1120,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c973fe25-ca50-49d0-8735-912946fdcb06",
+			"NextID": "16f346dc-079d-421f-aa01-fbf9ff2fb025",
+			"Sentence": "Bueno pues nada a prepararte para poder aprender ¿no?",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": -700,
+				"y": -160
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "16f346dc-079d-421f-aa01-fbf9ff2fb025",
+			"NextID": "ef9a2498-04ec-499c-bded-2bff55029b9b",
+			"Sentence": "Bueno yo cuando fui a la uni siempre acaba muy angustiado del volumen de trabajo.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": -260,
+				"y": -180
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "ef9a2498-04ec-499c-bded-2bff55029b9b",
+			"NextID": "cbabe006-c489-4819-a546-4b7f2bc8766d",
+			"Sentence": "Entonces amigo veamos que te depará el fututo.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 220,
+				"y": -180
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "cbabe006-c489-4819-a546-4b7f2bc8766d",
+			"OptionsID": [
+				"3ea37da0-6b60-4210-9bf4-facbadda4af3",
+				"78dc9516-fa9a-4fe5-af75-08959752077d",
+				"bdb15de5-65da-476c-90ba-68249bce755f",
+				"8fb7ee01-160e-47c6-acfc-abf9f0cac552",
+				"c7c023bc-a704-45fa-bc22-4263e25a1606",
+				"e3bdf5d7-a7aa-438b-bd9e-3e852d9c20b4"
+			],
+			"EditorPosition": {
+				"x": 720,
+				"y": -260
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "3ea37da0-6b60-4210-9bf4-facbadda4af3",
+			"NextID": "7b04b1e8-02b1-447c-b258-d08b2be00e52",
+			"Sentence": "Y encima sin cobrar",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "78dc9516-fa9a-4fe5-af75-08959752077d",
+			"NextID": "7bdc15bf-64f1-40a8-a192-35e193f9cadd",
+			"Sentence": "Si tiene miedo al cambio dejelo aquí",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "bdb15de5-65da-476c-90ba-68249bce755f",
+			"NextID": "9f66cfee-ce98-486d-a00f-536aa6088ed5",
+			"Sentence": "Eso lo hago yo 100% y sin cobrar",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "8fb7ee01-160e-47c6-acfc-abf9f0cac552",
+			"NextID": "26894f57-3448-4d81-aebb-f911fc636874",
+			"Sentence": "Se vienen cositas",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "c7c023bc-a704-45fa-bc22-4263e25a1606",
+			"NextID": "526a66b8-153c-42dc-8331-963543b3ec83",
+			"Sentence": "Café con una rosquilla",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "e3bdf5d7-a7aa-438b-bd9e-3e852d9c20b4",
+			"NextID": "f130b8a3-c2b1-4878-8a47-ddb54a3b68a5",
+			"Sentence": "Aplicar lo aprendido",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "8f62ad1a-32cd-4d43-b44c-fa40e465db1c",
+			"NextID": "d7f373b9-bb8f-4a81-9a5c-4d251fed53d9",
+			"Sentence": "Bien ese acabo siendo mi restaurante favorito. Trabaje ahí ¿sabes?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2040,
+				"y": 140
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f130b8a3-c2b1-4878-8a47-ddb54a3b68a5",
+			"NextID": "19b0ef5f-0050-4e69-829e-4ca4e86a93f7",
+			"Sentence": "Bueno ahora que tienes esa carta creo que sabes que vas a hacer ¿verdad?",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1140,
+				"y": 280
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "19b0ef5f-0050-4e69-829e-4ca4e86a93f7",
+			"NextID": "4057004b-4960-4635-bdec-9ed8fa6d0b2d",
+			"Sentence": "Bueno después de esta recomendación y el salario que me dan esta bastante claro. Solo queda una cosa.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1620,
+				"y": 280
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "d7f373b9-bb8f-4a81-9a5c-4d251fed53d9",
+			"NextID": "ace08fff-42bc-4e2a-aed9-6ff7dcf317b0",
+			"Sentence": "Curioso dato, ya lo conocia y tal vez te lleves alguna sorpresa. Pero ahora veamos que pasa a continuación.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2580,
+				"y": 140
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "ace08fff-42bc-4e2a-aed9-6ff7dcf317b0",
+			"NextID": "8283d6f8-d21c-4858-b1cf-aac61fb2e09c",
+			"Sentence": "¿Sorpresa? No me imagino que podrá ser.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3080,
+				"y": 140
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "8283d6f8-d21c-4858-b1cf-aac61fb2e09c",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 3560,
+				"y": 100
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "21082d23-53b1-44df-9872-05e048758801",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 2600,
+				"y": -500
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4057004b-4960-4635-bdec-9ed8fa6d0b2d",
+			"NextID": "21082d23-53b1-44df-9872-05e048758801",
+			"Sentence": "Habrá que currar.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2100,
+				"y": -480
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7b04b1e8-02b1-447c-b258-d08b2be00e52",
+			"NextID": "dcee7db0-16b4-42e7-804f-9a690c498d30",
+			"Sentence": "Bueno al parecer esa ansiedad te ha podido. No te preocupes mi querido Melchor al final es opción tuya.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1140,
+				"y": -500
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "dcee7db0-16b4-42e7-804f-9a690c498d30",
+			"NextID": "4057004b-4960-4635-bdec-9ed8fa6d0b2d",
+			"Sentence": "Efectivamente amigo, a veces hay cosas que no estan hechas para ti. Pero no pasa nada ahora solo toca una cosa.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1600,
+				"y": -500
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7bdc15bf-64f1-40a8-a192-35e193f9cadd",
+			"NextID": "863db7f0-7b70-4b45-9bde-edb6687e2e4f",
+			"Sentence": "No te preocupes Melchor. No te estas equivocando con esta opción. ",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1120,
+				"y": -280
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "863db7f0-7b70-4b45-9bde-edb6687e2e4f",
+			"NextID": "535bc885-e718-44c6-b54d-1ca562c30685",
+			"Sentence": "Eso espero gato. Ya sabes lo que me gustaría llegar a conseguir.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1560,
+				"y": -280
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "535bc885-e718-44c6-b54d-1ca562c30685",
+			"NextID": "4057004b-4960-4635-bdec-9ed8fa6d0b2d",
+			"Sentence": "Bueno solo te queda esperar a seguir adelante. Ya sabes lo que te toca ahora.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2000,
+				"y": -280
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "9f66cfee-ce98-486d-a00f-536aa6088ed5",
+			"NextID": "c31fb57f-1cb3-4802-8bd9-a312fb779d6c",
+			"Sentence": "Te noto con confianza Melchor. ¡Entonces pasamos ya a ser unos inventores!",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1180,
+				"y": -140
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c31fb57f-1cb3-4802-8bd9-a312fb779d6c",
+			"NextID": "ccd6e5fd-cb58-4f69-b141-2a283d40a0f3",
+			"Sentence": "¿Sí? ¡Que bien por fiiiiin! Aún más cerca de mi sueño.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1600,
+				"y": -140
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "ccd6e5fd-cb58-4f69-b141-2a283d40a0f3",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 2317.17504882813,
+				"y": -75.0929641723633
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "3c51ad02-2b01-4497-ba22-a83cd28cca3e",
+			"NextID": "ccd6e5fd-cb58-4f69-b141-2a283d40a0f3",
+			"Sentence": "¡Oleee! Pense que nunca tendría uno de estos. Gracias gato. Ahora a seguir.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1660,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "526a66b8-153c-42dc-8331-963543b3ec83",
+			"NextID": "8f62ad1a-32cd-4d43-b44c-fa40e465db1c",
+			"Sentence": "Recoges rápidamente todo lo de tu mochila y te dispones a ir al bar esta misma noche.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1160,
+				"y": 140
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "26894f57-3448-4d81-aebb-f911fc636874",
+			"NextID": "3c51ad02-2b01-4497-ba22-a83cd28cca3e",
+			"Sentence": "Esperas a terminar la carrera y con tu recien adquirido titulo tienes la confianza de hacer lo que quieras. Serás un gran inventor.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1200,
+				"y": -20
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}

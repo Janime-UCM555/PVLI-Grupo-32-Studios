@@ -1,0 +1,368 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "dfec22fe-c98d-4ced-83e8-0ca9911c0b76",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "dfec22fe-c98d-4ced-83e8-0ca9911c0b76",
+			"NextID": "720b80b4-6223-43b9-8b54-7c9a1a4b501a",
+			"EditorPosition": {
+				"x": -520,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "720b80b4-6223-43b9-8b54-7c9a1a4b501a",
+			"NextID": "f7d25f05-1602-4d2a-ba0d-07bea63ef8ec",
+			"Sentence": "Bueno Melchor ya estas en tu casa sin hacer nada como querías.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": -60,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f7d25f05-1602-4d2a-ba0d-07bea63ef8ec",
+			"NextID": "a7d650e5-b198-46b7-8789-27771c8f5a54",
+			"Sentence": "Glorioso. Bueno enseñame ya cual es mi destino gato. ",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 400,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "a7d650e5-b198-46b7-8789-27771c8f5a54",
+			"NextID": "00368c35-4f8a-4c43-8308-aca374fb17a8",
+			"Sentence": "Si ya lo dijo alguien alguna vez - Si yo no te pido que me lo mejores, solo que me lo iguales. Al final en casa de los padres como en ningun lao'. -",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 860,
+				"y": -140
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "00368c35-4f8a-4c43-8308-aca374fb17a8",
+			"NextID": "3557be39-1223-4823-a2c1-5482f9089f0c",
+			"Sentence": "Tranquilo humano aquí tienes las posibilidades...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1420,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "3557be39-1223-4823-a2c1-5482f9089f0c",
+			"OptionsID": [
+				"8daf4ccf-b06b-4f50-b9ad-c6bbc1856687",
+				"eee494b6-6fb9-4a9d-b6d9-4ec5c7f81efe",
+				"0658e5b6-c91d-41c2-9cd7-27b0aa37cdad",
+				"3823de50-d1bd-49e7-99fa-a56211c424e2",
+				"215d7e86-89ad-4ccb-9b73-b1fa6e11de0e",
+				"c27e3de8-1123-487f-be0c-5d4c400ed39c"
+			],
+			"EditorPosition": {
+				"x": 2000,
+				"y": -400
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "8daf4ccf-b06b-4f50-b9ad-c6bbc1856687",
+			"NextID": "a1ad977c-d447-4795-b58a-aeae6281ac88",
+			"Sentence": "Genio Incomprendido",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "eee494b6-6fb9-4a9d-b6d9-4ec5c7f81efe",
+			"NextID": "ae03e41c-9f8b-488d-b809-639dfa89a077",
+			"Sentence": "Fan incondicional",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "0658e5b6-c91d-41c2-9cd7-27b0aa37cdad",
+			"NextID": "1bc89ffa-57fa-46c7-85c4-8e632b3df294",
+			"Sentence": "Otro dia más",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "3823de50-d1bd-49e7-99fa-a56211c424e2",
+			"NextID": "a83378d7-da86-467a-a4bb-6cd54ec85cb5",
+			"Sentence": "Apoyar en Casa",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "215d7e86-89ad-4ccb-9b73-b1fa6e11de0e",
+			"NextID": "49e8776a-ebf5-4363-b86f-a4e1ec79f3d3",
+			"Sentence": "Hacuma Mapapa",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "c27e3de8-1123-487f-be0c-5d4c400ed39c",
+			"NextID": "70de51ab-63b0-4afe-ab48-9b986d3a0771",
+			"Sentence": "Pufffffffffff",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "a1ad977c-d447-4795-b58a-aeae6281ac88",
+			"NextID": "b4d9c879-4ef3-46b5-b9c8-ee39993caf13",
+			"Sentence": "Va gato no te enfades que tampoco he perdido el tiempo. He tenido una gran idea mientras miraba las cartas.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2520,
+				"y": -560
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b4d9c879-4ef3-46b5-b9c8-ee39993caf13",
+			"NextID": "c1af7f7f-70c5-47a0-8036-7d92f3803359",
+			"Sentence": "¿Sí? Me alegro mucho entoces mi querido Melchor. Empecemos con los inventos entonces.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2980,
+				"y": -600
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "c1af7f7f-70c5-47a0-8036-7d92f3803359",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 3560,
+				"y": -620
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "ae03e41c-9f8b-488d-b809-639dfa89a077",
+			"NextID": "18a9ac29-c221-4698-b572-854a4e706262",
+			"Sentence": "Fua la gran oportunidad de hundirme en merch de mi serie favorita,  Las lagrimas de los chorizos saben a pimenton. Qué gran obra, se merece esta adaptación al séptimo arte. Gato, ¿Cómo elegiría otra cosa?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2520,
+				"y": -420
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "18a9ac29-c221-4698-b572-854a4e706262",
+			"NextID": "9def3c18-e32f-4d02-8af1-3975029fa29e",
+			"Sentence": "En fin humano, te informo de que te excedes mientras estais en la tienda del cine  y acabas molestando a tus padres de todo lo que gastas. Al final del día te quedas sin casa.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3000,
+				"y": -440
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "9def3c18-e32f-4d02-8af1-3975029fa29e",
+			"NextID": "2ea705be-3b48-4cc4-9388-73d05f7eeee7",
+			"Sentence": "¿Qué?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3520,
+				"y": -420
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "7a649009-51cb-4a16-a712-8a7746e65b73",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 4540,
+				"y": -400
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "5ee428f7-14e3-4a47-a48d-1900ab79bf14",
+			"NextID": "482e88e3-5a14-44f6-9423-267a5e6e4e20",
+			"Sentence": "Melchor que alegría que no te hayas rendido con tus sueños.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2960,
+				"y": -60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "482e88e3-5a14-44f6-9423-267a5e6e4e20",
+			"NextID": "44006949-f79f-43d5-89ea-f4345c8ea442",
+			"Sentence": "¿Joe gato tan mal te sentias porque haya vagueado un poco?",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3520,
+				"y": -60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "44006949-f79f-43d5-89ea-f4345c8ea442",
+			"NextID": "fcecb25b-b126-452b-8d08-01b7e033785d",
+			"Sentence": "Disculpame mi querido Melchor. Sigamos con el trabajo que encontraras estoy seguro de que esta parte si te va a gustar.\n",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4020,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "fcecb25b-b126-452b-8d08-01b7e033785d",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 4520,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "a83378d7-da86-467a-a4bb-6cd54ec85cb5",
+			"NextID": "5ee428f7-14e3-4a47-a48d-1900ab79bf14",
+			"Sentence": "Pues estuvo bien mientras duró. Ahora hay que seguir ¿no? ",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2500,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "1bc89ffa-57fa-46c7-85c4-8e632b3df294",
+			"NextID": "b1b0911c-71fa-4234-a130-e2d8f47c127c",
+			"Sentence": "Pues no noto nada distinto.\n",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2520,
+				"y": -220
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b1b0911c-71fa-4234-a130-e2d8f47c127c",
+			"NextID": "9def3c18-e32f-4d02-8af1-3975029fa29e",
+			"Sentence": "No te impacientes humano, tus padres estan reuniendo el valor para hecharte de casa.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3060,
+				"y": -220
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "49e8776a-ebf5-4363-b86f-a4e1ec79f3d3",
+			"NextID": "c982cbc4-2db9-4200-a02c-0fefbf93ab02",
+			"Sentence": "Bueno pues eso lo mejor es no rayarse.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2520,
+				"y": 100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "70de51ab-63b0-4afe-ab48-9b986d3a0771",
+			"NextID": "c982cbc4-2db9-4200-a02c-0fefbf93ab02",
+			"Sentence": "Bueno pues entonces puedo descansar de una vez ¿no? Avisame cuando tenga otra cosa que hacer.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2540,
+				"y": 260
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c982cbc4-2db9-4200-a02c-0fefbf93ab02",
+			"NextID": "9def3c18-e32f-4d02-8af1-3975029fa29e",
+			"Sentence": "Yo en tú situación no estaría tan tranquilo humano. Pronto donde vives ya no será tu casa.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3060,
+				"y": 180
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "2ea705be-3b48-4cc4-9388-73d05f7eeee7",
+			"NextID": "7a649009-51cb-4a16-a712-8a7746e65b73",
+			"Sentence": "Solo son las consecuencias de tus acciones humano. Ahora no te arrepientas.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4020,
+				"y": -380
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}

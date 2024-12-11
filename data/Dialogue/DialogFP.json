@@ -1,0 +1,30 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "f0ece387-d8b1-4b6e-bf1e-7dc9d4dc5ab1",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "f0ece387-d8b1-4b6e-bf1e-7dc9d4dc5ab1",
+			"NextID": -1,
+			"EditorPosition": {
+				"x": -580,
+				"y": 0
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}
