@@ -21,6 +21,9 @@ class PauseMenu extends Phaser.Scene{
         this.add.text(this.cameras.main.width/2,50,'PAUSA',{fontSize: '32px', fill: '#FFF'}).setOrigin(0.5, 0);;
 
         this.continueButton = new Button(this, this.cameras.main.width/2, 200, 'CONTINUAR', () =>{
+            this.auxCards.forEach(element => {
+                element.deleteCard();
+            });
             this.scene.stop();
             this.scene.resume(this.activeSceneKey);
         });
@@ -36,7 +39,7 @@ class PauseMenu extends Phaser.Scene{
             this.hideButtons();
             this.showCards();
         });
-        this.KarmaBar = new Barrita(this, 230, 220,0xFF0000 , 0x555555, 0, 100);
+        this.KarmaBar = new Barrita(this, this.sys.game.canvas.width/2 - 200, 220,0xFF0000 , 0x555555, 0, 200);
         this.KarmaBar.setVisible(false);
     }
     showStats() {
@@ -59,17 +62,17 @@ class PauseMenu extends Phaser.Scene{
     }
     showCards()
     {
-        let auxCards = this.sys.game.registry.get('myCards');
-        console.log(auxCards);
+        this.auxCards = this.sys.game.registry.get('myCards');
+        console.log(this.auxCards);
         var startX = 200;
         var startY = 200;
-        if(!Array.isArray(auxCards))
+        if(!Array.isArray(this.auxCards))
             {
             auxCards = [];
         }
         else
         {
-            auxCards.forEach(element => {
+            this.auxCards.forEach(element => {
                 this.add.existing(element);
                 element.setPosition(startX,startY);
                 element.setVisible(true);
@@ -78,7 +81,7 @@ class PauseMenu extends Phaser.Scene{
           
         }            
         this.returnCardButton = new Button(this, this.cameras.main.width / 2, 430, 'CERRAR', () => {
-            auxCards.forEach(element => {
+            this.auxCards.forEach(element => {
                 element.setVisible(false);
             });
             this.returnCardButton.setVisible(false);

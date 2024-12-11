@@ -40,38 +40,54 @@ export default class MenuScene extends Phaser.Scene {
             this.load.json('dataInsti','../data/Dialogue/DialogInstituto.json');
             this.load.json('cartasInsti','../data/Cartas/CartasInstituto.json');
             this.load.image('backgroundInsti','../assets/fondos/InstiFuturista.jpg');
-            //Estudios
+            
+            this.load.image('Pelota','../assets/Pelota.jpg');
+            this.load.image('Uno','../assets/Uno.jpg');
+            this.load.image('Apadrinado','../assets/Apadrinado.jpg');
+            this.load.image('Pestoso','../assets/Pestoso.jpg');
+            this.load.image('Juego','../assets/Juega.jpg');
+            this.load.image('Mertxor','../assets/Mertxor.jpg');
+
+            
+             //Mantenido
+             this.load.json('dataMantenido','../data/Dialogue/DialogMantenido.json');
+             this.load.json('cartasMantenido','../data/Cartas/CartasMantenido.json');
+            //  this.load.image('backgroundMantenido','../assets/fondos/Mantenido/Mantenido.png');
+ 
+             this.load.image('mantenido-genio','../assets/cardImages/Mantenido/GenioIncomprendido.jpeg');
+             this.load.image('mantenido-fan','../assets/cardImages/Mantenido/fan.jpg');
+             this.load.image('mantenido-otro','../assets/cardImages/Mantenido/OtroDiaMas.jpg');
+             this.load.image('mantenido-apoyo','../assets/cardImages/Mantenido/ApoyarEnCasa.png');
+             this.load.image('mantenido-hacuma','../assets/cardImages/Mantenido/Hacuma Mapapa.jpg');
+             this.load.image('mantenido-puf','../assets/cardImages/Mantenido/puffffffff.jpg');
+ 
+            //  this.load.image('bgParque-ligon', '../assets/fondos/Parque/Ligoteo.jpg');
+            //  this.load.image('bgParque-amigos', '../assets/fondos/Parque/amigos.jpg');
+            //  this.load.image('bgParque-antiSoc', '../assets/fondos/Parque/antisocial.jpg');
+            //  this.load.image('bgParque-avInd', '../assets/fondos/Parque/Aventura.jpg');
+            //  this.load.image('bgParque-robar', '../assets/fondos/Parque/Ladron.jpg');
+            //  this.load.image('bgParque-banda', '../assets/fondos/Parque/banda.jpg');
+
+
+            // Bar
+            this.load.json('dataBar','../data/Dialogue/DialogBar.json');
+            this.load.json('cartasBar','../data/Cartas/CartasBar.json');
+            this.load.image('backgroundBar','../assets/fondos/Bar/BarBG.jpg');
+
+            this.load.image('bar-ayuda','../assets/cardImages/Bar/Llorando.jpg');
+            this.load.image('bar-NuevoLigoteo','../assets/cardImages/Bar/Ligoteo2.jpg');
+            this.load.image('bar-Baño','../assets/cardImages/Bar/Baños.jpg');
+            this.load.image('bar-Irte','../assets/cardImages/Bar/Saliendo.jpg');
+            this.load.image('bar-Mano','../assets/cardImages/Bar/Mano.jpg');
+            this.load.image('bar-Ahogar','../assets/cardImages/Bar/beber.jpg');
 
             //Sprites
             this.load.image('gato', '../assets/sprites/Gato.png');
             this.load.spritesheet('melchor', '../assets/sprites/Melchor.png',{frameWidth: 500, frameHeight: 600})
 
-            this.registry.set('karma',50);
+            this.registry.set('karma',100);
             this.first = false;
         }
-
-        // Imágenes de las cartas:
-
-        // Instituto
-        this.load.image('Pelota','../assets/Pelota.jpg');
-        this.load.image('Uno','../assets/Uno.jpg');
-        this.load.image('Apadrinado','../assets/Apadrinado.jpg');
-        this.load.image('Pestoso','../assets/Pestoso.jpg');
-        this.load.image('Juego','../assets/Juega.jpg');
-        this.load.image('Mertxor','../assets/Mertxor.jpg');
-
-        // Bar
-        this.load.json('dataBar','../data/Dialogue/DialogBar.json');
-        this.load.json('cartasBar','../data/Cartas/CartasBar.json');
-        this.load.image('backgroundBar','../assets/fondos/Bar/BarBG.jpg');
-
-        this.load.image('bar-ayuda','../assets/cardImages/Bar/Llorando.jpg');
-        this.load.image('bar-NuevoLigoteo','../assets/cardImages/Bar/Ligoteo2.jpg');
-        this.load.image('bar-Baño','../assets/cardImages/Bar/Baños.jpg');
-        this.load.image('bar-Irte','../assets/cardImages/Bar/Saliendo.jpg');
-        this.load.image('bar-Mano','../assets/cardImages/Bar/Mano.jpg');
-        this.load.image('bar-Ahogar','../assets/cardImages/Bar/beber.jpg');
-        
     }
 
     create(){
@@ -87,11 +103,10 @@ export default class MenuScene extends Phaser.Scene {
             this.data = this.cache.json.get('dataParque');
             this.add.image(800, 600, 'backgroundParque').setOrigin(1).setScale(0.8,0.8);
             break;
-            
         case(2):
             this.deck = this.cache.json.get('cartasInsti');
             this.data = this.cache.json.get('dataInsti');
-            this.add.image(800, 600, 'backgroundInsti').setOrigin(1,1);
+            this.add.image(800, 600, 'backgroundInsti').setOrigin(1,1).setScale(1.2,1.2);
             break;
         case(6):
             this.deck = this.cache.json.get('cartasBar');

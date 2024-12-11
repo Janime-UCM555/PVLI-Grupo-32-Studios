@@ -48,7 +48,7 @@ export default class Carta extends Phaser.GameObjects.Container
         });
     }
     changeKarma(){
-        this.scene.add.image(this.scene.sys.game.canvas.width/2, this.scene.sys.game.canvas.height/2,this.data.Background);
+        this.scene.add.image(this.scene.sys.game.canvas.width/2, this.scene.sys.game.canvas.height/2 - 80,this.data.Background);
         let auxCard = this.scene.sys.game.registry.get('myCards');
         if(!Array.isArray(auxCard)){
             auxCard = [];
@@ -59,7 +59,7 @@ export default class Carta extends Phaser.GameObjects.Container
 
         var karmaQuantity = this.scene.sys.game.registry.get('karma') + parseInt(this.data.Karma);
         if(karmaQuantity < 0) karmaQuantity = 0;
-        else if(karmaQuantity > 100) karmaQuantity = 100;
+        else if(karmaQuantity > 200) karmaQuantity = 200;
         this.scene.sys.game.registry.set('karma', karmaQuantity);
         console.log(this.scene.sys.game.registry.get('karma', karmaQuantity));
         if (this.callback) this.callback(this.data.id);
