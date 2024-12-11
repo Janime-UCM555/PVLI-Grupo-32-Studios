@@ -5,10 +5,296 @@
 		{
 			"$type": "NodeRoot",
 			"ID": "f0ece387-d8b1-4b6e-bf1e-7dc9d4dc5ab1",
-			"NextID": -1,
+			"NextID": "3f18ff9f-db78-44fe-9636-a83170ff263b",
 			"EditorPosition": {
-				"x": -580,
-				"y": 0
+				"x": -460,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "16ade948-1c6a-4ece-9a33-73ab94bdcdc8",
+			"OptionsID": [
+				"233595e7-0d2a-40af-8dcb-570bd4cd23ef",
+				"c73102ed-260a-4e61-bd9e-8cb347d434e4",
+				"b131e006-c6dc-4e21-9a08-b44b26ff837f",
+				"47c20c1e-4819-48cb-9f5d-27640fb16d5c",
+				"2536b0d3-053e-4505-8d2b-8ab0a34ca250",
+				"ab9a8b1f-9c92-46a0-8efb-dbe249a95962"
+			],
+			"EditorPosition": {
+				"x": 1360,
+				"y": -540
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "233595e7-0d2a-40af-8dcb-570bd4cd23ef",
+			"NextID": "a97909c3-0f49-4bc2-81ad-6f7e8695dc21",
+			"Sentence": "Pruebas con el Profesor",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "c73102ed-260a-4e61-bd9e-8cb347d434e4",
+			"NextID": "7e799a3f-139e-47a9-adbc-8dd93a9fdce9",
+			"Sentence": "Ideaca",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "b131e006-c6dc-4e21-9a08-b44b26ff837f",
+			"NextID": "b689d431-1b10-443f-9378-e14f02a3c4d4",
+			"Sentence": "La luz del Balcón",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "47c20c1e-4819-48cb-9f5d-27640fb16d5c",
+			"NextID": "42f6f14e-595b-4afe-bcbc-3bfe7e5aac78",
+			"Sentence": "Emprendedores",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "2536b0d3-053e-4505-8d2b-8ab0a34ca250",
+			"NextID": "672bc0ee-31ae-4af4-9b21-9cdd59ff3c8c",
+			"Sentence": "Entre lo amargo del café",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "ab9a8b1f-9c92-46a0-8efb-dbe249a95962",
+			"NextID": "2e5fed0e-e80c-4aaf-9881-2580b5f8bda3",
+			"Sentence": "Prestamo no tan generoso",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "3f18ff9f-db78-44fe-9636-a83170ff263b",
+			"NextID": "429f84e9-7fb6-432a-892d-52c67fb7d09f",
+			"Sentence": "Bueno Melchor ahora a ampliar horizontes y conocer posibles empleos para financiar tus inventos.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": -83.7058563232422,
+				"y": -109.802597045898
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "429f84e9-7fb6-432a-892d-52c67fb7d09f",
+			"NextID": "30e3aade-9c10-471a-85b1-d1c0bdc0707d",
+			"Sentence": "Puede que hasta consiga un trabajo interasante y así mucho dinero.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 380,
+				"y": -140
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "30e3aade-9c10-471a-85b1-d1c0bdc0707d",
+			"NextID": "16ade948-1c6a-4ece-9a33-73ab94bdcdc8",
+			"Sentence": "Bueno eso ya sabes que depende de como quieras que sea el rumbo de tu vida.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 880,
+				"y": -140
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "a97909c3-0f49-4bc2-81ad-6f7e8695dc21",
+			"NextID": "075d2c78-b70a-46f7-8e19-b4133ec69bc9",
+			"Sentence": "Vas a hablar con el profesor sobre las practicas que estan a punto de empezar en las diferentes empresas, pero este te sorprende diciendote que para ti hay una oferta en un bar cercano que se ajusta más a ti.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1820,
+				"y": -720
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "1d1fd429-77e2-4bda-b41e-9d06bf0cd7a4",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 3280,
+				"y": -660
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b9503ee0-81d4-4f26-a6a6-818a950f4211",
+			"NextID": "1d1fd429-77e2-4bda-b41e-9d06bf0cd7a4",
+			"Sentence": "Tal vez sea que estas destinado a acabar ahí. Tal vez un ser diferente a nosotros esta cansado de crear situaciones y solo se le ocurrio eso. Solo te queda avanzar.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2820,
+				"y": -740
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "ed23ad7d-e667-4db3-91b9-a922ca925bf9",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 3120,
+				"y": -400
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "075d2c78-b70a-46f7-8e19-b4133ec69bc9",
+			"NextID": "b9503ee0-81d4-4f26-a6a6-818a950f4211",
+			"Sentence": "Bueno pero y porque me manda el profesor a un bar si estaba en un grado de mecanica.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2340,
+				"y": -720
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "a36cd053-3a3c-402e-8ea2-0854b3743a06",
+			"NextID": "ed23ad7d-e667-4db3-91b9-a922ca925bf9",
+			"Sentence": "Que situación más subrealista... Pero bueno supongo que seguiré inventando desde ahora.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2520,
+				"y": -500
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b689d431-1b10-443f-9378-e14f02a3c4d4",
+			"NextID": "075d2c78-b70a-46f7-8e19-b4133ec69bc9",
+			"Sentence": "Subes al aula con la luz encendida donde esta tu profesor examinando una extraña carta. Cuando se da cuenta de tu presencia solo pude decirte que las practicas de empresa tendrás que hacerlas en un bar cercano.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1900,
+				"y": -380
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7e799a3f-139e-47a9-adbc-8dd93a9fdce9",
+			"NextID": "a36cd053-3a3c-402e-8ea2-0854b3743a06",
+			"Sentence": "Tu idea falla estrepitosamente. El circuito se funde quedando destrozado tu invento. Por otro lado el pedazo de ejemplar que lamentablemente llamas amigo al ver el humo se pone a rezar un padre nuestro por la muerte de tu invento.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1880,
+				"y": -520
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "42f6f14e-595b-4afe-bcbc-3bfe7e5aac78",
+			"NextID": "fc78f56b-d4d9-4bf6-853b-48f9a70f02e7",
+			"Sentence": "El negocio fluia hasta que llegó el Sábado y a tus compañeros les entró la pereza. Desde ese momento te llegó una carta que te invitaba a trabajar en el bar local.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1920,
+				"y": -180
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "fc78f56b-d4d9-4bf6-853b-48f9a70f02e7",
+			"NextID": "1d1fd429-77e2-4bda-b41e-9d06bf0cd7a4",
+			"Sentence": "Bueno al menos tengo trabajo. Aunque me gustaba la idea de crear una página web para poder teletransportarte a la casa de tus conocidos.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2480,
+				"y": -300
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "672bc0ee-31ae-4af4-9b21-9cdd59ff3c8c",
+			"NextID": "27dae021-37c3-4310-8566-f59c29c18083",
+			"Sentence": "Te preparas y te marchas sin hablar con nadie. Esta noche es para ti y para poder relajarte. O al menos ese es tu pensamiento.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1940,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "27dae021-37c3-4310-8566-f59c29c18083",
+			"NextID": "0520d854-15fd-4ec9-aa5f-341e406da875",
+			"Sentence": "¿Pero y entonces qué pasa?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2480,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "634ab1fa-2eb0-48a8-b77c-b94b8c98fb74",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 3360,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0520d854-15fd-4ec9-aa5f-341e406da875",
+			"NextID": "634ab1fa-2eb0-48a8-b77c-b94b8c98fb74",
+			"Sentence": "Bueno vamos al bar a verlo Melchor.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2940,
+				"y": -60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "2e5fed0e-e80c-4aaf-9881-2580b5f8bda3",
+			"NextID": "a36cd053-3a3c-402e-8ea2-0854b3743a06",
+			"Sentence": "Coges durante una clase de practicas varios materiales que necesitas para tus inventos y luego para marcharte cuanto antes le das 20€ a un compañero para que se lleve el profesor al taller. Así te escabulles sin que nadie te vea.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1920,
+				"y": 140
 			}
 		}
 	],
