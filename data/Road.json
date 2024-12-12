@@ -338,18 +338,6 @@
                 {
                  "gid":4097,
                  "height":16,
-                 "id":108,
-                 "name":"Bar",
-                 "rotation":0,
-                 "type":"Flag",
-                 "visible":true,
-                 "width":16,
-                 "x":360.666666666667,
-                 "y":544.666666666667
-                }, 
-                {
-                 "gid":4097,
-                 "height":16,
                  "id":109,
                  "name":"Grado Superior",
                  "rotation":0,
@@ -359,6 +347,18 @@
                  "x":428.666666666667,
                  "y":110.666666666667
                 }, 
+                {
+                     "gid":4097,
+                     "height":16,
+                     "id":108,
+                     "name":"Bar",
+                     "rotation":0,
+                     "type":"Flag",
+                     "visible":true,
+                     "width":16,
+                     "x":360.666666666667,
+                     "y":544.666666666667
+                    }, 
                 {
                  "gid":4097,
                  "height":16,
