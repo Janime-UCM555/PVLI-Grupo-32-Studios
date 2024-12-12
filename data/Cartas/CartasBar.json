@@ -13,7 +13,7 @@
         "Name":"Ligoteo 2.0",
         "Image":"bar-NuevoLigoteo",
         "Background":"barbg-NuevoLigoteo",
-        "Description":"Decides acercarte a una chica que está en la barra. Se la ve pensativa aunque algo solitaria. Podría un buen momento para entablar conversación.",
+        "Description":"Decides acercarte a una chica que está en la barra. Se la ve pensativa y solitaria. Podría ser un buen momento para entablar conversación.",
         "Karma":"+15"
     },
     {
@@ -46,7 +46,7 @@
         "Image":"bar-Ahogar",
         "Background":"barbg-Ahogar",
         "Description":"Decides ahogar tus penas en el alcohol, bebiendo una botella tras otra sin ningún tipo de control.",
-        "Karma":"+15"
+        "Karma":"-15"
     }
 ]
 }

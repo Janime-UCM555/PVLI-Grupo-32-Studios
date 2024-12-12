@@ -13,84 +13,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "4e6fd1e0-cc9b-4534-8935-0a6327f5f1fe",
-			"NextID": "1a5da0a8-bcc9-41da-9222-dd760af1f03c",
-			"Sentence": "Gato esto no es lo que quería. Vaya perezón.",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1760,
-				"y": -560
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "1a5da0a8-bcc9-41da-9222-dd760af1f03c",
-			"NextID": "02d76846-f3ae-48f9-8df5-0bd4fedcb295",
-			"Sentence": "Bueno Melchor es el trabajo que soñabas. O al menos lo era.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2180,
-				"y": -600
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "731a14be-0cd0-409d-aee5-2e0c414b5667",
-			"NextID": "baae885c-1403-4246-9794-55d4d576d5d6",
-			"Sentence": "Bueno Melchor veamos que tipo de persona eres en el trabajo que te facilitó mucho tú vida.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": -140,
-				"y": -120
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "02d76846-f3ae-48f9-8df5-0bd4fedcb295",
-			"NextID": "b5e94264-06e2-4801-bff3-b7bb2190009a",
-			"Sentence": "Vaya decepción. No me esperaba este resultado.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2820,
-				"y": -580
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "10f9894b-8e5f-459a-8306-3e903f612739",
-			"NextID": "02d76846-f3ae-48f9-8df5-0bd4fedcb295",
-			"Sentence": "Eventualmente pierdes lo poco que tenias y acabas en la calle",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2680,
-				"y": -320
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "baae885c-1403-4246-9794-55d4d576d5d6",
-			"NextID": "20082195-f5a0-4709-8f38-6c561dcb73e2",
-			"Sentence": "Fua gato quiero empezar ya por favor.",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 320,
-				"y": -120
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "20082195-f5a0-4709-8f38-6c561dcb73e2",
 			"NextID": "50aa8a81-29b3-48fe-88fe-a8b1b47d5692",
 			"Sentence": "Pues entoces vamos con las opciones mi querido Melchor.",
@@ -100,119 +22,6 @@
 			"EditorPosition": {
 				"x": 840,
 				"y": -120
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "e48d0131-68bb-40eb-9499-da25edaa0f0e",
-			"NextID": "10f9894b-8e5f-459a-8306-3e903f612739",
-			"Sentence": "Bueno después del desahogo, renuncia y follón que has montado se corre la voz y no conseguiras trabajo.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1900,
-				"y": 180
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "eca4321b-f551-415a-b387-4c7a8ff583b3",
-			"NextID": "1b6424f0-f257-4047-809a-8f7d29cd81c5",
-			"Sentence": "Vaya parece que te ha tocado soportar bastante trabajo y lo manejas muy dirigentemente Melchor.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1880,
-				"y": 20
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "205a2043-44a1-4365-8339-aa61c471aa87",
-			"NextID": "1b6424f0-f257-4047-809a-8f7d29cd81c5",
-			"Sentence": "Vaya parece que tu trabajo da sus frutos y esta vez tendrás una casa a tu propiedad. Además con lo que consigues ahorrar de trabajar aquí podras finarciar algún invento que quieras probar.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1840,
-				"y": -460
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "c1f7e69e-a49b-42bd-b0d8-3c2e4ad14923",
-			"NextID": "e3497daf-d4e1-4afc-a3de-4529d29f7808",
-			"Sentence": "Con que sabotearas a todos para ser el mejor.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1760,
-				"y": -260
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "e3497daf-d4e1-4afc-a3de-4529d29f7808",
-			"NextID": "10f9894b-8e5f-459a-8306-3e903f612739",
-			"Sentence": "Bueno supongo que al final no eras quien pensaba... Al final te pillan y acabas en la calle sin nada más que hacer.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2280,
-				"y": -340
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "7efe8c32-79e5-4d05-90a8-a8518f2fd8af",
-			"NextID": "ed3d34b7-f904-4f46-b9a6-927fa1c67990",
-			"Sentence": "Ayudar a todos al final te vino bien. Entre todos tus compañeros decidieron darte una sorpresa y han reunido fondos para ti Melchor. Podrás ser inventor como querias.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1880,
-				"y": -160
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "1b6424f0-f257-4047-809a-8f7d29cd81c5",
-			"NextID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
-			"Sentence": "Gracias estoy muy feliz por haber sido capaz de organizarme lo suficientemente bien como para porde llegar a este punto gato.",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2360,
-				"y": -200
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "b5e94264-06e2-4801-bff3-b7bb2190009a",
-			"NextStoryName": "8",
-			"EditorPosition": {
-				"x": 3320,
-				"y": -620
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "ed3d34b7-f904-4f46-b9a6-927fa1c67990",
-			"NextID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
-			"Sentence": "Es un sueño hecho realidad gato. Ojalá hubiese hecho esto mucho antes. Tal vez no viene mal confiar y tratar bien a las personas que tienes cerca de ti.",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2424.7763671875,
-				"y": 28.2240829467773
 			}
 		},
 		{
@@ -234,7 +43,7 @@
 		{
 			"$type": "NodeOption",
 			"ID": "fd52e61c-c5fa-48fe-8a3a-76cd681d896c",
-			"NextID": "4e6fd1e0-cc9b-4534-8935-0a6327f5f1fe",
+			"NextID": "88b20aab-1d21-4d8e-8fa6-39cca1a87850",
 			"Sentence": "Muy Cansado",
 			"Enable": true,
 			"OneShot": false
@@ -280,12 +89,242 @@
 			"OneShot": false
 		},
 		{
+			"$type": "NodeSentence",
+			"ID": "baae885c-1403-4246-9794-55d4d576d5d6",
+			"NextID": "20082195-f5a0-4709-8f38-6c561dcb73e2",
+			"Sentence": "Fua gato quiero empezar ya por favor.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 320,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "731a14be-0cd0-409d-aee5-2e0c414b5667",
+			"NextID": "baae885c-1403-4246-9794-55d4d576d5d6",
+			"Sentence": "Bueno Melchor veamos que tipo de persona eres en este trabajo que te facilitó tanto tú vida.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": -140,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "88b20aab-1d21-4d8e-8fa6-39cca1a87850",
+			"NextID": "4e6fd1e0-cc9b-4534-8935-0a6327f5f1fe",
+			"Sentence": "Estuviste semanas durmiendo una media de 4 horas diarias por trabajar en el bar y demostrar de lo que eras capaz.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1880,
+				"y": -620
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4e6fd1e0-cc9b-4534-8935-0a6327f5f1fe",
+			"NextID": "02d76846-f3ae-48f9-8df5-0bd4fedcb295",
+			"Sentence": "Pero el esperado ascenso o aprobación del jefe nunca llegaba. Acabaste súper cansado y harto de todo. Al final no te quedó otra que dejarlo.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2460,
+				"y": -620
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "205a2043-44a1-4365-8339-aa61c471aa87",
+			"NextID": "f19f2954-2535-4006-8b94-8197bf70f10e",
+			"Sentence": "Vaya parece que tu trabajo dio sus frutos y por fin pudiste ahorrar para una casa de tu propiedad. ",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1840,
+				"y": -460
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "02d76846-f3ae-48f9-8df5-0bd4fedcb295",
+			"NextID": "10f9894b-8e5f-459a-8306-3e903f612739",
+			"Sentence": "Vaya decepción. No me esperaba este resultado.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2940,
+				"y": -580
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "b5e94264-06e2-4801-bff3-b7bb2190009a",
+			"NextStoryName": "8",
+			"EditorPosition": {
+				"x": 3940,
+				"y": -400
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f19f2954-2535-4006-8b94-8197bf70f10e",
+			"NextID": "1b6424f0-f257-4047-809a-8f7d29cd81c5",
+			"Sentence": "Además con lo que conseguiste ahorrar vas a poder finarciar algún invento de esos tuyos que quieras probar. ¡Enhorabuena!",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2420,
+				"y": -420
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "1b6424f0-f257-4047-809a-8f7d29cd81c5",
+			"NextID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
+			"Sentence": "Gracias, estoy muy feliz por haber sido capaz de organizarme lo suficientemente bien como para porde llegar a este punto, gato.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3160,
+				"y": -160
+			}
+		},
+		{
 			"$type": "NodeEndPath",
 			"ID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
 			"NextStoryName": "9",
 			"EditorPosition": {
-				"x": 2860,
-				"y": -180
+				"x": 3760,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c1f7e69e-a49b-42bd-b0d8-3c2e4ad14923",
+			"NextID": "e3497daf-d4e1-4afc-a3de-4529d29f7808",
+			"Sentence": "Guau, que rastrero. Decidiste sabotear a todos para ser el mejor. Hay que tener mucha cara. Te dedicaste a causar desastres e inculpar a los demás.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1760,
+				"y": -300
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "10f9894b-8e5f-459a-8306-3e903f612739",
+			"NextID": "b5e94264-06e2-4801-bff3-b7bb2190009a",
+			"Sentence": "Eventualmente perdiste lo poco que tenías y acabas en la calle.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3460,
+				"y": -400
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e3497daf-d4e1-4afc-a3de-4529d29f7808",
+			"NextID": "10f9894b-8e5f-459a-8306-3e903f612739",
+			"Sentence": "Bueno supongo que al final no eras quien pensaba... . Al final te pillaron y acabaste en la calle sin nada más que hacer y con un par de denuncias.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2380,
+				"y": -280
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7efe8c32-79e5-4d05-90a8-a8518f2fd8af",
+			"NextID": "a937d5b4-1283-4db9-aa82-53d4b926e4b1",
+			"Sentence": "Ayudar a todos al final te vino bien. Entre todos tus compañeros decidieron darte una sorpresa y te hicieron un generoso regalo en forma de cheque.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1880,
+				"y": -160
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "ed3d34b7-f904-4f46-b9a6-927fa1c67990",
+			"NextID": "e9252e3c-e0e6-4a1a-8475-6e4af55131ab",
+			"Sentence": "Es un sueño hecho realidad, gato. Ojalá hubiese hecho esto mucho antes. Tal vez no viene mal confiar y tratar bien a las personas que tienes cerca de ti.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3040,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "eca4321b-f551-415a-b387-4c7a8ff583b3",
+			"NextID": "09f2f5e4-d6f2-4304-941b-e45e6d938217",
+			"Sentence": "Vaya parece que te tocó soportar bastante trabajo, la gente te veía muy capaz. Lo manejaste muy dirigentemente Melchor.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1880,
+				"y": 20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "a937d5b4-1283-4db9-aa82-53d4b926e4b1",
+			"NextID": "ed3d34b7-f904-4f46-b9a6-927fa1c67990",
+			"Sentence": "Gracias a este dinero, por fin vas poder perseguir tu sueño de ser inventor, Melchor. Te montaste tu propio taller y empezaste a experimentar...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2420,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "09f2f5e4-d6f2-4304-941b-e45e6d938217",
+			"NextID": "1b6424f0-f257-4047-809a-8f7d29cd81c5",
+			"Sentence": "Desde el principio tenías claro que no ibas a perder tu vida, y al final te convertiste en una persona muy dirigente y organizada.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2420,
+				"y": 80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e48d0131-68bb-40eb-9499-da25edaa0f0e",
+			"NextID": "10f9894b-8e5f-459a-8306-3e903f612739",
+			"Sentence": "Bueno decdiste cantarle las cuarenta a varias personas. Después del follón que montaste se corre la voz y te vetaron de todos los locales de la zona.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1900,
+				"y": 180
 			}
 		}
 	],
