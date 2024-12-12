@@ -17,6 +17,7 @@ class PauseMenu extends Phaser.Scene{
         graphics.fillStyle(0x000000, 0.7); 
         graphics.fillRect(0, 0, this.cameras.main.width, this.cameras.main.height);
         this.add.text(this.cameras.main.width/2,50,'PAUSA',{fontSize: '32px', fill: '#FFF'}).setOrigin(0.5, 0);;
+        this.auxCards = []
 
         this.continueButton = new Button(this, this.cameras.main.width/2, 250, 'CONTINUAR', () =>{
             if(this.auxCards != null)
@@ -61,7 +62,6 @@ class PauseMenu extends Phaser.Scene{
     showCards()
     {
         let cartas = this.sys.game.registry.get('myCards');
-        this.auxCards = []
         var startX = 200;
         var startY = 200;
 

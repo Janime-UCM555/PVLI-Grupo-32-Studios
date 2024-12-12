@@ -79,24 +79,23 @@ export default class MenuScene extends Phaser.Scene {
 
             //Universidad
 
-            this.load.json('dataUni','../../data/Dialogue/DialogUniversidad.json');
+            this.load.json('dataUni','../data/Dialogue/DialogUniversidad.json');
             this.load.json('cartasUni','../data/Cartas/CartasUniversidad.json');
-            this.load.image('backgroundUni','../assets/fondos/Estudios/backgorund-estudios.jpg');
-/*
-            this.load.image('estudios-uni','../assets/cardImages/Uni/estudios-universidad.jpg');
-            this.load.image('estudios-fp','../assets/cardImages/Estudios/estudios-fp.jpg');
-            this.load.image('estudios-chamba','../assets/cardImages/Estudios/estudios-chamba.png');
-            this.load.image('estudios-nini','../assets/cardImages/Estudios/estudios-nini.jpg');
-            this.load.image('estudios-creaInator','../assets/cardImages/Estudios/estudios-creainators.png');
-            this.load.image('estudios-consejo','../assets/cardImages/Estudios/estudios-consejo.jpg');
-
-            this.load.image('universidad','../assets/fondos/Estudios/estudios-uni.jpeg');
-            this.load.image('gradosuperior','../assets/fondos/Estudios/estudios-fp.jpeg');
-            this.load.image('chamba','../assets/fondos/Estudios/estudios-chamba.jpg');
-            this.load.image('nini','../assets/fondos/Estudios/estudios-mantenido.jpeg');
-            this.load.image('inventorcaserocrea-inetors','../assets/fondos/Estudios/estudios-creainators.png');
-            this.load.image('buscarconsejo','../assets/fondos/Estudios/estudios-consejo.jpg');
-*/
+            this.load.image('backgroundUni','../assets/fondos/Universidad/universidad-backgorundjpg.jpg');
+ 
+            this.load.image('uni-EncimaSinCobrar','../assets/cardImages/Universidad/universidad-sincobrar.jpeg');
+            this.load.image('uni-SiTieneMiedoAlCambio','../assets/cardImages/Universidad/universidad-sitienesmiedo.jpg');
+            this.load.image('uni-EsoLoHagoYo','../assets/cardImages/Universidad/universidad-esolohagoyo.jpeg');
+            this.load.image('uni-SeVienenCositas','../assets/cardImages/Universidad/universidad-sevienencositas.jpeg');
+            this.load.image('uni-CafeRosquilla','../assets/cardImages/Universidad/universidad-caferosquilla.jpg');
+            this.load.image('uni-AplicarLoAprendido','../assets/cardImages/Universidad/universidad-aplicarloaprendido.jpeg');
+             
+            this.load.image('bg-EncimaSinCobrar','../assets/fondos/Universidad/universidad-sincobrar.jpeg');
+            this.load.image('bg-SiTieneMiedoAlCambio','../assets/fondos/Universidad/universidad-sitienesmiedo.jpeg');
+            this.load.image('bg-EsoLoHagoYo','../assets/fondos/Universidad/universidad-esolohagoyo.jpeg');
+            this.load.image('bg-SeVienenCositas','../assets/fondos/Universidad/universidad-sevienencositas.jpg');
+            this.load.image('bg-CafeRosquilla','../assets/fondos/Universidad/universidad-caferosquilla.jpg');
+            this.load.image('bg-AplicarLoAprendido','../assets/fondos/Universidad/universidad-aplicarloaprendido.jpg');
 
             //Grado Superior
             this.load.json('dataGSuperior','../data/Dialogue/DialogFP.json');
@@ -132,7 +131,7 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('barbg-ayuda','../assets/fondos/Bar/Millonario.jpg');
             this.load.image('barbg-NuevoLigoteo','../assets/fondos/Bar/Chica.jpg');
             this.load.image('barbg-Baño','../assets/fondos/Bar/Pelea.jpg');
-            this.load.image('barbg-Irte','../assets/fondos/Bar/Robo.jpg');
+            this.load.image('barbg-Irte','../assets/fondos/Bar/Robo.png');
             this.load.image('barbg-Mano','../assets/fondos/Bar/Mano.jpg');
             this.load.image('barbg-Ahogar','../assets/fondos/Bar/Ahoga.jpg');
             
@@ -150,23 +149,38 @@ export default class MenuScene extends Phaser.Scene {
 
             //Universidad
 
-            this.load.json('dataUni','../data/data/Dialogue/DialogUniversidad.json');
+            this.load.json('dataUni','../data/Dialogue/DialogUniversidad.json');
             this.load.json('cartasUni','../data/Cartas/CartasUniversidad.json');
-            this.load.image('backgroundUni','../assests/fondos/Universidad/universidad-backgorundjpg.jpg');
+            this.load.image('backgroundUni','../assets/fondos/Universidad/universidad-backgorundjpg.jpg');
 
             this.load.image('uni-EncimaSinCobrar','../assets/cardImages/Universidad/universidad-sincobrar.jpeg');
             this.load.image('uni-SiTieneMiedoAlCambio','../assets/cardImages/Universidad/universidad-sitienesmiedo.jpg');
             this.load.image('uni-EsoLoHagoYo','../assets/cardImages/Universidad/universidad-esolohagoyo.jpeg');
-            this.load.image('uni-SeVienenCositas','../assets/cardImages/universidad-esolohagoyo.jpeg');
+            this.load.image('uni-SeVienenCositas','../assets/cardImages/Universidad/universidad-esolohagoyo.jpeg');
             this.load.image('uni-CafeRosquilla','../assets/cardImages/Universidad/universidad-caferosquilla.jpg');
             this.load.image('uni-AplicarLoAprendido','../assets/cardImages/Universidad/universidad-aplicarloaprendido.jpeg');
             
-            this.load.image('bg-EncimaSinCobrar','../assests/fondos/Universidad/universidad-sincobrar.jpeg');
-            this.load.image('bg-SiTieneMiedoAlCambio','../assests/fondos/Universidad/universidad-sitienesmiedo.jpeg');
-            this.load.image('bg-EsoLoHagoYo','../assests/fondos/Universidad/universidad-esolohagoyo.jpeg');
-            this.load.image('bg-SeVienenCositas','../assests/fondos/Universidad/universidad-sevienencositas.jpg');
-            this.load.image('bg-CafeRosquilla','../assests/fondos/Universidad/universidad-caferosquilla.jpg');
-            this.load.image('bg-AplicarLoAprendido','../assests/fondos/Universidad/universidad-aplicarloaprendido.jpg');
+            this.load.image('bg-EncimaSinCobrar','../assets/fondos/Universidad/universidad-sincobrar.jpeg');
+            this.load.image('bg-SiTieneMiedoAlCambio','../assets/fondos/Universidad/universidad-sitienesmiedo.jpeg');
+            this.load.image('bg-EsoLoHagoYo','../assets/fondos/Universidad/universidad-esolohagoyo.jpeg');
+            this.load.image('bg-SeVienenCositas','../assets/fondos/Universidad/universidad-sevienencositas.jpg');
+            this.load.image('bg-CafeRosquilla','../assets/fondos/Universidad/universidad-caferosquilla.jpg');
+            this.load.image('bg-AplicarLoAprendido','../assets/fondos/Universidad/universidad-aplicarloaprendido.jpg');
+            
+            //Vagabundo
+
+            this.load.json('dataVagabundo','../data/Dialogue/DialogVagabundo.json');
+            this.load.json('cartasVagabundo','../data/Cartas/CartasVagabundo.json');
+            this.load.image('backgroundVagabundo','../assets/fondos/Vagabundo/fondoPuente.jpg');
+
+            this.load.image('vaga-Rein','../assets/cardImages/Vagabundo/Reinventarse.jpeg');
+            this.load.image('vaga-mal','../assets/cardImages/Vagabundo/CalamardoSad.jpg');
+            this.load.image('vaga-destino','../assets/cardImages/Vagabundo/sadAnt.jpeg');
+            this.load.image('vaga-perdiendo','../assets/cardImages/Vagabundo/pepeSad.jpg');
+            this.load.image('vaga-error','../assets/cardImages/Vagabundo/NoSigas.jpg');
+            this.load.image('vaga-caer','../assets/cardImages/Vagabundo/inventor.jpg');
+
+            this.load.image('bg-vagabundoInv','../assets/fondos/Vagabundo/reinvent.jpg');
 
             //Sprites
             this.load.image('gato', '../assets/sprites/Gato.png');
@@ -200,6 +214,11 @@ export default class MenuScene extends Phaser.Scene {
             this.datos = this.cache.json.get('dataEstudios');
             this.add.image(0,0,'backgroundEstudios').setOrigin(0,0).setScale(1.7,1.7);
             break;
+        case (4):
+            this.deck = this.cache.json.get('cartasUni');
+            this.datos = this.cache.json.get('dataUni');
+            this.add.image(0, 0, 'backgroundUni').setOrigin(0,0).setScale(1.4,1.4);
+            break;
         case (5):
             this.deck = this.cache.json.get('cartasGSuperior');
             this.datos = this.cache.json.get('dataGSuperior');
@@ -210,6 +229,11 @@ export default class MenuScene extends Phaser.Scene {
             this.datos = this.cache.json.get('dataBar');
             this.add.image(800, 600, 'backgroundBar').setOrigin(1,1);
             break;
+        case(9):
+            this.deck = this.cache.json.get('cartasVagabundo');
+            this.datos = this.cache.json.get('dataVagabundo');
+            this.add.image(800, 600, 'backgroundVagabundo').setOrigin(1,1).setScale(0.7,0.7);
+            break; 
         }
         
 
