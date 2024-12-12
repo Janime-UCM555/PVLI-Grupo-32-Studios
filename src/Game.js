@@ -16,7 +16,7 @@ let config = {
 	scale: {
 		autoCenter: Phaser.Scale.CENTER_HORIZONTALLY
 	},
-	scene:[Dialog,map,PauseMenu],	// Decimos a Phaser cual es nuestra escena
+	scene:[MainMenu,Dialog,map,PauseMenu],	// Decimos a Phaser cual es nuestra escena
 	physics: { 
 		default: 'arcade', 
 		arcade: { 
