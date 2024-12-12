@@ -41,20 +41,21 @@ export default class MenuScene extends Phaser.Scene {
 
             this.load.json('dataInsti','../data/Dialogue/DialogInstituto.json');
             this.load.json('cartasInsti','../data/Cartas/CartasInstituto.json');
-            this.load.image('backgroundInsti','../assets/fondos/InstiFuturista.jpg');
+            this.load.image('backgroundInsti','../assets/fondos/Instituto/InstiFuturista.jpg');
             
-            this.load.image('Pelota','../assets/Pelota.jpg');
-            this.load.image('Uno','../assets/Uno.jpg');
-            this.load.image('Apadrinado','../assets/Apadrinado.jpg');
-            this.load.image('Pestoso','../assets/Pestoso.jpg');
-            this.load.image('Juego','../assets/Juega.jpg');
-            this.load.image('Mertxor','../assets/Mertxor.jpg');
-            this.load.image('bgInsti-Pelota','../assets/bgInsti-pelota.jpg');
-            this.load.image('bgInsti-Uno','../assets/bgInsti-uno.jpg');
-            this.load.image('bgInti-Apadrinado','../assets/bgInsti-apadrinado.jpg');
-            this.load.image('bgInsti-Pestoso','../assets/bgInsti.jpg');
-            this.load.image('bgInsti-Juega','../assets/bgInsti-juega.jpg');
-            this.load.image('bgInsti-Mertxor','../assets/bgInti-mertxor.jpg');
+            this.load.image('Pelota','../assets/cardImages/Instituto/Pelota.jpg');
+            this.load.image('Uno','../assets/cardImages/Instituto/Uno.jpg');
+            this.load.image('Apadrinado','../assets/cardImages/Instituto/Apadrinado.jpg');
+            this.load.image('Pestoso','../assets/cardImages/Instituto/Pestoso.jpg');
+            this.load.image('Juego','../assets/cardImages/Instituto/Juega.jpg');
+            this.load.image('Mertxor','../assets/cardImages/Instituto/Mertxor.jpg');
+
+            this.load.image('bgInsti-Pelota','../assets/fondos/Instituto/bgInsti-pelota.jpg');
+            this.load.image('bgInsti-Uno','../assets/fondos/Instituto/bgInsti-uno.jpg');
+            this.load.image('bgInsti-Apadrinado','../assets/fondos/Instituto/bgInsti-apadrinado.jpg');
+            this.load.image('bgInsti-Pestoso','../assets/fondos/Instituto/bgInsti-pestoso.jpg');
+            this.load.image('bgInsti-Juega','../assets/fondos/Instituto/bgInsti-juega.jpg');
+            this.load.image('bgInsti-Mertxor','../assets/fondos/Instituto/bgInsti-mertxor.jpg');
             
             //Estudios
 
@@ -146,6 +147,11 @@ export default class MenuScene extends Phaser.Scene {
             this.deck = this.cache.json.get('cartasInsti');
             this.datos = this.cache.json.get('dataInsti');
             this.add.image(800, 600, 'backgroundInsti').setOrigin(1,1).setScale(1.2,1.2);
+            break;
+        case(3):
+            this.deck = this.cache.json.get('cartasEstudios');
+            this.datos = this.cache.json.get('dataEstudios');
+            this.add.image(0,0,'backgroundEstudios').setOrigin(0,0).setScale(1.7,1.7);
             break;
         case(6):
             this.deck = this.cache.json.get('cartasBar');

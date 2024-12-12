@@ -170,16 +170,16 @@ class map extends Phaser.Scene{
         //this.ramp = new Rampa(this,250,250,'ramp');
         const objectLayer = this.map.getObjectLayer('Flags');
         this.flags = [];
+        let i = 1;
         objectLayer.objects.forEach((obj) =>{
-            const flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog',parseInt(this.flagIndex) + 1);
+            //let flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog',parseInt(this.flagIndex) + 1);
+            let flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog',i);
             this.flags.push(flag);
-            obj.visible = false;
+            //obj.visible = false;
+            flag.visible = true;
+            i++;
         })
 
-        this.flags.forEach((obj) =>
-        {
-            obj.setVisible(false);
-        })
         this.flags[this.flagIndex].setVisible(true);
 
 
