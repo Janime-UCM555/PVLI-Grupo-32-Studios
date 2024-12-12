@@ -2,10 +2,10 @@
     "Deck" : [
     {
         "id":"0",
-        "Name":"Muy Cansado",
+        "Name":"Dándolo todo",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"El trabajo es más cansado de lo que te esperabas lo mejor será dejarlo.",
+        "Description":"Decides dar tu máximo, pasando día y noche partiéndote el lomo. Seguro que así impresionas al dueño.",
         "Karma":"-15"
     },
     {
@@ -13,7 +13,7 @@
         "Name":"Ay Ho",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"Aunque no tienes demasiado tiempo ahora por fin vas a reunir suficiente dinero para una casa propia. ¡Ha trabajar duro!",
+        "Description":"Aunque no tienes demasiado tiempo ahora por fin vas a reunir suficiente dinero para una casa propia. ¡A trabajar duro!",
         "Karma":"+10"
     },
     {
@@ -21,7 +21,7 @@
         "Name":"Empleado del mes",
         "Image":"imageID",
         "Background":"bgID",
-        "Description":"Tu objetivo de ser empleado del mes se cumplirá si o si. Aunque si hay que jugar sucio la paga extra lo cubrira tu conciencia.",
+        "Description":"Tu objetivo de ser empleado del mes se cumplirá si o si. Aunque si hay que jugar sucio, la paga extra calmará tu conciencia.",
         "Karma":"-5"
     },
     {

@@ -5,8 +5,8 @@
         "Name":"Pruebas con el Profesor",
         "Image":"gs-PruebaProfesor",
         "Background":"bg-PruebaProfesor",
-        "Description":"Hablas con el profesor y quieres poner en practica tus conocimientos en un trabajo.",
-        "Karma":"+10"
+        "Description":"Hablas con el profesor y quieres poner en práctica tus conocimientos en un trabajo.",
+        "Karma":"-10"
     },
     {
         "id":"1",
@@ -21,7 +21,7 @@
         "Name":"La luz del Balcón",
         "Image":"gs-LuzBalcón",
         "Background":"bg-LuzBalcon",
-        "Description":"Ves que hay una luz encendida en el balcón de clases. Por eso vas a subir y verás que es lo que pasa allí",
+        "Description":"Ves que hay una luz encendida en el balcón de clases. Por eso subes y ves qué es lo que pasa allí",
         "Karma":"+5"
     },
     {
@@ -45,7 +45,7 @@
         "Name":"Prestamo no tan generoso",
         "Image":"gs-PrestamoEgoista",
         "Background":"bg-PrestamoEgoista",
-        "Description":"Cansado de estar aguantando en clase todo el día sin poder construir ni probar nada vas a dejar esto y de paso te llevarás una comisión por las molestias.",
+        "Description":"Cansado de aguantar en clase todo el día sin construir ni probar nada, vas a dejar esto. Y de paso te llevarás una comisión por las molestias.",
         "Karma":"-15"
     }
 ]

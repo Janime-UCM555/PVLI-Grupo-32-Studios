@@ -293,7 +293,7 @@ class map extends Phaser.Scene{
         this.sonidoatropello.play();
         var karmaQuantity = this.sys.game.registry.get('karma') - peaton.karma;
         if(karmaQuantity < 0) karmaQuantity = 0;
-        else if(karmaQuantity > 100) karmaQuantity = 100;
+        else if(karmaQuantity > 200) karmaQuantity = 200;
         this.sys.game.registry.set('karma', karmaQuantity);
         let count =  this.sys.game.registry.get('atropellados');
         this.registry.set('atropellados', count + 1);
