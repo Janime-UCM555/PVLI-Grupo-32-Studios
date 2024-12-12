@@ -18,26 +18,26 @@ class PauseMenu extends Phaser.Scene{
         graphics.fillRect(0, 0, this.cameras.main.width, this.cameras.main.height);
         this.add.text(this.cameras.main.width/2,50,'PAUSA',{fontSize: '32px', fill: '#FFF'}).setOrigin(0.5, 0);;
 
-        this.continueButton = new Button(this, this.cameras.main.width/2, 200, 'CONTINUAR', () =>{
-            this.auxCards.forEach((carta)=>{
-                carta.deleteCard();
-            })
+        this.continueButton = new Button(this, this.cameras.main.width/2, 250, 'CONTINUAR', () =>{
+            if(this.auxCards != null)
+            {
+                this.auxCards.forEach((carta)=>{
+                    carta.deleteCard();
+                })
+            }
             this.scene.stop();
             this.scene.resume(this.activeSceneKey);
         });
-        this.settingsButton = new Button(this, this.cameras.main.width/2, 300, 'AJUSTES', () => {
-            this.hideButtons();
-            this.showVolumeSlider();
-        });
-        this.statButton = new Button(this, this.cameras.main.width/2, 400, 'ESTADÍSTICAS', () => {
+
+        this.statButton = new Button(this, this.cameras.main.width/2, 350, 'ESTADÍSTICAS', () => {
             this.hideButtons();
             this.showStats();
         });
-        this.cartas = new Button(this, this.cameras.main.width/2, 500, 'CARTAS ELEGIDAS', () => {
+        this.cartas = new Button(this, this.cameras.main.width/2, 450, 'MIS CARTAS', () => {
             this.hideButtons();
             this.showCards();
         });
-        this.KarmaBar = new Barrita(this, this.sys.game.canvas.width/2 - 200, 220,0xFF0000 , 0x555555, 0, 200);
+        this.KarmaBar = new Barrita(this, this.sys.game.canvas.width/2 - 250, 220,0xFF0000 , 0x555555, 0, 200);
         this.KarmaBar.setVisible(false);
     }
     showStats() {
@@ -65,33 +65,41 @@ class PauseMenu extends Phaser.Scene{
         var startX = 200;
         var startY = 200;
 
-        cartas.forEach(element => {
-            let c = new Carta(this,startX,startY, element.getDatos());
-            this.auxCards.push(c);
-            this.add.existing(c);
-            c.setVisible(true);
-            startX += 150;
-        });
-            
+        if(cartas != null)
+        {
+            cartas.forEach(element => {
+                let c = new Carta(this,startX,startY, element.getDatos());
+                this.auxCards.push(c);
+                this.add.existing(c);
+                c.setVisible(true);
+                startX += 150;
+            });
+                
+        }
+        else
+        {
+            this.noCardText = this.add.text( 300,  this.cameras.main.height / 2,"NO HAS CONSEGUIDO NINGUNA CARTA",{
+                fontSize: "20px"
+            })
+        }
         this.returnCardButton = new Button(this, this.cameras.main.width / 2, 430, 'CERRAR', () => {
             this.auxCards.forEach(element => {
                 element.setVisible(false);
             });
             this.returnCardButton.setVisible(false);
+            this.noCardText.destroy();
             this.showButtons();
         });
     }
     hideButtons()
     {
         this.continueButton.setVisible(false);
-        this.settingsButton.setVisible(false);
         this.statButton.setVisible(false);
         this.cartas.setVisible(false);
     }
     showButtons()
     {
         this.continueButton.setVisible(true);
-        this.settingsButton.setVisible(true);
         this.statButton.setVisible(true);
         this.cartas.setVisible(true);
     }
