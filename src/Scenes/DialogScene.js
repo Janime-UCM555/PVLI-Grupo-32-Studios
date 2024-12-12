@@ -148,9 +148,25 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('mantenido-hacuma','../assets/cardImages/Mantenido/Hacuma Mapapa.jpg');
             this.load.image('mantenido-puf','../assets/cardImages/Mantenido/puffffffff.jpg');
 
-            
+            //Universidad
 
+            this.load.json('dataUni','../data/data/Dialogue/DialogUniversidad.json');
+            this.load.json('cartasUni','../data/Cartas/CartasUniversidad.json');
+            this.load.image('backgroundUni','../assests/fondos/Universidad/universidad-backgorundjpg.jpg');
+
+            this.load.image('uni-EncimaSinCobrar','../assets/cardImages/Universidad/universidad-sincobrar.jpeg');
+            this.load.image('uni-SiTieneMiedoAlCambio','../assets/cardImages/Universidad/universidad-sitienesmiedo.jpg');
+            this.load.image('uni-EsoLoHagoYo','../assets/cardImages/Universidad/universidad-esolohagoyo.jpeg');
+            this.load.image('uni-SeVienenCositas','../assets/cardImages/universidad-esolohagoyo.jpeg');
+            this.load.image('uni-CafeRosquilla','../assets/cardImages/Universidad/universidad-caferosquilla.jpg');
+            this.load.image('uni-AplicarLoAprendido','../assets/cardImages/Universidad/universidad-aplicarloaprendido.jpeg');
             
+            this.load.image('bg-EncimaSinCobrar','../assests/fondos/Universidad/universidad-sincobrar.jpeg');
+            this.load.image('bg-SiTieneMiedoAlCambio','../assests/fondos/Universidad/universidad-sitienesmiedo.jpeg');
+            this.load.image('bg-EsoLoHagoYo','../assests/fondos/Universidad/universidad-esolohagoyo.jpeg');
+            this.load.image('bg-SeVienenCositas','../assests/fondos/Universidad/universidad-sevienencositas.jpg');
+            this.load.image('bg-CafeRosquilla','../assests/fondos/Universidad/universidad-caferosquilla.jpg');
+            this.load.image('bg-AplicarLoAprendido','../assests/fondos/Universidad/universidad-aplicarloaprendido.jpg');
 
             //Sprites
             this.load.image('gato', '../assets/sprites/Gato.png');
