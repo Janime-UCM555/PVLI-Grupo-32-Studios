@@ -102,6 +102,15 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('bar-Mano','../assets/cardImages/Bar/Mano.jpg');
             this.load.image('bar-Ahogar','../assets/cardImages/Bar/beber.jpg');
 
+            this.load.image('barbg-ayuda','../assets/fondos/Bar/Millonario.jpg');
+            this.load.image('barbg-NuevoLigoteo','../assets/fondos/Bar/Chica.jpg');
+            this.load.image('barbg-Baño','../assets/fondos/Bar/Pelea.jpg');
+            this.load.image('barbg-Irte','../assets/fondos/Bar/Robo.jpg');
+            this.load.image('barbg-Mano','../assets/fondos/Bar/Mano.jpg');
+            this.load.image('barbg-Ahogar','../assets/fondos/Bar/Ahoga.jpg');
+
+
+
             //Grado Superior
             this.load.json('dataGSuperior','../data/Dialogue/DialogFP.json');
             this.load.json('cardGSuperior','../data/Cartas/CartasFP.json');
