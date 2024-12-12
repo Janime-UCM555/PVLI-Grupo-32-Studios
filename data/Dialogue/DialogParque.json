@@ -26,32 +26,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "bd5e84c3-bd7f-4766-8cfd-0197676e1b35",
-			"NextID": "208dbae1-26bc-4612-89b9-eca9e6ff02a1",
-			"Sentence": "No se hasta qué punto algo que hice cuando tenía 6 años pudo haberme llevado a donde estoy hoy. Pero bueno, ¿Qué tengo que hacer?",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2240,
-				"y": -20
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "208dbae1-26bc-4612-89b9-eca9e6ff02a1",
-			"NextID": "73ad5a38-8f7f-4d67-828a-4cc7c1843277",
-			"Sentence": "Como me gusta el show, la decisión tendrás que elegirla entre 3 cartas que te daré, elegidas al azar de un mazo de 6. Yo me encargaré del resto y te comunicaré el resultado.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2720,
-				"y": -40
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "4999d7be-889f-424d-8e1f-6a5bc0653af9",
 			"NextID": "b468644d-d801-4239-ae3e-488fdfe7b38b",
 			"Sentence": "¿Pero se puede saber que vas a hacer? Ese trozo de cartón no parece una máquina del tiempo. Espera... ¿Esto es una broma? Seguro que hay una holocámara por aquí.",
@@ -602,6 +576,32 @@
 			"EditorPosition": {
 				"x": 9467.6396484375,
 				"y": 64.2261810302734
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "bd5e84c3-bd7f-4766-8cfd-0197676e1b35",
+			"NextID": "208dbae1-26bc-4612-89b9-eca9e6ff02a1",
+			"Sentence": "No sé hasta qué punto algo que hice cuando tenía 6 años pudo haberme llevado a donde estoy hoy. Pero bueno, ¿Qué tengo que hacer?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2240,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "208dbae1-26bc-4612-89b9-eca9e6ff02a1",
+			"NextID": "73ad5a38-8f7f-4d67-828a-4cc7c1843277",
+			"Sentence": "Como me gusta el show, la decisión tendrás que elegirla entre 3 cartas que te daré, elegidas al azar de un mazo de 6. Yo me encargaré del resto y te comunicaré el resultado.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2720,
+				"y": -40
 			}
 		}
 	],

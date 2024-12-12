@@ -3,48 +3,48 @@
     {
         "id":"0",
         "Name":"Y encima sin cobrar",
-        "Image":"imageID",
-        "Background":"bgID",
-        "Description":"Para la explotación que ya recives en las practicas de clase al menos podrías cobrar. ¡Déjalo!",
+        "Image":"uni-EncimaSinCobrar",
+        "Background":"bg-EcimaSinCobrar",
+        "Description":"Para la explotación que ya recives en las prácticas de clase al menos podrías cobrar. ¡Déjalo!",
         "Karma":"-5"
     },
     {
         "id":"1",
         "Name":"Si tiene miedo al cambio dejelo aquí",
-        "Image":"imageID",
-        "Background":"bgID",
-        "Description":"Al final tras pensar bastante al final crees que es mejor empezar a ahorrar. Buscarás un trabajo y dejaras esto.",
+        "Image":"uni-SiTieneMiedoAlCambio",
+        "Background":"bg-SiTieneMiedoAlCambio",
+        "Description":"Al final tras pensar bastante al final crees que es mejor empezar a ahorrar. Buscarás un trabajo y dejarás esto.",
         "Karma":"+10"
     },
     {
         "id":"2",
-        "Name":"Eso lo hago yo 100% y sin cobrar",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Name":"Eso lo hago yo 100%",
+        "Image":"uni-EsoLoHagoYo",
+        "Background":"bg-EsoLoHagoYo",
         "Description":"Las practicas sin sentido y materias te agotan. Mejor aprendes según intentas hacer tus proyectos personales.",
         "Karma":"+15"
     },
     {
         "id":"3",
         "Name":"Se vienen cositas",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"uni-SeVienenCositas",
+        "Background":"bg-SeVienenCositas",
         "Description":"Con lo que estas aprendido sientes que en el futuro llegará el momento de inventar algo grande de verdad.",
         "Karma":"+10"
     },
     {
         "id":"4",
         "Name":"Café con una rosquilla",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"uni-CafeRosquilla",
+        "Background":"bg-CafeRosquilla",
         "Description":"Aparece en tu cabeza la idea de por fin ir al bar del barrio a probar la famosa cerveza que de la que todos tus compañeros hablan.",
         "Karma":"+5"
     },
     {
         "id":"5",
         "Name":"Aplicar lo aprendido",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"uni-AplicarLoAprendido",
+        "Background":"bg-AplicarLoAprendido",
         "Description":"Te llega una carta de recomendación bastante alagadora para trabajar en un bar.",
         "Karma":"+10"
     }

@@ -91,19 +91,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "ed43528a-6284-42d4-a63e-ccafc0e6cb01",
-			"NextID": "454f7f4d-3142-4bda-a7ec-2e00a302841f",
-			"Sentence": "Tiempo al tiempo Melch. Verás, mi trabajo es ayudar a la gente a cambiar su pasado. Retomar las decisiones que le han llevado a su situación actual",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3620,
-				"y": -20
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "454f7f4d-3142-4bda-a7ec-2e00a302841f",
 			"NextID": "6ffccae1-f0cb-4e1f-9c3a-ab1e5647f4fd",
 			"Sentence": "Por lo que puedo ver, te arrepientes de varias cosas. Yo te ayudré a cambiar eso. Mi caja, aunque no lo parezca, es una avanzada máquina del tiempo. ",
@@ -117,28 +104,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "6ffccae1-f0cb-4e1f-9c3a-ab1e5647f4fd",
-			"NextID": "ebc551e1-decc-4c61-b1bf-6938710fea27",
-			"Sentence": "Te voy a guiar a distintos puntos de la ciudad. Puedo volver a ese sitio años atrás y cambiar una decisión que tomaste",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4560,
-				"y": 0
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "2cc2297c-fcc9-4d97-84db-c7855934f44a",
-			"NextStoryName": "0",
-			"EditorPosition": {
-				"x": 6940,
-				"y": 40
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "7d771ef1-a67f-429d-89d4-7dd04e769cdc",
 			"NextID": "ed43528a-6284-42d4-a63e-ccafc0e6cb01",
 			"Sentence": "¿Y cómo sabes mi nombre?",
@@ -148,19 +113,6 @@
 			"EditorPosition": {
 				"x": 3180,
 				"y": -20
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "9d9b1d2e-b60e-40f3-8760-e4dc1ed9f892",
-			"NextID": "2cc2297c-fcc9-4d97-84db-c7855934f44a",
-			"Sentence": "Te lo explicaré todo en nuestro primer destino. Tendremos que ir en tu cochambroso coche. Intenta no atropellar a nadie ¡Vamos, hacia el parque! ",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 6420,
-				"y": 20
 			}
 		},
 		{
@@ -200,6 +152,67 @@
 			"EditorPosition": {
 				"x": 5020,
 				"y": 20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "9d9b1d2e-b60e-40f3-8760-e4dc1ed9f892",
+			"NextID": "0f0fa7da-b2b6-4087-85bf-80401597f7b9",
+			"Sentence": "Te lo explicaré todo en nuestro primer destino. Tendremos que ir en tu cochambroso coche. Intenta no atropellar a nadie ¡Vamos, hacia el parque! ",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6420,
+				"y": 20
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "2cc2297c-fcc9-4d97-84db-c7855934f44a",
+			"NextStoryName": "0",
+			"EditorPosition": {
+				"x": 7340,
+				"y": 40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0f0fa7da-b2b6-4087-85bf-80401597f7b9",
+			"NextID": "2cc2297c-fcc9-4d97-84db-c7855934f44a",
+			"Sentence": "(Encuentra la bandera roja de destino y pulsa E para interaccionar con ella)",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6880,
+				"y": 60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6ffccae1-f0cb-4e1f-9c3a-ab1e5647f4fd",
+			"NextID": "ebc551e1-decc-4c61-b1bf-6938710fea27",
+			"Sentence": "Te voy a guiar a distintos puntos de la ciudad. Puedo volver a ese sitio años atrás y cambiar una decisión que tomaste.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4560,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "ed43528a-6284-42d4-a63e-ccafc0e6cb01",
+			"NextID": "454f7f4d-3142-4bda-a7ec-2e00a302841f",
+			"Sentence": "Tiempo al tiempo Melch. Verás, mi trabajo es ayudar a la gente a cambiar su pasado. Retomar las decisiones que le han llevado a su situación actual.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3620,
+				"y": -20
 			}
 		}
 	],
