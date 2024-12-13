@@ -139,7 +139,7 @@ export default class MenuScene extends Phaser.Scene {
             //Chamba
             this.load.json('dataChamba','././data/Dialogue/DialogChamba.json');
             this.load.json('cartasChamba','././data/Cartas/CartasChamba.json');
-            this.load.image('backgroundChamba','././assets/fondos/Estudios/estudios-chamba.jpg');
+            this.load.image('backgroundChamba','././assets/fondos/Chamba/ChambaBG.jpg');
  
             this.load.image('chamba-darloTodo','././assets/cardImages/Chamba/MuyCansado.png');
             this.load.image('chamba-ayho','././assets/cardImages/Chamba/Ayho.jpg');
