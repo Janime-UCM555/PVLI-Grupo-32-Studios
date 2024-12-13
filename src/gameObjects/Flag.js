@@ -9,6 +9,7 @@ class Flag extends Phaser.Physics.Arcade.Sprite
         this.nextScene = nextScene;
         this.flag = flag;
         console.log(nextScene);
+        this.setScale(1.7);
         this.checked = false;
     }
 
