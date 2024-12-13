@@ -1,7 +1,7 @@
 /*Escena de Phaser*/
-import Decoder from '../Decode.js';
-import Melchor from '../sprites/melchor.js'
-import Cat from '../sprites/gato.js'
+import Decoder from './Decode.js';
+import Melchor from './sprites/melchor.js'
+import Cat from './sprites/gato.js'
 export default class MenuScene extends Phaser.Scene {
     constructor(){
         super({key: 'Dialog'});
