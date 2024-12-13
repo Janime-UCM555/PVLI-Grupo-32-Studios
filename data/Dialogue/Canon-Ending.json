@@ -92,7 +92,7 @@
 		{
 			"$type": "NodeSentence",
 			"ID": "6c50f6ba-04c2-4cf8-9162-b66b2b6b141f",
-			"NextID": -1,
+			"NextID": "37846383-0815-4b21-9d5c-4d34a667599a",
 			"Sentence": "¿¿Quien me llama a estas horas??",
 			"SpeakerID": 2,
 			"DisplaySpeakerName": "",
@@ -100,6 +100,15 @@
 			"EditorPosition": {
 				"x": 3372.814453125,
 				"y": 39.8123168945313
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "37846383-0815-4b21-9d5c-4d34a667599a",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 3898.22412109375,
+				"y": 65
 			}
 		}
 	],
