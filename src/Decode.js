@@ -66,10 +66,11 @@ export default class Decoder{
                 this.sound.stop();
                 this.scene.events.off('next');
                 this.scene.scene.stop();
-                console.log(this.node.NextStoryName );
-                if(this.node.NextStoryName === 10 || this.node.NextStoryName === 11 || this.node.NextStoryName === 12)
+                console.log("NEXT: " + this.node.NextStoryName );
+                if(this.node.NextStoryName === "10" || this.node.NextStoryName === "11" || this.node.NextStoryName === "12")
                 {
-                    this.scene.scene.start('Dialog',{NextStoryName: this.node.NextStoryName + 1});
+                    let newIndex = parseInt(this.node.NextStoryName) + 1;
+                    this.scene.scene.start('Dialog',newIndex);
                 }
                 else
                 {

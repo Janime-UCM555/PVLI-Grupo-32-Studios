@@ -232,7 +232,7 @@ export default class MenuScene extends Phaser.Scene {
     }
 
     create(){
-        console.log(this.IDscene);
+        console.log("ENTRACONID: "+this.IDscene);
         this.scale.resize(800,600);
         this.music = this.sound.add('cardMusic', {loop: true, volume: 0.2});
         this.drawSound = this.sound.add('draw', {volume: 4});
