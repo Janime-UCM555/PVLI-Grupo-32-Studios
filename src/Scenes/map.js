@@ -20,38 +20,38 @@ class map extends Phaser.Scene{
     {
         if(this.first){
             //cars
-            this.load.image('car', '../assets/Coche.png');
-            this.load.image('car2', '../assets/Coche2.png');
-            this.load.image('car3', '../assets/Coche3.png');
+            this.load.image('car', '././assets/Coche.png');
+            this.load.image('car2', '././assets/Coche2.png');
+            this.load.image('car3', '././assets/Coche3.png');
 
-            this.load.image('ramp', '../assets/Rampa.png');
+            this.load.image('ramp', '././assets/Rampa.png');
 
-            this.load.audio('claxon','../assets/claxon.mp3');
-            this.load.audio('ambiente','../assets/Sonidos/AmbienteCiudad.mp3');
-            this.load.audio('choque','../assets/Sonidos/Choque.mp3');
-            this.load.audio('atropello','../assets/Sonidos/Hit.mp3');
-            this.load.audio('mario','../assets/Sonidos/MarioYell.mp3');
-            this.load.audio('luigi','../assets/Sonidos/Luigi.mp3')
+            this.load.audio('claxon','././assets/claxon.mp3');
+            this.load.audio('ambiente','././assets/Sonidos/AmbienteCiudad.mp3');
+            this.load.audio('choque','././assets/Sonidos/Choque.mp3');
+            this.load.audio('atropello','././assets/Sonidos/Hit.mp3');
+            this.load.audio('mario','././assets/Sonidos/MarioYell.mp3');
+            this.load.audio('luigi','././assets/Sonidos/Luigi.mp3')
             
 
-            this.load.tilemapTiledJSON('tilemap','../data/Road.json');
-            this.load.image('Ciudad', '../assets/Ciudad.png');
-            this.load.image('Bandera','../assets/Flag.png');
+            this.load.tilemapTiledJSON('tilemap','././data/Road.json');
+            this.load.image('Ciudad', '././assets/Ciudad.png');
+            this.load.image('Bandera','././assets/Flag.png');
 
             // Peatones
-            this.load.image('Abuelita', '../assets/Abuelita.png');
-            this.load.image('Deportista', '../assets/Deportista.png');
-            this.load.image('Default', '../assets/Default.png');
-            this.load.image('Chico', '../assets/Chico.png');
-            this.load.image('Villano', '../assets/ReyHielo.png');
-            this.load.image('Niño', '../assets/Bart.png');
-            this.load.image('Doctor', '../assets/Doctor.png');
-            this.load.image('Italiano', '../assets/FranccescoVirgolini.png');
-            this.load.image('Caustico', '../assets/MaxVerstappen.png');
-            this.load.image('Rencoroso', '../assets/Luigi.png');
+            this.load.image('Abuelita', '././assets/Abuelita.png');
+            this.load.image('Deportista', '././assets/Deportista.png');
+            this.load.image('Default', '././assets/Default.png');
+            this.load.image('Chico', '././assets/Chico.png');
+            this.load.image('Villano', '././assets/ReyHielo.png');
+            this.load.image('Niño', '././assets/Bart.png');
+            this.load.image('Doctor', '././assets/Doctor.png');
+            this.load.image('Italiano', '././assets/FranccescoVirgolini.png');
+            this.load.image('Caustico', '././assets/MaxVerstappen.png');
+            this.load.image('Rencoroso', '././assets/Luigi.png');
 
-            this.load.image('semaforo_rojo', '../assets/semaforo_rojo.png');
-            this.load.image('semaforo_verde', '../assets/semaforo_verde.png');
+            this.load.image('semaforo_rojo', '././assets/semaforo_rojo.png');
+            this.load.image('semaforo_verde', '././assets/semaforo_verde.png');
             
             this.registry.set('atropellados', 0);
 
