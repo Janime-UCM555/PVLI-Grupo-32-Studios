@@ -19,3 +19,6 @@ Un enlace a la página web pública con la versión de publicación del juego:
 Sprite del gato por Javier Gómez Zúñiga para uso privado de este proyecto.
 Imagen de fondo de googles imagenes y un artículo de El Viajista
 Sprite Sheet de la cidad extraído de Itch.io
+
+**Arquitectura**
+![Arquitecura](https://github.com/user-attachments/assets/b0d324a9-ef37-495e-a888-ce7133c84ed5)
