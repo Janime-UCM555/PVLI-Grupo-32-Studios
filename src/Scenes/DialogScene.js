@@ -213,6 +213,21 @@ export default class MenuScene extends Phaser.Scene {
 
             this.registry.set('karma',100);
             this.first = false;
+
+
+
+            // Finales
+            this.load.json('badEnding','../../data/Dialogue/Worst-Ending.json');
+
+            this.load.json('midEnding','../../data/Dialogue/MidKarma-Ending.json');
+
+            this.load.json('LowGoodEnding','../../data/Dialogue/LowGoodKarma-Ending.json');
+            
+            this.load.json('LowBadEnding','../../data/Dialogue/LowBadKarma-Ending.json');
+
+            this.load.json('CanonEnding','../../data/Dialogue/Canon-Ending.json');
+
+            this.load.json('HighGoodEnding','../../data/Dialogue/HighGoodKarma-Ending.json');
         }
     }
 
@@ -277,7 +292,38 @@ export default class MenuScene extends Phaser.Scene {
             this.datos = this.cache.json.get('dataInventor');
             this.add.image(800, 600, 'backgroundInventor').setOrigin(1,1).setScale(0.7,0.7);
             break;
+        case(11):
+            this.datos = this.cache.json.get('badEnding');
+        break;
+        case(12):    
+        let actKarma = this.sys.registry.get('karma');
+        if(actKarma < 35)
+        {
+            this.datos = this.cache.json.get('LowBadEnding');
+        }
+        else if( actKarma >= 35 && actKarma < 75)
+        {
+            //this.datos = this.cache.json.get('');
+        }
+        else if( actKarma >= 75 && actKarma < 125)
+        {
+            this.datos = this.cache.json.get('midEnding');
+        }
+        else if( actKarma >= 125 && actKarma < 165)
+        {
+            this.datos = this.cache.json.get('LowGoodEnding');
+        }
+        else if( actKarma >=  165)
+        {
+            this.datos = this.cache.json.get('HighGoodEnding');
+        }
+        break;
+        case(13):
+            this.datos = this.cache.json.get('CanonEnding');
+        break;
         }   
+        
+        
         this.Melch = new Melchor(this, 0, this.sys.game.canvas.height).setOrigin(0,1);
         this.Gato = new Cat(this, this.sys.game.canvas.width, this.sys.game.canvas.height).setOrigin(1,1);
 

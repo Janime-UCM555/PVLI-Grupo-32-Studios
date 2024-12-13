@@ -179,8 +179,11 @@ class map extends Phaser.Scene{
             flag.visible = true;
             i++;
         })
-
-        this.flags[this.flagIndex].setVisible(true);
+        if(this.flagIndex < 10)
+        {
+            this.flags[this.flagIndex].setVisible(true);
+        }
+        
 
 
         const carGenLayer = this.map.getObjectLayer('CarGenerator');

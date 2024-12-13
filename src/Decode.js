@@ -66,7 +66,16 @@ export default class Decoder{
                 this.sound.stop();
                 this.scene.events.off('next');
                 this.scene.scene.stop();
-                this.scene.scene.start('map',{NextStoryName: this.node.NextStoryName});
+                console.log(this.node.NextStoryName );
+                if(this.node.NextStoryName === 10 || this.node.NextStoryName === 11 || this.node.NextStoryName === 12)
+                {
+                    this.scene.scene.start('Dialog',{NextStoryName: this.node.NextStoryName + 1});
+                }
+                else
+                {
+                    this.scene.scene.start('map',{NextStoryName: this.node.NextStoryName});
+                }
+                
                 break;
         }        
     }
