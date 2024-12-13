@@ -3,48 +3,48 @@
     {
         "id":"0",
         "Name":"Dándolo todo",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"chamba-darloTodo",
+        "Background":"bg-darloTodo",
         "Description":"Decides dar tu máximo, pasando día y noche partiéndote el lomo. Seguro que así impresionas al dueño.",
         "Karma":"-15"
     },
     {
         "id":"1",
         "Name":"Ay Ho",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"chamba-ayho",
+        "Background":"bg-ayho",
         "Description":"Aunque no tienes demasiado tiempo ahora por fin vas a reunir suficiente dinero para una casa propia. ¡A trabajar duro!",
         "Karma":"+10"
     },
     {
         "id":"2",
         "Name":"Empleado del mes",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"chamba-mes",
+        "Background":"bg-mes",
         "Description":"Tu objetivo de ser empleado del mes se cumplirá si o si. Aunque si hay que jugar sucio, la paga extra calmará tu conciencia.",
         "Karma":"-5"
     },
     {
         "id":"3",
         "Name":"Apoyo Laboral",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"chamba-apoyolab",
+        "Background":"bg-apoyolab",
         "Description":"El trabajo se te hace tan sencillo que incluso lo mejor sería ayudar a tus compañeros en lo que puedas. Lo mejor es tener un gran ambiente de trabajo.",
         "Karma":"+15"
     },
     {
         "id":"4",
         "Name":"¡Vamos a Chambear!",
-        "Image":"imageID",
-        "Background":"bgID",
-        "Description":"Parece que la gente no respetar tu horario. Intentas equilibrar tu vida aunque el resto te lo intente impedir. ¡Di no la crunch!",
+        "Image":"chamba-chamba",
+        "Background":"bg-chamba",
+        "Description":"Parece que la gente no respetar tu horario. Intentas equilibrar tu vida aunque el resto te lo intente impedir. ¡Di no al crunch!",
         "Karma":"+10"
     },
     {
         "id":"5",
         "Name":"No me fastidies",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"chamba-fastidio",
+        "Background":"bg-fastidio",
         "Description":"Algún día alguien tiene que poner a toda esta gente en su sitio. Escribes todos tus pensamientos y te toca prepararte para la cantinela.",
         "Karma":"-10"
     }

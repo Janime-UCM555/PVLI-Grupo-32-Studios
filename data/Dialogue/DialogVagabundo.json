@@ -154,15 +154,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "20ef49b8-039c-495d-99ae-d91009613a7f",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3260,
-				"y": -40
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "024d5b5d-b17c-4bff-bce5-8a793fd77ef3",
 			"NextID": "3ac1e470-717e-4ace-9d88-17ccc7fde7f9",
@@ -221,6 +212,15 @@
 			"EditorPosition": {
 				"x": 5540,
 				"y": -260
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "20ef49b8-039c-495d-99ae-d91009613a7f",
+			"NextStoryName": "11",
+			"EditorPosition": {
+				"x": 3300,
+				"y": 0
 			}
 		}
 	],

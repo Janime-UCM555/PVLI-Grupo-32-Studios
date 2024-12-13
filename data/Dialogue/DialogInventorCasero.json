@@ -26,19 +26,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "602e15a7-5ea8-42c9-93c0-76bf7b448cf5",
-			"NextID": "ec81fe7d-aba6-4c09-b2a1-1de6b887c09e",
-			"Sentence": "Yo tambien querido gato. (suspira) Me siento tan cerca de mis sueños que casi puedo tocarlos.",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1120,
-				"y": -60
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "ec81fe7d-aba6-4c09-b2a1-1de6b887c09e",
 			"NextID": "f0b8ffe0-dc5e-461a-ae79-193c0b9b2c8b",
 			"Sentence": "Por supuesto Melchor, de hecho solo te queda tocar una elección más y podrás disfrutar de una vida plena.",
@@ -128,15 +115,6 @@
 			"OneShot": false
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "72720d73-a775-4f42-9593-54c1bcb271cf",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 4960,
-				"y": -380
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "9f3a798d-662e-438e-9658-aeae31075d24",
 			"NextID": "6557d2a5-1900-48ff-b185-9e8ffab07e94",
@@ -147,84 +125,6 @@
 			"EditorPosition": {
 				"x": 3100,
 				"y": -240
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "6557d2a5-1900-48ff-b185-9e8ffab07e94",
-			"NextID": "eead679c-ad50-495a-8ce6-5b98d535619a",
-			"Sentence": "¡Sí! mi querido Melchor. Usted es mi maestro y me instruyo para guiarles por toda su vida para darle un futuro mejor. Aunque al final hemos vuelto a este momento donde fui activado.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3580,
-				"y": -360
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "eead679c-ad50-495a-8ce6-5b98d535619a",
-			"NextID": "29c2a3f0-fceb-4d2d-9fea-b4d145644fda",
-			"Sentence": "Entonces, ¿todo esto es un bucle? toda la magia y misterio que tenias es que eres una invención mia. ¿Cómo si no se como te cree, no sé nada?",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4060,
-				"y": -440
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "29c2a3f0-fceb-4d2d-9fea-b4d145644fda",
-			"NextID": "72720d73-a775-4f42-9593-54c1bcb271cf",
-			"Sentence": "No se preocupe maestro. Solo debe activarme y cuando logre su final feliz todo será corregido.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4480,
-				"y": -420
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "efbc0d01-ad38-4120-aea4-75b82c5f5334",
-			"NextID": "6f3cc908-8751-43c3-894c-702cc9408b89",
-			"Sentence": "¿Un pelador de repollos? ¿A eso le dedico mi vida?",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3160,
-				"y": -20
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "6f3cc908-8751-43c3-894c-702cc9408b89",
-			"NextID": "6f275bdd-72e2-4065-ae2a-a53477bd6d6d",
-			"Sentence": "¿No estás saatisfecho mi querido Melchor? Con eso vivirá una vida plena y feliz te lo aseguró. Su madre tiene razón y resultó ser un invento de los más necesario.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3620,
-				"y": -40
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "6f275bdd-72e2-4065-ae2a-a53477bd6d6d",
-			"NextID": "d980f954-8a34-4a33-8073-d1024438229c",
-			"Sentence": "Con una gama de peladores automaticos que creará después de este hará que la gente coma más verduras.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4120,
-				"y": -20
 			}
 		},
 		{
@@ -254,41 +154,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "64e004d4-6c0f-40ca-bc46-90d9a1b17f55",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 5660,
-				"y": 100
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "6902134d-72a7-45dc-be62-9496711442d3",
-			"NextID": "efc7162b-7c7e-4409-a843-ef447e577589",
-			"Sentence": "¿Pues vaya, por qué elegirías quedarte bloqueado?",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3160,
-				"y": 120
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "b8a97d94-46a9-4b89-a18a-a0080759803e",
-			"NextID": "b1d6aef9-40aa-41ff-839c-56a8fc34c51e",
-			"Sentence": "Creas a un gran compañero capaz de ayudar en una gran cantidad de tareas, pero acabas encariñandote con él. Al final decides hacerlo parte de tú familia.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3160,
-				"y": 260
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "b1d6aef9-40aa-41ff-839c-56a8fc34c51e",
 			"NextID": "8b250abd-409f-47bf-9770-f11ebc56ea61",
@@ -299,19 +164,6 @@
 			"EditorPosition": {
 				"x": 3605.35620117188,
 				"y": 295.832061767578
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "99754f4e-a920-47f3-ac42-9e46052ac1a1",
-			"NextID": "7245b132-969c-4b49-a336-353f09a8fb43",
-			"Sentence": "¿Melchor???",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3240,
-				"y": 500
 			}
 		},
 		{
@@ -329,41 +181,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "d9f85fac-3f5c-403d-9975-fc2ab55d534f",
-			"NextID": "6c8771ee-1c79-4e6e-9094-5e8c3b3b99b3",
-			"Sentence": "Lo siento por ti... ya verás que te depara en el futuro.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4111.3935546875,
-				"y": 536.611572265625
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "6c8771ee-1c79-4e6e-9094-5e8c3b3b99b3",
-			"NextID": "7aef07fb-6aa5-4a00-87c0-201b68701abe",
-			"Sentence": "Al final todo para una decepción. Disfruta del final Humano.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4578.06005859375,
-				"y": 538.278198242188
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "7aef07fb-6aa5-4a00-87c0-201b68701abe",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 5060,
-				"y": 520
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "8b250abd-409f-47bf-9770-f11ebc56ea61",
 			"NextID": "64e004d4-6c0f-40ca-bc46-90d9a1b17f55",
 			"Sentence": "Bueno, dicho eso es hora de que veamos que te depará Melchor.",
@@ -377,41 +194,124 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "e14f363a-6c48-4045-9adb-85732383bd36",
-			"NextID": "c7b76a7a-5801-4c42-b6c9-06fe6151b18f",
-			"Sentence": "Creo que es una gran decisión Melchor. Espero que este sea que deseas.",
+			"ID": "602e15a7-5ea8-42c9-93c0-76bf7b448cf5",
+			"NextID": "ec81fe7d-aba6-4c09-b2a1-1de6b887c09e",
+			"Sentence": "Yo también, querido gato. (suspira) Me siento tan cerca de mis sueños que casi puedo tocarlos.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1120,
+				"y": -60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6557d2a5-1900-48ff-b185-9e8ffab07e94",
+			"NextID": "eead679c-ad50-495a-8ce6-5b98d535619a",
+			"Sentence": "¡Sí, mi querido Melchor! Usted es mi maestro y me instruyó para guiar a la gente por toda su vida para darle un futuro mejor. Aunque al final hemos vuelto a este momento donde fui activado.",
 			"SpeakerID": 0,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 2960,
-				"y": 680
+				"x": 3580,
+				"y": -360
 			}
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "c7b76a7a-5801-4c42-b6c9-06fe6151b18f",
-			"NextID": "e341cee4-39a4-493c-b643-824e72694673",
-			"Sentence": "Gracias por todo gato. Ahora me toca a mi construir un futuro, poco a poco.",
+			"ID": "eead679c-ad50-495a-8ce6-5b98d535619a",
+			"NextID": "29c2a3f0-fceb-4d2d-9fea-b4d145644fda",
+			"Sentence": "Entonces, ¿todo esto es un bucle? Toda la magia y misterio que tenías es que eres una invención mia. ¿Cómo si no sé como te cree, no sé nada?",
 			"SpeakerID": 1,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 3480,
-				"y": 740
+				"x": 4040,
+				"y": -380
 			}
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "e341cee4-39a4-493c-b643-824e72694673",
+			"ID": "29c2a3f0-fceb-4d2d-9fea-b4d145644fda",
+			"NextID": "72720d73-a775-4f42-9593-54c1bcb271cf",
+			"Sentence": "No se preocupe maestro. Solo debe activarme y cuando logre su final feliz todo será corregido.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4480,
+				"y": -400
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "72720d73-a775-4f42-9593-54c1bcb271cf",
+			"NextStoryName": "10",
+			"EditorPosition": {
+				"x": 4960,
+				"y": -360
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "64e004d4-6c0f-40ca-bc46-90d9a1b17f55",
+			"NextStoryName": "12",
+			"EditorPosition": {
+				"x": 5660,
+				"y": 100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "efbc0d01-ad38-4120-aea4-75b82c5f5334",
+			"NextID": "6f3cc908-8751-43c3-894c-702cc9408b89",
+			"Sentence": "¿Un pelador de repollos? ¿A eso le dedico mi vida?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3160,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6f3cc908-8751-43c3-894c-702cc9408b89",
+			"NextID": "6f275bdd-72e2-4065-ae2a-a53477bd6d6d",
+			"Sentence": "¿No estás saatisfecho mi querido Melchor? Con eso vivirás una vida plena y feliz, te lo aseguró. Tu madre tiene razón y resultó ser un invento de lo más necesario.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3620,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6f275bdd-72e2-4065-ae2a-a53477bd6d6d",
+			"NextID": "d980f954-8a34-4a33-8073-d1024438229c",
+			"Sentence": "Con una gama de peladores automáticos que creará después de este hará que la gente coma más verduras.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4120,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6902134d-72a7-45dc-be62-9496711442d3",
 			"NextID": "efc7162b-7c7e-4409-a843-ef447e577589",
-			"Sentence": "Y te dire algo que me llevo de todo esto gatito.",
-			"SpeakerID": 1,
+			"Sentence": "¿Pues vaya, por qué elegirías quedarte bloqueado?",
+			"SpeakerID": 0,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 3940,
-				"y": 740
+				"x": 3160,
+				"y": 120
 			}
 		},
 		{
@@ -423,8 +323,108 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 4000,
+				"x": 4020,
 				"y": 160
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "99754f4e-a920-47f3-ac42-9e46052ac1a1",
+			"NextID": "7245b132-969c-4b49-a336-353f09a8fb43",
+			"Sentence": "¿¿¿Melchor???",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3240,
+				"y": 500
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b8a97d94-46a9-4b89-a18a-a0080759803e",
+			"NextID": "b1d6aef9-40aa-41ff-839c-56a8fc34c51e",
+			"Sentence": "Creas a un gran compañero capaz de ayudar en una gran cantidad de tareas, pero acabas encariñandote de él. Al final decides incorporarlo a tú familia.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3160,
+				"y": 260
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "d9f85fac-3f5c-403d-9975-fc2ab55d534f",
+			"NextID": "6c8771ee-1c79-4e6e-9094-5e8c3b3b99b3",
+			"Sentence": "Lo siento por ti... ya verás que te deparará en el futuro.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4111.3935546875,
+				"y": 536.611572265625
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6c8771ee-1c79-4e6e-9094-5e8c3b3b99b3",
+			"NextID": "7aef07fb-6aa5-4a00-87c0-201b68701abe",
+			"Sentence": "Al final todo para una decepción. Disfruta del final... Humano.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4578.06005859375,
+				"y": 538.278198242188
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "7aef07fb-6aa5-4a00-87c0-201b68701abe",
+			"NextStoryName": "11",
+			"EditorPosition": {
+				"x": 5060,
+				"y": 520
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e14f363a-6c48-4045-9adb-85732383bd36",
+			"NextID": "c7b76a7a-5801-4c42-b6c9-06fe6151b18f",
+			"Sentence": "Creo que es una gran decisión Melchor. Espero que esto sea lo que deseas.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3080,
+				"y": 660
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c7b76a7a-5801-4c42-b6c9-06fe6151b18f",
+			"NextID": "e341cee4-39a4-493c-b643-824e72694673",
+			"Sentence": "Gracias por todo gato. Ahora me toca a mi construir un futuro, poco a poco.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3520,
+				"y": 720
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e341cee4-39a4-493c-b643-824e72694673",
+			"NextID": "efc7162b-7c7e-4409-a843-ef447e577589",
+			"Sentence": "Y te diré algo que me llevo de todo esto gatito.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3940,
+				"y": 740
 			}
 		}
 	],

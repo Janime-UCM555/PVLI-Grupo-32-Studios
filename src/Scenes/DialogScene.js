@@ -17,9 +17,11 @@ export default class MenuScene extends Phaser.Scene {
         if(this.first){
             this.load.audio('cardMusic','../assets/Sonidos/cardMusic.mp3')
             this.load.audio('draw','../assets/Sonidos/draw.mp3')
+
             //Intro
             this.load.json('dataIntro','../data/Dialogue/DialogInicio.json');
             this.load.image('backgroundIntro','../assets/fondos/cajaPuerta.jpg');
+
             //Parque
             this.load.json('dataParque','../data/Dialogue/DialogParque.json');
             this.load.json('cartasParque','../data/Cartas/CartasParque.json');
@@ -40,7 +42,6 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('bgParque-banda', '../assets/fondos/Parque/banda.jpg');
             
             //Insti
-
             this.load.json('dataInsti','../data/Dialogue/DialogInstituto.json');
             this.load.json('cartasInsti','../data/Cartas/CartasInstituto.json');
             this.load.image('backgroundInsti','../assets/fondos/Instituto/InstiFuturista.jpg');
@@ -60,7 +61,6 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('bgInsti-Mertxor','../assets/fondos/Instituto/bgInsti-mertxor.jpg');
             
             //Estudios
-
             this.load.json('dataEstudios','../../data/Dialogue/DialogEstudios.json');
             this.load.json('cartasEstudios','../data/Cartas/CartasES.json');
             this.load.image('backgroundEstudios','../assets/fondos/Estudios/backgorund-estudios.jpg');
@@ -80,7 +80,6 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('buscarconsejo','../assets/fondos/Estudios/estudios-consejo.jpg');
 
             //Universidad
-
             this.load.json('dataUni','../data/Dialogue/DialogUniversidad.json');
             this.load.json('cartasUni','../data/Cartas/CartasUniversidad.json');
             this.load.image('backgroundUni','../assets/fondos/Universidad/universidad-backgorundjpg.jpg');
@@ -136,7 +135,26 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('barbg-Irte','../assets/fondos/Bar/Robo.png');
             this.load.image('barbg-Mano','../assets/fondos/Bar/Mano.jpg');
             this.load.image('barbg-Ahogar','../assets/fondos/Bar/Ahoga.jpg');
-            
+
+            //Chamba
+            this.load.json('dataChamba','../data/Dialogue/DialogChamba.json');
+            this.load.json('cartasChamba','../data/Cartas/CartasChamba.json');
+            this.load.image('backgroundChamba','../assets/fondos/Estudios/estudios-chamba.jpg');
+ 
+            this.load.image('chamba-darloTodo','../assets/cardImages/Chamba/MuyCansado.png');
+            this.load.image('chamba-ayho','../assets/cardImages/Chamba/Ayho.jpg');
+            this.load.image('chamba-mes','../assets/cardImages/Chamba/EmpleadodelMes.jpg');
+            this.load.image('chamba-apoyolab','../assets/cardImages/Chamba/ApoyoLaboral.jpeg');
+            this.load.image('chamba-chamba','../assets/cardImages/Chamba/VamosAChambear.jpg');
+            this.load.image('chamba-fastidio','../assets/cardImages/Chamba/NoMeFastidies.jpeg');
+
+            this.load.image('bg-darloTodo','../assets/fondos/Chamba/Chamba-Dandolo.jpeg');
+            this.load.image('bg-ayho','../assets/fondos/Chamba/Chamba-Ay.jpeg');
+            this.load.image('bg-mes','../assets/fondos/Chamba/Chamba-Empleado.jpeg');
+            this.load.image('bg-apoyolab','../assets/fondos/Chamba/Chamba-Apoyo.jpeg');
+            this.load.image('bg-chamba','../assets/fondos/Chamba/Chamba-Vamos.png');
+            this.load.image('bg-fastidio','../assets/fondos/Chamba/Chamba-No.jpeg');
+
             //Mantenido
             this.load.json('dataMantenido','../data/Dialogue/DialogMantenido.json');
             this.load.json('cartasMantenido','../data/Cartas/CartasMantenido.json');
@@ -152,12 +170,11 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('bg-genio','../assets/fondos/Mantenido/Mantenido-Genio.jpeg');
             this.load.image('bg-fan','../assets/fondos/Mantenido/Mantenido-Fan.jpg');
             this.load.image('bg-otro','../assets/fondos/Mantenido/Mantenido-Otro.jpg');
-            this.load.image('g-apoyo','../assets/fondos/Mantenido/Mantenido-apoyo.jpeg');
+            this.load.image('bg-apoyo','../assets/fondos/Mantenido/Mantenido-apoyo.jpeg');
             this.load.image('bg-hacuma','../assets/fondos/Mantenido/Mantenido-Hacuma.jpeg');
             this.load.image('bg-puf','../assets/fondos/Mantenido/Mantenido-Puf.jpeg');
             
             //Vagabundo
-
             this.load.json('dataVagabundo','../data/Dialogue/DialogVagabundo.json');
             this.load.json('cartasVagabundo','../data/Cartas/CartasVagabundo.json');
             this.load.image('backgroundVagabundo','../assets/fondos/Vagabundo/fondoPuente.jpg');
@@ -170,6 +187,25 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('vaga-caer','../assets/cardImages/Vagabundo/inventor.jpg');
 
             this.load.image('bg-vagabundoInv','../assets/fondos/Vagabundo/reinvent.jpg');
+
+            //Inventor
+            this.load.json('dataInventor','../data/Dialogue/DialogInventorCasero.json');
+            this.load.json('cartasInventor','../data/Cartas/CartasInventorCasero.json');
+            this.load.image('backgroundInventor','../assets/fondos/InventorCasero/Inventor.jpg');
+ 
+            this.load.image('inv-mist','../assets/cardImages/InventorCasero/Inventor-Probador.jpeg');
+            this.load.image('inv-pelador','../assets/cardImages/InventorCasero/Inventor-Pelador.jpeg');
+            this.load.image('inv-crisis','../assets/cardImages/InventorCasero/Inventor-Crisis.jpeg');
+            this.load.image('inv-compa','../assets/cardImages/InventorCasero/Inventor-Companero.jpg');
+            this.load.image('inv-villano','../assets/cardImages/InventorCasero/Inventor-Villano.jpeg');
+            this.load.image('inv-vivir','../assets/cardImages/InventorCasero/Inventor-Vivir.png');
+
+            this.load.image('bg-mist','../assets/fondos/InventorCasero/Inventor-Probador.jpeg');
+            this.load.image('bg-pelador','../assets/fondos/InventorCasero/Inventor-Pelador.jpeg');
+            this.load.image('bg-crisis','../assets/fondos/InventorCasero/Inventor-Crisis.jpeg');
+            this.load.image('bg-compa','../assets/fondos/InventorCasero/Inventor-Companero.png');
+            this.load.image('bg-villano','../assets/fondos/InventorCasero/Inventor-Villano.jpg');
+            this.load.image('bg-vivir','../assets/fondos/InventorCasero/Inventor-Vivir.jpg');
 
             //Sprites
             this.load.image('gato', '../assets/sprites/Gato.png');
@@ -221,6 +257,11 @@ export default class MenuScene extends Phaser.Scene {
             this.datos = this.cache.json.get('dataBar');
             this.add.image(800, 600, 'backgroundBar').setOrigin(1,1);
             break;
+        case(7):
+            this.deck = this.cache.json.get('cartasChamba');
+            this.datos = this.cache.json.get('dataChamba');
+            this.add.image(800, 600, 'backgroundChamba').setOrigin(0,1).setScale(1.5,1.5);
+            break;
         case(8):
             this.deck = this.cache.json.get('cartasMantenido');
             this.datos = this.cache.json.get('dataMantenido');
@@ -230,7 +271,12 @@ export default class MenuScene extends Phaser.Scene {
             this.deck = this.cache.json.get('cartasVagabundo');
             this.datos = this.cache.json.get('dataVagabundo');
             this.add.image(800, 600, 'backgroundVagabundo').setOrigin(1,1).setScale(0.7,0.7);
-            break; 
+            break;
+        case(10):
+            this.deck = this.cache.json.get('cartasInventor');
+            this.datos = this.cache.json.get('dataInventor');
+            this.add.image(800, 600, 'backgroundInventor').setOrigin(1,1).setScale(0.7,0.7);
+            break;
         }   
         this.Melch = new Melchor(this, 0, this.sys.game.canvas.height).setOrigin(0,1);
         this.Gato = new Cat(this, this.sys.game.canvas.width, this.sys.game.canvas.height).setOrigin(1,1);
