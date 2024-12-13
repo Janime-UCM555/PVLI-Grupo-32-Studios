@@ -1,0 +1,130 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "be7920bd-7674-459b-9484-58cbdb5496b1",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "be7920bd-7674-459b-9484-58cbdb5496b1",
+			"NextID": "7d126253-da65-42ca-81ab-1390dd687d0d",
+			"EditorPosition": {
+				"x": -60,
+				"y": -60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7d126253-da65-42ca-81ab-1390dd687d0d",
+			"NextID": "c6f96b47-3d76-47db-bba7-9db59a25eba2",
+			"Sentence": "Melchor tuvo una vida llena de penurias y desdichas.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 340,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c6f96b47-3d76-47db-bba7-9db59a25eba2",
+			"NextID": "b7c26642-7696-4a30-bcf6-6f83de761d8d",
+			"Sentence": "Su situación económica se vio marcada por pérdidas y pérdidas de dinero, hasta tal punto de que estuvo a punto de quedarse sin techo en varios puntos de su vida",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 760,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b7c26642-7696-4a30-bcf6-6f83de761d8d",
+			"NextID": "510565d7-3a3f-4482-bc8a-1ddb7c23e883",
+			"Sentence": "Su novia no pudo soportar la presión y se marchó de casa sin previa explicación.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1220,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "510565d7-3a3f-4482-bc8a-1ddb7c23e883",
+			"NextID": "e2989228-8292-40e9-b7da-3f93995f6852",
+			"Sentence": "Uno de sus mejores amigos le convenció para meterse en el mundo de las apuestas para solventar su situación pero el desenlace fue igual de nefasto.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1660,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4c4c427c-980d-4c9f-bd89-209698ae3b19",
+			"NextID": "af654adb-2cad-4ffe-a116-4a78005356af",
+			"Sentence": "Así de nefasta es la vida de Melchor, sin rumbo y desgraciada.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2560,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "af654adb-2cad-4ffe-a116-4a78005356af",
+			"NextID": "136a7c0a-972e-4ce7-b52b-55089d75dba1",
+			"Sentence": "Por lo menos esta situación no puede ir a peor, ¿no?",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3020,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e2989228-8292-40e9-b7da-3f93995f6852",
+			"NextID": "4c4c427c-980d-4c9f-bd89-209698ae3b19",
+			"Sentence": "Unas declaraciones desafortunadas en Y, famosa red social, también causaron revuelo y su imagen pública se vio considerablemente perjudicada.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2100,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "136a7c0a-972e-4ce7-b52b-55089d75dba1",
+			"NextStoryName": "-1",
+			"EditorPosition": {
+				"x": 3480,
+				"y": -100
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}

@@ -1,0 +1,130 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "55ac7ade-81f3-4628-80e3-125fb55ff9dc",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "55ac7ade-81f3-4628-80e3-125fb55ff9dc",
+			"NextID": "9ed24c45-d7e0-4d33-b648-4f653869d0b3",
+			"EditorPosition": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "9ed24c45-d7e0-4d33-b648-4f653869d0b3",
+			"NextID": "41158013-e8cf-41fa-aa6e-dfd64b13b291",
+			"Sentence": "Gracias por todo gato, pero creo que yo ya he tenido mi oportunidad. ¿No?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 426.878967285156,
+				"y": -3.52101898193359
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "41158013-e8cf-41fa-aa6e-dfd64b13b291",
+			"NextID": "4abdf5ee-6d5c-4e3c-837d-237cdea85688",
+			"Sentence": "Creo que los dos sabemos a quien debemos darle esto.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 880,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4abdf5ee-6d5c-4e3c-837d-237cdea85688",
+			"NextID": "4d058a24-900e-43e8-9c91-239248096ee1",
+			"Sentence": "Claro maestro, lo tengo todo listo. Cuando inicie la ejecución, todo se hará tal como me indicaste.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1360,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6ba9c6f9-6c1f-4a25-a4d0-321ddf221f98",
+			"NextID": "a78b9ecb-1e04-4874-b663-66fdb9b7a483",
+			"Sentence": "*CLICK*",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2340,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4d058a24-900e-43e8-9c91-239248096ee1",
+			"NextID": "6ba9c6f9-6c1f-4a25-a4d0-321ddf221f98",
+			"Sentence": "Así que ya estaba todo listo para solo darle al botón...",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1840,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6c50f6ba-04c2-4cf8-9162-b66b2b6b141f",
+			"NextID": "37846383-0815-4b21-9d5c-4d34a667599a",
+			"Sentence": "¿¿Quien me llama a estas horas??",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3372.814453125,
+				"y": 39.8123168945313
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "a78b9ecb-1e04-4874-b663-66fdb9b7a483",
+			"NextID": "6c50f6ba-04c2-4cf8-9162-b66b2b6b141f",
+			"Sentence": "* Ding Dong*",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2862.22045898438,
+				"y": 19.8123168945313
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "37846383-0815-4b21-9d5c-4d34a667599a",
+			"NextStoryName": "-1",
+			"EditorPosition": {
+				"x": 3898.22412109375,
+				"y": 65
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}

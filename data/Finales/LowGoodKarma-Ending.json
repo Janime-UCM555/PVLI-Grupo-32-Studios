@@ -1,0 +1,130 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "a4a3fec0-0056-4a8d-8ec4-08cad414e64f",
+	"ListNodes": [
+		{
+			"$type": "NodeSentence",
+			"ID": "a80492d6-c44e-4c71-bfc1-0eff0759ee64",
+			"NextID": "bae6c6c6-eca1-44bf-98f9-9294ca6baa90",
+			"Sentence": "Gracias a su persevernacia, carácter y esfuerzo pudo hacerse un lugar en el mundo  y poder acceder al puesto deseado.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1160,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "96183aeb-06d3-41dc-aa19-cea064dddd88",
+			"NextID": "bae866b8-c87c-42e5-a6e0-3652a6dd3ff7",
+			"Sentence": "Gracias a su talento y su personalidad puedo conocer, casi por casualidad, a una mujer magnífica la cual se convertiría en su esposa.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2000,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "bae866b8-c87c-42e5-a6e0-3652a6dd3ff7",
+			"NextID": "4625f94b-c72e-4274-8632-3444022ca135",
+			"Sentence": "Vivían en una casa lo suficientemente grande para alojarse la pareja, su dos hijos y su adroable mascota.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2420,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4625f94b-c72e-4274-8632-3444022ca135",
+			"NextID": "bf7fa0ae-399f-47fa-819d-7fd7c50ba3fb",
+			"Sentence": "Melchor tenía una vida buena, y no se arrepiente de sus decisiones.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2860,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "bf7fa0ae-399f-47fa-819d-7fd7c50ba3fb",
+			"NextStoryName": "-1",
+			"EditorPosition": {
+				"x": 3320,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeRoot",
+			"ID": "a4a3fec0-0056-4a8d-8ec4-08cad414e64f",
+			"NextID": "2b4a99e6-55b1-4865-b95c-ed11fddd2a93",
+			"EditorPosition": {
+				"x": -80,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "2b4a99e6-55b1-4865-b95c-ed11fddd2a93",
+			"NextID": "7580077f-94f3-4868-b4f3-2380cf92b474",
+			"Sentence": "Es así, como llegamos al desenlace de nuestro querido protagonista.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 300,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7580077f-94f3-4868-b4f3-2380cf92b474",
+			"NextID": "a80492d6-c44e-4c71-bfc1-0eff0759ee64",
+			"Sentence": "Gracias a su decisiones Melchor pudo vivir una vida llena de vivencias y agrados. Además, Melchor se convirtió en un aclamado inventor.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 740,
+				"y": -120
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "bae6c6c6-eca1-44bf-98f9-9294ca6baa90",
+			"NextID": "96183aeb-06d3-41dc-aa19-cea064dddd88",
+			"Sentence": "Su trabajo le permitío vivir una vida lo suficientemente cómoda para no preocuparse de problemas finaniceros.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1580,
+				"y": -120
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}

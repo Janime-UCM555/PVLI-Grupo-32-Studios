@@ -1,5 +1,8 @@
 import map from './Scenes/map.js';
-import Dialog from './Scenes/Dialog.js';
+import pause from './Scenes/PauseMenu.js';
+import Dialog from './Scenes/DialogScene.js';
+import MainMenu from './Scenes/MainMenu.js';
+import PauseMenu from './Scenes/PauseMenu.js';
 /**
  * Inicio del juego en Phaser. Creamos el archivo de configuración del juego y creamos
  * la clase Game de Phaser, encargada de crear e iniciar el juego.
@@ -13,14 +16,14 @@ let config = {
 	scale: {
 		autoCenter: Phaser.Scale.CENTER_HORIZONTALLY
 	},
-	scene: [map, Dialog],	// Decimos a Phaser cual es nuestra escena
+	scene:[MainMenu,Dialog,map,PauseMenu],	// Decimos a Phaser cual es nuestra escena
 	physics: { 
 		default: 'arcade', 
 		arcade: { 
 			gravity: { y: 0}, 
-			debug: false 
+			debug: true 
 		} 
-	}
+	},
 };
 
 new Phaser.Game(config);

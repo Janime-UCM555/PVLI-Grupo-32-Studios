@@ -1,0 +1,52 @@
+{
+    "Deck" : [
+    {
+        "id":"0",
+        "Name":"¡Cómo bota el pelota!",
+        "Image":"Pelota",
+        "Background":"bgInsti-Pelota",
+        "Description":"Intentas contentar a los profesores con el objetivo de conseguir las mejores notas. Así tus padres estarán contentos, tus profesores también y tu futuro será lo más brillante posible.",
+        "Karma":"-5"
+    },
+    {
+        "id":"1",
+        "Name":"Apadrinado",
+        "Image":"Apadrinado",
+        "Background":"bgInsti-Apadrinado",
+        "Description":"Intentas hacecerte un hueco entre los del último curso, haciendo los trabajos sucios que te pidan. Pero conseguirás contactos de todos los cursos, y puede que incluso ganes algo de dinero.",
+        "Karma":"+5"
+    },
+    {
+        "id":"2",
+        "Name":"¡Melchor el número uno!",
+        "Image":"Uno",
+        "Background":"bgInsti-Uno",
+        "Description":"Vas a enfrentarte a Tiparraco, un matón que está en la puerta molestando al resto de compañeros. No vas a permitir que nadie te moleste a ti o alguno de tus amigos.",
+        "Karma":"+15"
+    },
+    {
+        "id":"3",
+        "Name":"Pestoso, no me hables mucho",
+        "Image":"Pestoso",
+        "Background":"bgInsti-Pestoso",
+        "Description":"Dejas clara tu posición en la jerarquía social. Para ello elaborar una broma con los “guays” de la clase poniendo una bomba fétida dentro de la mochila del pringado de clase.",
+        "Karma":"-10"
+    },
+    {
+        "id":"4",
+        "Name":"Juego para ganar",
+        "Image":"Juego",
+        "Background":"bgInsti-Juego",
+        "Description":"Intentas destacar en el arte del ping-pong. Durante los recreos practicarás sin parar, fuera de clase intentarás convertirte en un famoso campeón.",
+        "Karma":"+15"
+    },
+    {
+        "id":"5",
+        "Name":"Er Mertxor No Eztudia",
+        "Image":"Mertxor",
+        "Background":"bgInsti-Mertxor",
+        "Description":"Decides que las clases no son para ti. Dejarás todas tus clases y durante las horas de insti vagarás por las calles buscando qué hacer. No es especialmente divertido pero las clases son peor, ¿no?",
+        "Karma":"-15"
+    }
+]
+}

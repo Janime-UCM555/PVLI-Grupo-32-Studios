@@ -1,0 +1,623 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "29fbcb55-1d28-480e-9fa7-68f55b2284ca",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "29fbcb55-1d28-480e-9fa7-68f55b2284ca",
+			"NextID": "f5604c90-19f9-4689-bea0-2147f2aa3f30",
+			"EditorPosition": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f5604c90-19f9-4689-bea0-2147f2aa3f30",
+			"NextID": "4999d7be-889f-424d-8e1f-6a5bc0653af9",
+			"Sentence": "Ala, ya estamos en el parque. Deberías comprarte un coche de esos que vuelan, esos baches son terribles...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 380,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4999d7be-889f-424d-8e1f-6a5bc0653af9",
+			"NextID": "b468644d-d801-4239-ae3e-488fdfe7b38b",
+			"Sentence": "¿Pero se puede saber que vas a hacer? Ese trozo de cartón no parece una máquina del tiempo. Espera... ¿Esto es una broma? Seguro que hay una holocámara por aquí.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 820,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "2e70606e-19fa-4582-820b-1c4e55f35a90",
+			"NextID": "bd5e84c3-bd7f-4766-8cfd-0197676e1b35",
+			"Sentence": "Esto ocurre cada segundo, pero algunas veces  con más significación que otras, y la decisión que uno tome en ese momento determinado puede redefinir su vida entera.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1780,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "73ad5a38-8f7f-4d67-828a-4cc7c1843277",
+			"NextID": "f9e76ceb-987d-473a-a77b-266437bb2589",
+			"Sentence": "¡¡PERO CUIDADO!! Como podrás adivinar, las acciones tienen consecuencias. Tienes un medidor de Karma, ahora mismo equilibrado.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3180,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f9e76ceb-987d-473a-a77b-266437bb2589",
+			"NextID": "0933076f-bc29-4c1c-a9f9-261a07623901",
+			"Sentence": " Con cada decisión cambiará el marcador y afectará a tu vida actual, de forma negativa o positiva. Intenta que sea lo segundo...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3640,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0933076f-bc29-4c1c-a9f9-261a07623901",
+			"NextID": "c94b33d5-5c8d-4fcd-8b0c-212211e01c4b",
+			"Sentence": "Bien, vamos allá. Nos encontramos en el parque en el que jugabas de pequeño. En un día específico te viste abrumado por la cantidad de cosas que hacer. Yo te pregunto, ¿qué harías ahora?",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4140,
+				"y": -60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b468644d-d801-4239-ae3e-488fdfe7b38b",
+			"NextID": "2e70606e-19fa-4582-820b-1c4e55f35a90",
+			"Sentence": "Esto es muy sencillo. En este parque, cuando tenias 6 años se produjo una segmentación de tu futuro.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1280,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeChoice",
+			"ID": "c94b33d5-5c8d-4fcd-8b0c-212211e01c4b",
+			"OptionsID": [
+				"7cc2b079-0d51-4588-81b5-345a22b3ed2b",
+				"429c8589-a065-489f-a5f2-d53e84a104a6",
+				"6f599594-e4bf-40f5-a153-2f95379526b9",
+				"aa3917c0-fe1b-4778-bafe-20442ebef038",
+				"cf10ee51-2c6c-4d6b-b385-b1564a1c8945",
+				"35cd9dfd-a18c-481a-bf9f-fcce317c060e"
+			],
+			"EditorPosition": {
+				"x": 4720,
+				"y": -220
+			}
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "7cc2b079-0d51-4588-81b5-345a22b3ed2b",
+			"NextID": "ed86b81a-c206-42b0-acc5-fae2488adc28",
+			"Sentence": "Primer Ligoteo",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "429c8589-a065-489f-a5f2-d53e84a104a6",
+			"NextID": "76cfd92e-22f8-4b9c-905f-a4e5e85f499c",
+			"Sentence": "Amigos?",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "6f599594-e4bf-40f5-a153-2f95379526b9",
+			"NextID": "c2725250-968f-40ba-8070-17d59488cfc6",
+			"Sentence": "Antisolcial",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "aa3917c0-fe1b-4778-bafe-20442ebef038",
+			"NextID": "397f86e7-000b-4a98-8a5b-fcfa0eb8a931",
+			"Sentence": "Aventura individual",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "cf10ee51-2c6c-4d6b-b385-b1564a1c8945",
+			"NextID": "da7b1622-c935-472e-8d2b-2297cc509bfd",
+			"Sentence": "Melchor no robes",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeOption",
+			"ID": "35cd9dfd-a18c-481a-bf9f-fcce317c060e",
+			"NextID": "fdbd7985-9a35-4ba6-9b17-7d6c8e9a8229",
+			"Sentence": "La banda del parque",
+			"Enable": true,
+			"OneShot": false
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "ed86b81a-c206-42b0-acc5-fae2488adc28",
+			"NextID": "9e1a0329-0ee7-4241-825c-8cabf541f8cc",
+			"Sentence": "Vaya... Que atrevido... Animé al pequeño Melchor a que se acercase a la niña y, aunque os costó conectar, luego os empezasteis a llevar bien. ¡Hasta le pediste salir!",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5140,
+				"y": -320
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "9e1a0329-0ee7-4241-825c-8cabf541f8cc",
+			"NextID": "1eecf630-3447-420b-9e3d-10cbdf9f1f67",
+			"Sentence": "Sorprendentemente ella accedió, y os seguisteis viendo durante los siguientes días",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5580,
+				"y": -280
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "76cfd92e-22f8-4b9c-905f-a4e5e85f499c",
+			"NextID": "89be3c09-0a37-4c6a-8150-4cea82fc37c3",
+			"Sentence": "Mira que bien, les ayudaste a acabar el mega castillo e hicisteis unas migas increíbles. Así hiciste tu primer grupo de amigos.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5140,
+				"y": -160
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "9cc2d94c-e744-4ce9-a882-4f335c0af205",
+			"NextID": "89b82ab7-f91a-44c5-b8d9-d4a2eaf1ac74",
+			"Sentence": "Flípalo",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6620,
+				"y": -140
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c2725250-968f-40ba-8070-17d59488cfc6",
+			"NextID": "959538f9-ec37-493e-800b-780cc322eefa",
+			"Sentence": "Volvisteis tranquilamente a casa y tus padres te entendieron, eras un niño bastante rarito.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5140,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "89be3c09-0a37-4c6a-8150-4cea82fc37c3",
+			"NextID": "ba2bcb18-611c-4e49-9aa8-9f148d7d1f87",
+			"Sentence": "Que raro... me quiere sonar este suceso. ¿No es así como conocí a mis amigos Marcos y Jorge?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5620,
+				"y": -160
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "1cf3e2e0-3cd2-4923-a650-264f7e508373",
+			"NextID": "89b82ab7-f91a-44c5-b8d9-d4a2eaf1ac74",
+			"Sentence": "Era feliz.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6600,
+				"y": 20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "959538f9-ec37-493e-800b-780cc322eefa",
+			"NextID": "72d9cfe2-6894-4e05-884d-a8985a796032",
+			"Sentence": "Vaya... ¿gracias?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5640,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "397f86e7-000b-4a98-8a5b-fcfa0eb8a931",
+			"NextID": "fb5badcc-66bd-41f8-b405-05d5f3845083",
+			"Sentence": "A eso se le llama mala suerte. Eso te pasa por antisocial.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5140,
+				"y": 100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "fb5badcc-66bd-41f8-b405-05d5f3845083",
+			"NextID": "b457b858-da0b-4b16-b91f-6dee866c3fcd",
+			"Sentence": "¿Qué, qué ha pasado?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5620,
+				"y": 100
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b457b858-da0b-4b16-b91f-6dee866c3fcd",
+			"NextID": "ebd9584d-3ddf-4653-83c1-0dd5b207a9f5",
+			"Sentence": "Tu padre y tu os estuvisteis diviertiendo en los columpios, qué estaban bastante oxidados. Mientras él te impulsaba una de las cadenas se rompió.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6080,
+				"y": 80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "ebd9584d-3ddf-4653-83c1-0dd5b207a9f5",
+			"NextID": "5b771609-0b1c-4f4d-a855-d78228907cbe",
+			"Sentence": "Saliste disparado por el aire dando alguna que otra voltereta y aterrizaste sobre tu tobillo, torciéndotelo. Ahora también tienes una cicatriz en la rodilla.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6573.3525390625,
+				"y": 135.995132446289
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "5b771609-0b1c-4f4d-a855-d78228907cbe",
+			"NextID": "89b82ab7-f91a-44c5-b8d9-d4a2eaf1ac74",
+			"Sentence": "Vaya, que traumático. Pero una buena anécdota, supongo.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 7020,
+				"y": 180
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "da7b1622-c935-472e-8d2b-2297cc509bfd",
+			"NextID": "a784eb8d-d153-4325-a9b4-29ea1825228b",
+			"Sentence": "Te quedaste con ese trenecillo tan chulo, pero lo peor es que le hiciste creer a tus padres que era tuyo porque te lo había regalado un amigo.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5151.90283203125,
+				"y": 223.204223632813
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "a784eb8d-d153-4325-a9b4-29ea1825228b",
+			"NextID": "0766216e-cc93-47fd-a99a-f62ff39e09ff",
+			"Sentence": "La farsa no duró mucho. Al final de la tarde vieron que un niño buscaba un juguete y se dieron cuenta de que habías mentido.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5635.05615234375,
+				"y": 231.256774902344
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0766216e-cc93-47fd-a99a-f62ff39e09ff",
+			"NextID": "38e99513-3caa-4367-98de-e1a4acd8f8ee",
+			"Sentence": "Como coprenderás, te obligaron a devolver el choo-choo y te echaron una peta bastante gorda. Perdieron bastante la confianza en Mini Melchor...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6089.27685546875,
+				"y": 263.247924804688
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "38e99513-3caa-4367-98de-e1a4acd8f8ee",
+			"NextID": "89b82ab7-f91a-44c5-b8d9-d4a2eaf1ac74",
+			"Sentence": "Vaya... Parece que lo tenía bastante merecido.",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6580,
+				"y": 320
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "fdbd7985-9a35-4ba6-9b17-7d6c8e9a8229",
+			"NextID": "0d44e0a5-a924-4b65-8acd-8bf56c204bb2",
+			"Sentence": "Guau, todo un líder estabas hecho. Que pena que lo desperdiciaras...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5160,
+				"y": 360
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0d44e0a5-a924-4b65-8acd-8bf56c204bb2",
+			"NextID": "add99539-84c1-4a2b-b635-e6ef55ca3a0b",
+			"Sentence": "Demostraste a esos chavales cómo formar un buen equipo y os convertisteis en toda una leyenda del fútbol en el barrio.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 5613.39990234375,
+				"y": 419.729949951172
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "add99539-84c1-4a2b-b635-e6ef55ca3a0b",
+			"NextID": "3e9abb2a-1979-4c58-8567-7687c1b51f0b",
+			"Sentence": "Wow... Recuerdo aquellos días... ¿Cómo es eso posible?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6080.7021484375,
+				"y": 460.458160400391
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "72d9cfe2-6894-4e05-884d-a8985a796032",
+			"NextID": "1cf3e2e0-3cd2-4923-a650-264f7e508373",
+			"Sentence": " Así que pidieron unas pizzas y, como era sábado, os quedasteis hasta tarde viendo una peli. Fuiste feliz",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6120,
+				"y": -60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "ba2bcb18-611c-4e49-9aa8-9f148d7d1f87",
+			"NextID": "9cc2d94c-e744-4ce9-a882-4f335c0af205",
+			"Sentence": "Así es. Cambiar el pasado cambia tu presente. Genera recuerdos y contactos nuevos. Esos amigos no los tenías hace dos minutos. De nada.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6120,
+				"y": -220
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "1eecf630-3447-420b-9e3d-10cbdf9f1f67",
+			"NextID": "b3ee68d6-6957-4598-a37f-5cf903ce5058",
+			"Sentence": "¡Qué dices! ¿En serio?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6080,
+				"y": -340
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "0e868766-fe92-46b5-8593-1ab20b17cccc",
+			"NextID": "89b82ab7-f91a-44c5-b8d9-d4a2eaf1ac74",
+			"Sentence": "Mecachis...",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6980,
+				"y": -260
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "b3ee68d6-6957-4598-a37f-5cf903ce5058",
+			"NextID": "0e868766-fe92-46b5-8593-1ab20b17cccc",
+			"Sentence": "Sí, pero no te emociones. Al cuarto día te dejó porque le saboteaste en una partida a papás y a mamás. No lo llevastes muy bien. Me temo que estó habrá bajado tu karma...",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6540,
+				"y": -320
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "3e9abb2a-1979-4c58-8567-7687c1b51f0b",
+			"NextID": "a90a4f8a-cdc7-46cc-8a89-e357f714979a",
+			"Sentence": "Cambiar el pasado ha afectado a tu presente y te ha generado recuerdos nuevos, ya que técniamente lo has vivido.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 6540,
+				"y": 460
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "a90a4f8a-cdc7-46cc-8a89-e357f714979a",
+			"NextID": "89b82ab7-f91a-44c5-b8d9-d4a2eaf1ac74",
+			"Sentence": "Tiene sentido",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 7020,
+				"y": 480
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "89b82ab7-f91a-44c5-b8d9-d4a2eaf1ac74",
+			"NextID": "c25476d6-8583-4625-9f5e-f4df669d21af",
+			"Sentence": "Vale, ¿y no podría volver a elegir otra carta? Por si quiero probar otra cosa...",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 7588.0830078125,
+				"y": 35.7231750488281
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c25476d6-8583-4625-9f5e-f4df669d21af",
+			"NextID": "7e9089b2-993f-4d7d-a95f-3d7b2a7fbe38",
+			"Sentence": "¡Noo! Es peligroso intervenir en un punto de tu línea temporal más de una vez. Juega con tu memoria y tu físico, es inestable y puede causar catástrofes.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 8020,
+				"y": 40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7e9089b2-993f-4d7d-a95f-3d7b2a7fbe38",
+			"NextID": "fe31cf26-1d95-42c8-9b41-717c7537f1e2",
+			"Sentence": " Lo hecho, hecho está... por segunda vez. Pero ya no más.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 8500,
+				"y": 80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "fe31cf26-1d95-42c8-9b41-717c7537f1e2",
+			"NextID": "2d94bfdd-fa6e-4c38-b1fa-4658fb5db1aa",
+			"Sentence": "Muy bien, avancemos a tu siguiente etapa: ¡el instituto!",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 8980,
+				"y": 80
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "2d94bfdd-fa6e-4c38-b1fa-4658fb5db1aa",
+			"NextStoryName": "1",
+			"EditorPosition": {
+				"x": 9467.6396484375,
+				"y": 64.2261810302734
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "bd5e84c3-bd7f-4766-8cfd-0197676e1b35",
+			"NextID": "208dbae1-26bc-4612-89b9-eca9e6ff02a1",
+			"Sentence": "No sé hasta qué punto algo que hice cuando tenía 6 años pudo haberme llevado a donde estoy hoy. Pero bueno, ¿Qué tengo que hacer?",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2240,
+				"y": -20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "208dbae1-26bc-4612-89b9-eca9e6ff02a1",
+			"NextID": "73ad5a38-8f7f-4d67-828a-4cc7c1843277",
+			"Sentence": "Como me gusta el show, la decisión tendrás que elegirla entre 3 cartas que te daré, elegidas al azar de un mazo de 6. Yo me encargaré del resto y te comunicaré el resultado.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2720,
+				"y": -40
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}

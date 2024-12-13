@@ -10,12 +10,12 @@
 export default class DialogText{
 
 	constructor(scene, opts){
-		this.scene = scene;
-		this.init(opts);
+		this.init(scene,opts);
 	}
 
-	init(opts) {
+	init(scene,opts) {
 		// Mira si hay parámetros que se pasan, en caso de que no, se usan los por defecto
+		this.scene = scene;
 		if (!opts) opts = {};
 		
 		// set properties from opts object or use defaults
@@ -30,6 +30,7 @@ export default class DialogText{
 		this.dialogSpeed = opts.dialogSpeed || 3;
 		this.fontSize = opts.fontSize || 24
 		this.fontFamily = opts.fontFamily || undefined
+		this.fontColor = opts.fontColor || 'white'
 		
 		// se usa para animar el texto
 		this.eventCounter = 0;
@@ -182,13 +183,15 @@ export default class DialogText{
 			this.clearTint(); //vuelve al color original al quitar el cursor
 		});
 		this.closeBtn.on('pointerdown', function () {
-			this.scene.events.emit('next');
+			
 			self.toggleWindow(); //se llama al método que cierra o muestra la ventana de diálogo
 			// elimina el game object con el texto y borra el evento
+			
 			if (self.timedEvent) 
 				self.timedEvent.remove();
 			if (self.text) 
 				self.text.destroy();
+			this.scene.events.emit('next');
 		});
 	}
 
@@ -232,7 +235,8 @@ export default class DialogText{
 				//se obliga al texto a permanecer dentro de unos limites determinados
 				wordWrap: { width: this._getGameWidth() - (this.padding * 2) - 25 },
 				fontSize: this.fontSize,
-				fontFamily: this.fontFamily
+				fontFamily: this.fontFamily,
+				color: this.fontColor
 			}
 		});
 	}

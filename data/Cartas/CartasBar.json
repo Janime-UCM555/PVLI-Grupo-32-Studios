@@ -1,0 +1,52 @@
+{
+    "Deck" : [
+    {
+        "id":"0",
+        "Name":"Hombre en apuros",
+        "Image":"bar-Ayuda",
+        "Background":"barbg-Ayuda",
+        "Description":"Ves a un hombre trajeado borracho llorando y decides preocuparte por él.",
+        "Karma":"+25"
+    },
+    {
+        "id":"1",
+        "Name":"Ligoteo 2.0",
+        "Image":"bar-NuevoLigoteo",
+        "Background":"barbg-NuevoLigoteo",
+        "Description":"Decides acercarte a una chica que está en la barra. Se la ve pensativa y solitaria. Podría ser un buen momento para entablar conversación.",
+        "Karma":"+15"
+    },
+    {
+        "id":"2",
+        "Name":"Tengo que ir",
+        "Image":"bar-Baño",
+        "Background":"barbg-Baño",
+        "Description":"Prefieres evitar a la gente, hacer tus necesidades e irte. Pero para ello has de entrar al baño del bar.",
+        "Karma":"-20"
+    },
+    {
+        "id":"3",
+        "Name":"Hasta la vista",
+        "Image":"bar-Irte",
+        "Background":"barbg-Irte",
+        "Description":"El ambiente del bar te abruma y decides irte a casa, ahí se estará más tranquilo, ¿no?.",
+        "Karma":"-10"
+    },
+    {
+        "id":"4",
+        "Name":"¿Te echo una mano?",
+        "Image":"bar-Mano",
+        "Background":"barbg-Mano",
+        "Description":"El camarero del bar muestra signos evidentes de saturación y estrés. Al ver tal situación decides ayudarle lavando platos.",
+        "Karma":"+15"
+    },
+    {
+        "id":"5",
+        "Name":"Ahogar tus penas",
+        "Image":"bar-Ahogar",
+        "Background":"barbg-Ahogar",
+        "Description":"Decides ahogar tus penas en el alcohol, bebiendo una botella tras otra sin ningún tipo de control.",
+        "Karma":"-15"
+    }
+]
+}
