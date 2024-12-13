@@ -331,7 +331,7 @@ export default class MenuScene extends Phaser.Scene {
         }
         break;
         case(13):
-            his.music.stop();
+            this.music.stop();
             this.datos = this.cache.json.get('CanonEnding');
             this.add.image(0, 0, 'backgroundIntro').setOrigin(0,0).setScale(1.9,1.9);
         break;
