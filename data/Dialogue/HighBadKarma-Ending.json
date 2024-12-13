@@ -1,0 +1,156 @@
+{
+	"EditorVersion": "2.3.0",
+	"RootNodeID": "dc3e6b61-4d38-43f7-a1ef-f676cb9f26bc",
+	"ListNodes": [
+		{
+			"$type": "NodeRoot",
+			"ID": "dc3e6b61-4d38-43f7-a1ef-f676cb9f26bc",
+			"NextID": "c0286a99-7dba-40a3-b398-d1befad83ef6",
+			"EditorPosition": {
+				"x": 0,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "fb5b717b-b469-48b5-bc5c-e300df208838",
+			"NextStoryName": "",
+			"EditorPosition": {
+				"x": 3862.7158203125,
+				"y": 113.355194091797
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "c0286a99-7dba-40a3-b398-d1befad83ef6",
+			"NextID": "17b1f782-fa98-4623-98ab-3cb26026432b",
+			"Sentence": "A partir de este punto, nuestro no tan bien intencionado Melchor logró, en parte, cumplir su sueño de tener grandes inventos.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 457.979736328125,
+				"y": -13.3114624023438
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "17b1f782-fa98-4623-98ab-3cb26026432b",
+			"NextID": "e168e0f7-fb79-4ed2-8097-f52b8e26a545",
+			"Sentence": "Aunque, en consecuencia de sus acciones, su reputación opacó cualquier posible contrato que le pudiera hacer famoso o rico.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 960,
+				"y": 20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e168e0f7-fb79-4ed2-8097-f52b8e26a545",
+			"NextID": "511d8ace-a293-43c0-b480-0f4774a70807",
+			"Sentence": "Fue así como Melchor se vio obligado a conformarse con ayudar a aquellos que aún le tenían algo de respeto.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1412.17224121094,
+				"y": 5.02186965942383
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "511d8ace-a293-43c0-b480-0f4774a70807",
+			"NextID": "73fa4c4e-30ef-4ada-99d5-5561d103bb0a",
+			"Sentence": "Debido a la falta de apoyo, a Melchor le solían faltar lo necesario para vivir una vida digna.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 1900,
+				"y": 20
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "73fa4c4e-30ef-4ada-99d5-5561d103bb0a",
+			"NextID": "465eee15-cca9-41b1-b389-8032d93b4a62",
+			"Sentence": "Con el tiempo, Melchor halló la paz en las cosas más simples.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2320,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "465eee15-cca9-41b1-b389-8032d93b4a62",
+			"NextID": "22f2b796-9093-4840-9a35-9261a495c059",
+			"Sentence": "Aunque no se dio cuenta de que se estaba quedando solo hasta que ya no le quedaba nadie.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2740,
+				"y": -40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "22f2b796-9093-4840-9a35-9261a495c059",
+			"NextID": "4370206d-2e78-4233-a184-e03a3f736985",
+			"Sentence": "Bueno, al final encontró la forma de ayudar a la gente, aunque vivió una vida solitaria.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3140,
+				"y": -260
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "4370206d-2e78-4233-a184-e03a3f736985",
+			"NextID": "99f03bb4-2bab-4392-a58a-cbcb01171f6d",
+			"Sentence": "Por eso, a veces no le alcanzaba ni para comer, por no haber logrado el suficiente apoyo para conseguir algo mejor. No todo se puede hacer solo.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3440,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "99f03bb4-2bab-4392-a58a-cbcb01171f6d",
+			"NextID": "fb5b717b-b469-48b5-bc5c-e300df208838",
+			"Sentence": "Pero él podrá decir que encontró la felicidad.",
+			"SpeakerID": 0,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3430.71752929688,
+				"y": 116.688537597656
+			}
+		}
+	],
+	"Characters": [
+		{
+			"Reference": "gato",
+			"ID": 0
+		},
+		{
+			"Reference": "melchor",
+			"ID": 1
+		},
+		{
+			"Reference": "externo",
+			"ID": 2
+		}
+	],
+	"Variables": []
+}
