@@ -15,6 +15,8 @@ export default class MenuScene extends Phaser.Scene {
 
     preload(){
         if(this.first){
+            this.load.audio('cardMusic','../assets/Sonidos/cardMusic.mp3')
+            this.load.audio('draw','../assets/Sonidos/draw.mp3')
             //Intro
             this.load.json('dataIntro','../data/Dialogue/DialogInicio.json');
             this.load.image('backgroundIntro','../assets/fondos/cajaPuerta.jpg');
@@ -194,6 +196,9 @@ export default class MenuScene extends Phaser.Scene {
     create(){
         console.log(this.IDscene);
         this.scale.resize(800,600);
+        this.music = this.sound.add('cardMusic', {loop: true, volume: 0.2});
+        this.drawSound = this.sound.add('draw', {volume: 4});
+        this.music.play();
         switch (this.IDscene){
         case (0):
             this.datos = this.cache.json.get('dataIntro');
@@ -234,19 +239,15 @@ export default class MenuScene extends Phaser.Scene {
             this.datos = this.cache.json.get('dataVagabundo');
             this.add.image(800, 600, 'backgroundVagabundo').setOrigin(1,1).setScale(0.7,0.7);
             break; 
-        }
-        
-
-        
-    
+        }   
         this.Melch = new Melchor(this, 0, this.sys.game.canvas.height).setOrigin(0,1);
         this.Gato = new Cat(this, this.sys.game.canvas.width, this.sys.game.canvas.height).setOrigin(1,1);
 
-        this.decoder = new Decoder(this, this.datos, this.deck);
+        this.decoder = new Decoder(this, this.datos, this.deck, this.music, this.drawSound);
         this.events.on('next',() => {this.decoder.decode()});
         
         // Empieza el decode del JSON por el RootNode
-        this.decoder.decode();
+        this.decoder.decode(this.music);
     }
     showSprite(sprite){
         if(sprite == 'gato') {

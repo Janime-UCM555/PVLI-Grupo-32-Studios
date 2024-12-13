@@ -1,6 +1,7 @@
 export default class Carta extends Phaser.GameObjects.Container
 {
-    constructor(scene, x,y, datos, callback){
+    constructor(scene, x,y, datos, callback, sound){
+        console.log(sound);
         super(scene,x,y);
         this.scene = scene;
         this.datos = datos;
@@ -11,7 +12,7 @@ export default class Carta extends Phaser.GameObjects.Container
         this.background = scene.add.rectangle(0, 0, 200, 280, 0x333333);
         this.background.setOrigin(0.5);
         this.add(this.background);
-
+        this.sound = sound;
 
 
         this.name = scene.add.text(0, -110, this.datos.Name, { 
@@ -48,6 +49,8 @@ export default class Carta extends Phaser.GameObjects.Container
         });
     }
     changeKarma(){
+        console.log(this.sound);
+        this.sound.play();
         this.scene.add.image(this.scene.sys.game.canvas.width/2, this.scene.sys.game.canvas.height/2 - 80,this.datos.Background);
         let auxCard = this.scene.sys.game.registry.get('myCards');
         if(!Array.isArray(auxCard)){
