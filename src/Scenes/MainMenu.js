@@ -10,8 +10,8 @@ class MainMenu extends Phaser.Scene{
     }
     preload()
     {
-        this.load.image('frame1', 'PVLI-Grupo-32-Studios/assets/Gato1.jpg');
-        this.load.image('frame2', '../assets/Gato2.jpg');
+        this.load.image('frame1', './assets/Gato1.jpg');
+        this.load.image('frame2', './assets/Gato2.jpg');
     }
     create()
     {
