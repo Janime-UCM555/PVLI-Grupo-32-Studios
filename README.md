@@ -22,10 +22,10 @@ cambialo y redescubre ¿Volverás a ser el mismo o te devorarán las posibilidad
 
 ## Assets utilizados
 
-La dirección artistica se explica en el Documento de Diseño. En general se han usado imágenes de stock, un tile-map extraído de internet y algunos sprites de elaboración propia.
+La dirección artistica se explica en el Documento de Diseño. En general se han usado imágenes de stock, un tile-map extraído de itch.io y algunos sprites de elaboración propia.
 Sprites del gato y de Melchor por Javier Gómez Zúñiga para uso privado de este proyecto.
 Imágenes del juego extraídas de Google Imágenes, Pinterest, Librerías online y usando IAs como ChatGPT.
-Los efectos de sonido se han extraído de audios de YouTube.
+Los efectos de sonido se han extraído de diversos audios de YouTube.
 
 Se han hecho uso de tres tipos de json: uno para el TileMap extraído de Tiled, otro con las diferentes barajas de carta con sus informaciones, y usando la herramienta externa Monologue Editor para los diálogos. 
 
