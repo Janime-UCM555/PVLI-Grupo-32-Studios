@@ -56,24 +56,26 @@ class PauseMenu extends Phaser.Scene{
     showCards()
     {
         let cartas = this.sys.game.registry.get('myCards');
-        var startX = 200;
-        var startY = 200;
+        var startX = 150;
+        var startY = 250;
 
         if(cartas != null)
         {
             let cont = 0;
             cartas.forEach(element => {
                 
-                if(cont >= 5)
+                if(cont >= 4)
                 {
-                startY += 100;
-                startX = 0;
+                startY += 250;
+                startX = 150;
+                cont = 0;
                 }
                 let c = new Carta(this,startX,startY, element.getDatos());
                 this.auxCards.push(c);
                 this.add.existing(c);
                 c.setVisible(true);
-                startX += 150;
+                startX += 220;
+                cont++;
             });
                 
         }
@@ -83,7 +85,7 @@ class PauseMenu extends Phaser.Scene{
                 fontSize: "20px"
             })
         }
-        this.returnCardButton = new Button(this, this.cameras.main.width / 2, 460, 'CERRAR', () => {
+        this.returnCardButton = new Button(this, this.cameras.main.width / 2, 590, 'CERRAR', () => {
             if(this.auxCards != null)
             {
                 this.auxCards.forEach((carta)=>{

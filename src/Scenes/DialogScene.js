@@ -280,8 +280,7 @@ export default class MenuScene extends Phaser.Scene {
         case(7):
             this.deck = this.cache.json.get('cartasChamba');
             this.datos = this.cache.json.get('dataChamba');
-            this.bgChamba = this.add.image(800, 600, 'backgroundChamba').setOrigin(0,1).setScale(1.5,1.5);
-            console.log(this.bgChamba);
+            this.bgChamba = this.add.image(0, 0, 'backgroundChamba').setOrigin(0,0).setScale(1.8,1.8);
             break;
         case(8):
             this.deck = this.cache.json.get('cartasMantenido');
@@ -302,7 +301,7 @@ export default class MenuScene extends Phaser.Scene {
             this.music.stop();
             this.datos = this.cache.json.get('badEnding');
             this.add.image(0, 0, 'bg-Bad').setOrigin(0,0).setScale(1.7,1.7);
-        break;
+            break;
         case(12):    
         let actKarma = this.sys.registry.get('karma');
         if(actKarma < 30)
