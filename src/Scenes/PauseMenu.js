@@ -20,12 +20,6 @@ class PauseMenu extends Phaser.Scene{
         this.auxCards = []
 
         this.continueButton = new Button(this, this.cameras.main.width/2, 250, 'CONTINUAR', () =>{
-            if(this.auxCards != null)
-            {
-                this.auxCards.forEach((carta)=>{
-                    carta.deleteCard();
-                })
-            }
             this.scene.stop();
             this.scene.resume(this.activeSceneKey);
         });
@@ -38,7 +32,7 @@ class PauseMenu extends Phaser.Scene{
             this.hideButtons();
             this.showCards();
         });
-        this.KarmaBar = new Barrita(this, this.sys.game.canvas.width/2 - 250, 220,0xFF0000 , 0x555555, 0, 200);
+        this.KarmaBar = new Barrita(this, this.sys.game.canvas.width/2 - 100, 220,0xFF0000 , 0x555555, 0, 200);
         this.KarmaBar.setVisible(false);
     }
     showStats() {
@@ -67,7 +61,14 @@ class PauseMenu extends Phaser.Scene{
 
         if(cartas != null)
         {
+            let cont = 0;
             cartas.forEach(element => {
+                
+                if(cont >= 5)
+                {
+                startY += 100;
+                startX = 0;
+                }
                 let c = new Carta(this,startX,startY, element.getDatos());
                 this.auxCards.push(c);
                 this.add.existing(c);
@@ -82,10 +83,13 @@ class PauseMenu extends Phaser.Scene{
                 fontSize: "20px"
             })
         }
-        this.returnCardButton = new Button(this, this.cameras.main.width / 2, 430, 'CERRAR', () => {
-            this.auxCards.forEach(element => {
-                element.setVisible(false);
-            });
+        this.returnCardButton = new Button(this, this.cameras.main.width / 2, 460, 'CERRAR', () => {
+            if(this.auxCards != null)
+            {
+                this.auxCards.forEach((carta)=>{
+                    carta.deleteCard();
+                })
+            }
             this.returnCardButton.setVisible(false);
             this.noCardText.destroy();
             this.showButtons();
@@ -102,11 +106,6 @@ class PauseMenu extends Phaser.Scene{
         this.continueButton.setVisible(true);
         this.statButton.setVisible(true);
         this.cartas.setVisible(true);
-    }
-    showVolumeSlider()
-    {
-        const width = 200;
-        const length = 10;
     }
 }
 export default PauseMenu;
