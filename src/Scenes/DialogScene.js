@@ -9,7 +9,6 @@ export default class MenuScene extends Phaser.Scene {
     }
     init(flag){
         flag = parseInt(flag);
-        console.log("FLAG: " + flag);
         this.IDscene = flag;
     }
 
