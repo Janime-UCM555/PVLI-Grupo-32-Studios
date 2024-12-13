@@ -3,8 +3,8 @@
     {
         "id":"0",
         "Name":"Hombre en apuros",
-        "Image":"bar-Ayuda",
-        "Background":"barbg-Ayuda",
+        "Image":"bar-ayuda",
+        "Background":"barbg-ayuda",
         "Description":"Ves a un hombre trajeado borracho llorando y decides preocuparte por él.",
         "Karma":"+25"
     },
