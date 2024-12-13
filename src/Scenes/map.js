@@ -228,11 +228,6 @@ class map extends Phaser.Scene{
         this.claxonSound =  this.sound.add('claxon');
 
         this.input.keyboard.on('keydown-E', this.checkFlags,this);
-        this.karmaText = this.add.text(16, 16, 'Karma: ' +  this.sys.game.registry.get('karma'), {
-            fontSize: '20px',
-            fill: '#ff0000',
-            backgroundColor: '#000000',
-        }).setScrollFactor(0);
 
         this.input.keyboard.on('keydown-ESC', () => {
             this.scene.launch('PauseMenu', { activeSceneKey: this.scene.key});
@@ -299,7 +294,6 @@ class map extends Phaser.Scene{
         this.sys.game.registry.set('karma', karmaQuantity);
         let count =  this.sys.game.registry.get('atropellados');
         this.registry.set('atropellados', count + 1);
-        this.karmaText.setText('Karma: ' +  this.sys.game.registry.get('karma'));
         this.events.emit('muestraFicha', peaton);
         peaton.destroy();
         
