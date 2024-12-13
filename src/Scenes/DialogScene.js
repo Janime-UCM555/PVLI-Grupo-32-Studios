@@ -1,7 +1,7 @@
 /*Escena de Phaser*/
-import Decoder from './Decode.js';
-import Melchor from './sprites/melchor.js'
-import Cat from './sprites/gato.js'
+import Decoder from '../Decode.js';
+import Melchor from '../sprites/melchor.js'
+import Cat from '../sprites/gato.js'
 export default class MenuScene extends Phaser.Scene {
     constructor(){
         super({key: 'Dialog'});
@@ -15,12 +15,12 @@ export default class MenuScene extends Phaser.Scene {
 
     preload(){
         if(this.first){
-            this.load.audio('cardMusic','./assets/Sonidos/cardMusic.mp3')
-            this.load.audio('draw','./assets/Sonidos/draw.mp3')
+            this.load.audio('cardMusic','../assets/Sonidos/cardMusic.mp3')
+            this.load.audio('draw','../assets/Sonidos/draw.mp3')
 
             //Intro
-            this.load.json('dataIntro','./data/Dialogue/DialogInicio.json');
-            this.load.image('backgroundIntro','./assets/fondos/cajaPuerta.jpg');
+            this.load.json('dataIntro','../data/Dialogue/DialogInicio.json');
+            this.load.image('backgroundIntro','../assets/fondos/cajaPuerta.jpg');
 
             //Parque
             this.load.json('dataParque','../data/Dialogue/DialogParque.json');
