@@ -91,7 +91,9 @@ class PauseMenu extends Phaser.Scene{
                 })
             }
             this.returnCardButton.setVisible(false);
-            this.noCardText.destroy();
+            if(this.noCardText != null){
+                this.noCardText.destroy();
+            }
             this.showButtons();
         });
     }
