@@ -252,6 +252,7 @@ class map extends Phaser.Scene{
             const playerBounds = this.car.getBounds();
             const flagBounds = flag.getBounds();
             const isFlagVisible = flag.visible;
+            console.log(isFlagVisible);
             if(Phaser.Geom.Intersects.RectangleToRectangle(playerBounds, flagBounds) && isFlagVisible)
             {
                 flag.activate();
