@@ -3,20 +3,11 @@
 	"RootNodeID": "be7920bd-7674-459b-9484-58cbdb5496b1",
 	"ListNodes": [
 		{
-			"$type": "NodeEndPath",
-			"ID": "136a7c0a-972e-4ce7-b52b-55089d75dba1",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3320,
-				"y": -140
-			}
-		},
-		{
 			"$type": "NodeRoot",
 			"ID": "be7920bd-7674-459b-9484-58cbdb5496b1",
 			"NextID": "7d126253-da65-42ca-81ab-1390dd687d0d",
 			"EditorPosition": {
-				"x": 20,
+				"x": -60,
 				"y": -60
 			}
 		},
@@ -29,7 +20,7 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 400,
+				"x": 340,
 				"y": -100
 			}
 		},
@@ -42,7 +33,7 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 780,
+				"x": 760,
 				"y": -120
 			}
 		},
@@ -55,7 +46,7 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 1140,
+				"x": 1220,
 				"y": -100
 			}
 		},
@@ -68,21 +59,8 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 1540,
-				"y": -100
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "e2989228-8292-40e9-b7da-3f93995f6852",
-			"NextID": "4c4c427c-980d-4c9f-bd89-209698ae3b19",
-			"Sentence": "Unas declaraciones desafortunadas en X también causaron revuelo y su imagen pública se vio considerablemente perjudicada.",
-			"SpeakerID": 2,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 1969.9912109375,
-				"y": -112.322616577148
+				"x": 1660,
+				"y": -120
 			}
 		},
 		{
@@ -94,8 +72,8 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 2366.57470703125,
-				"y": -120.881965637207
+				"x": 2560,
+				"y": -80
 			}
 		},
 		{
@@ -107,8 +85,30 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 2840,
-				"y": -120
+				"x": 3020,
+				"y": -80
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "e2989228-8292-40e9-b7da-3f93995f6852",
+			"NextID": "4c4c427c-980d-4c9f-bd89-209698ae3b19",
+			"Sentence": "Unas declaraciones desafortunadas en Y, famosa red social, también causaron revuelo y su imagen pública se vio considerablemente perjudicada.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2100,
+				"y": -100
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "136a7c0a-972e-4ce7-b52b-55089d75dba1",
+			"NextStoryName": "-1",
+			"EditorPosition": {
+				"x": 3480,
+				"y": -100
 			}
 		}
 	],

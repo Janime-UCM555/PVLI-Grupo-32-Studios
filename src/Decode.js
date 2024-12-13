@@ -72,6 +72,19 @@ export default class Decoder{
                     let newIndex = parseInt(this.node.NextStoryName) + 1;
                     this.scene.scene.start('Dialog',newIndex);
                 }
+                else if(this.node.NextStoryName === "-1"){
+                    this.scene.sys.registry.set('karma',100);
+                    this.scene.sys.registry.set('atropellados',0);
+                    let cartas = this.scene.sys.game.registry.get('myCards');
+                    if(cartas != null)
+                    {
+                        cartas.forEach((carta)=>{
+                            carta.deleteCard();
+                        })
+                    }
+                    this.scene.sys.game.registry.set('myCards',null);
+                    this.scene.scene.start('MainMenu');
+                }
                 else
                 {
                     this.scene.scene.start('map',{NextStoryName: this.node.NextStoryName});

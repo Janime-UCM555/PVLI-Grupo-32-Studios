@@ -207,20 +207,20 @@
 		},
 		{
 			"$type": "NodeEndPath",
+			"ID": "20ef49b8-039c-495d-99ae-d91009613a7f",
+			"NextStoryName": "10",
+			"EditorPosition": {
+				"x": 3300,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeEndPath",
 			"ID": "d50063a6-3d3f-4e61-9dbc-256fe5e69fb8",
 			"NextStoryName": "9",
 			"EditorPosition": {
 				"x": 5540,
 				"y": -260
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "20ef49b8-039c-495d-99ae-d91009613a7f",
-			"NextStoryName": "11",
-			"EditorPosition": {
-				"x": 3300,
-				"y": 0
 			}
 		}
 	],

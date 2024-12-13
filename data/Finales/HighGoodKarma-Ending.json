@@ -13,19 +13,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "9379c861-1b9a-4023-b77d-81cb9616279e",
-			"NextID": "2e936b46-ec1e-49ce-960d-a04952bdddf5",
-			"Sentence": "Este es el fianl de nuestra historia. Veamos que le ha pasado a nuestro protagonista.",
-			"SpeakerID": 2,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 380,
-				"y": 0
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "2e936b46-ec1e-49ce-960d-a04952bdddf5",
 			"NextID": "d2c79884-61f7-4519-93fb-c94d9bd178a9",
 			"Sentence": "Gracias a poder reescribir su historia, Melchor pudotomar decisiones muy beneficiosas para poder cambiar su futuro.",
@@ -39,9 +26,22 @@
 		},
 		{
 			"$type": "NodeSentence",
+			"ID": "9379c861-1b9a-4023-b77d-81cb9616279e",
+			"NextID": "2e936b46-ec1e-49ce-960d-a04952bdddf5",
+			"Sentence": "Este es el final de nuestra historia. Veamos que le ha pasado a nuestro protagonista.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 380,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
 			"ID": "d2c79884-61f7-4519-93fb-c94d9bd178a9",
 			"NextID": "62415e9c-9de0-4764-a3a4-e76b9cfe9886",
-			"Sentence": "Pudo tener el suficiente conocimiento e inteligencia para poder meterse en una multinacional, donde era muy respetado y ascendió a velocidades exponenicales.",
+			"Sentence": "Con su conocimiento e inteligencia pudo entrar en una multinacional, donde era muy respetado y ascendió a velocidades exponenicales.",
 			"SpeakerID": 2,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
@@ -52,14 +52,27 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "62415e9c-9de0-4764-a3a4-e76b9cfe9886",
-			"NextID": "58d64277-557b-4e66-9d53-e7bbb952f766",
-			"Sentence": "Gracias a su carisma y buenos contactos pudo labrarse un nombre en ese mundillo lo que le llevó a ser el presidente de la empresa.",
+			"ID": "6235ebe1-97b9-4cc6-a054-08935800f982",
+			"NextID": "30e0137e-0c08-4d8c-864f-f0d980ee2cec",
+			"Sentence": "Muchos pensarán que ganó la lotería de la vida, pero solo Melchor sabrá como consiguió llegar hasta ahí.",
 			"SpeakerID": 2,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 1660,
+				"x": 2980,
+				"y": 0
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "6a8d9865-c30e-4776-bd4a-84d3c171c0f8",
+			"NextID": "6235ebe1-97b9-4cc6-a054-08935800f982",
+			"Sentence": "Con respeccto a las relaciones, se rodeaba de amigos de verdad y una esposa que no lo quería por su dinero, sino por como era Melchor.",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2560,
 				"y": 0
 			}
 		},
@@ -78,27 +91,14 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "6a8d9865-c30e-4776-bd4a-84d3c171c0f8",
-			"NextID": "6235ebe1-97b9-4cc6-a054-08935800f982",
-			"Sentence": "Con respeccto a las relaciones, se rodeaba de amigos de verdad y una esposa qeu no lo quería por su dinero, sino por como era MElchor.",
+			"ID": "62415e9c-9de0-4764-a3a4-e76b9cfe9886",
+			"NextID": "58d64277-557b-4e66-9d53-e7bbb952f766",
+			"Sentence": "Gracias a su carisma y buenos contactos pudo labrarse un nombre en ese mundillo lo que le llevó a ser el presidente de la empresa.",
 			"SpeakerID": 2,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 2560,
-				"y": 0
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "6235ebe1-97b9-4cc6-a054-08935800f982",
-			"NextID": "30e0137e-0c08-4d8c-864f-f0d980ee2cec",
-			"Sentence": "Muchos pensaran que ganó la lotería de la vida, pero solo Melchor sabrá como consiguió llegar hasta ahí.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2980,
+				"x": 1660,
 				"y": 0
 			}
 		},
@@ -112,13 +112,13 @@
 			"DisplayVariant": "",
 			"EditorPosition": {
 				"x": 3400,
-				"y": 0
+				"y": 20
 			}
 		},
 		{
 			"$type": "NodeEndPath",
 			"ID": "5755c18f-7a0f-4494-a4a6-de5b8f8b50ae",
-			"NextStoryName": "",
+			"NextStoryName": "-1",
 			"EditorPosition": {
 				"x": 3860,
 				"y": 0

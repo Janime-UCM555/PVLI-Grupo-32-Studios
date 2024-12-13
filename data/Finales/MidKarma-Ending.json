@@ -5,9 +5,9 @@
 		{
 			"$type": "NodeEndPath",
 			"ID": "1306e5d6-c9b8-475e-a3a3-07856002f054",
-			"NextStoryName": "",
+			"NextStoryName": "-1",
 			"EditorPosition": {
-				"x": 4040,
+				"x": 3920,
 				"y": -40
 			}
 		},
@@ -55,7 +55,7 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 1560,
+				"x": 1580,
 				"y": -40
 			}
 		},
@@ -94,8 +94,8 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 3066.19116210938,
-				"y": -38.2242660522461
+				"x": 3020,
+				"y": -20
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 3500,
+				"x": 3480,
 				"y": -20
 			}
 		}
@@ -115,15 +115,15 @@
 	"Characters": [
 		{
 			"Reference": "gato",
-			"ID": 0
-		},
-		{
-			"Reference": "melchor",
 			"ID": 1
 		},
 		{
-			"Reference": "externo",
+			"Reference": "melchor",
 			"ID": 2
+		},
+		{
+			"Reference": "externo",
+			"ID": 3
 		}
 	],
 	"Variables": []

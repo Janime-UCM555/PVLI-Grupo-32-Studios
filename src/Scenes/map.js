@@ -175,8 +175,7 @@ class map extends Phaser.Scene{
             //let flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog',parseInt(this.flagIndex) + 1);
             let flag = new Flag(this, obj.x, obj.y, 'Bandera','Dialog',i);
             this.flags.push(flag);
-            //obj.visible = false;
-            flag.visible = true;
+            flag.visible = false;
             i++;
         })
         if(this.flagIndex < 10)

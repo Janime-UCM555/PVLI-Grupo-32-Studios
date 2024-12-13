@@ -12,15 +12,6 @@
 			}
 		},
 		{
-			"$type": "NodeEndPath",
-			"ID": "fb5b717b-b469-48b5-bc5c-e300df208838",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 3862.7158203125,
-				"y": 113.355194091797
-			}
-		},
-		{
 			"$type": "NodeSentence",
 			"ID": "c0286a99-7dba-40a3-b398-d1befad83ef6",
 			"NextID": "17b1f782-fa98-4623-98ab-3cb26026432b",
@@ -99,11 +90,20 @@
 			}
 		},
 		{
+			"$type": "NodeEndPath",
+			"ID": "fb5b717b-b469-48b5-bc5c-e300df208838",
+			"NextStoryName": "-1",
+			"EditorPosition": {
+				"x": 3920,
+				"y": 60
+			}
+		},
+		{
 			"$type": "NodeSentence",
 			"ID": "22f2b796-9093-4840-9a35-9261a495c059",
 			"NextID": "4370206d-2e78-4233-a184-e03a3f736985",
 			"Sentence": "Bueno, al final encontró la forma de ayudar a la gente, aunque vivió una vida solitaria.",
-			"SpeakerID": 0,
+			"SpeakerID": 2,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
@@ -114,27 +114,14 @@
 		{
 			"$type": "NodeSentence",
 			"ID": "4370206d-2e78-4233-a184-e03a3f736985",
-			"NextID": "99f03bb4-2bab-4392-a58a-cbcb01171f6d",
+			"NextID": "fb5b717b-b469-48b5-bc5c-e300df208838",
 			"Sentence": "Por eso, a veces no le alcanzaba ni para comer, por no haber logrado el suficiente apoyo para conseguir algo mejor. No todo se puede hacer solo.",
-			"SpeakerID": 0,
+			"SpeakerID": 2,
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
 				"x": 3440,
 				"y": -80
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "99f03bb4-2bab-4392-a58a-cbcb01171f6d",
-			"NextID": "fb5b717b-b469-48b5-bc5c-e300df208838",
-			"Sentence": "Pero él podrá decir que encontró la felicidad.",
-			"SpeakerID": 0,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3430.71752929688,
-				"y": 116.688537597656
 			}
 		}
 	],

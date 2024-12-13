@@ -8,7 +8,7 @@ export default class MenuScene extends Phaser.Scene {
         this.first = true;
     }
     init(flag){
-        if (Object.keys(flag).length === 0 && this.first) flag = 0;
+        flag = parseInt(flag);
         console.log("FLAG: " + flag);
         this.IDscene = flag;
     }
@@ -207,28 +207,33 @@ export default class MenuScene extends Phaser.Scene {
             this.load.image('bg-villano','../assets/fondos/InventorCasero/Inventor-Villano.jpg');
             this.load.image('bg-vivir','../assets/fondos/InventorCasero/Inventor-Vivir.jpg');
 
+            // Finales
+            this.load.json('badEnding','../data/Finales/Worst-Ending.json');
+            this.load.image('bg-Bad','../assets/fondos/Finales/worst.jpg');
+
+            this.load.json('CanonEnding','../data/Finales/Canon-Ending.json');
+
+            this.load.json('midEnding','../data/Finales/MidKarma-Ending.json');
+            this.load.image('bg-Mid','../assets/fondos/Finales/Mid.jpg');
+
+            this.load.json('LowGoodEnding','../data/Finales/LowGoodKarma-Ending.json');
+            this.load.image('bg-LowGood','../assets/fondos/Finales/LowGood.jpg');
+
+            this.load.json('LowBadEnding','../data/Finales/LowBadKarma-Ending.json');
+            this.load.image('bg-LowBad','../assets/fondos/Finales/LowBad.jpg');
+
+            this.load.json('HighBadEnding','../data/Finales/HighBadKarma-Ending.json');
+
+            this.load.json('HighGoodEnding','../data/Finales/HighGoodKarma-Ending.json');
+            this.load.image('bg-HighGood','../assets/fondos/Finales/HighGood.jpg');
+
             //Sprites
             this.load.image('gato', '../assets/sprites/Gato.png');
             this.load.spritesheet('melchor', '../assets/sprites/Melchor.png',{frameWidth: 500, frameHeight: 600})
 
             this.registry.set('karma',100);
             this.first = false;
-
-
-
-            // Finales
-            this.load.json('badEnding','../../data/Dialogue/Worst-Ending.json');
-
-            this.load.json('midEnding','../../data/Dialogue/MidKarma-Ending.json');
-
-            this.load.json('LowGoodEnding','../../data/Dialogue/LowGoodKarma-Ending.json');
-            
-            this.load.json('LowBadEnding','../../data/Dialogue/LowBadKarma-Ending.json');
-
-            this.load.json('CanonEnding','../../data/Dialogue/Canon-Ending.json');
-
-            this.load.json('HighGoodEnding','../../data/Dialogue/HighGoodKarma-Ending.json');
-        }
+}
     }
 
     create(){
@@ -293,33 +298,42 @@ export default class MenuScene extends Phaser.Scene {
             this.add.image(800, 600, 'backgroundInventor').setOrigin(1,1).setScale(0.7,0.7);
             break;
         case(11):
+            this.music.stop();
             this.datos = this.cache.json.get('badEnding');
+            this.add.image(0, 0, 'bg-Bad').setOrigin(0,0).setScale(1.7,1.7);
         break;
         case(12):    
         let actKarma = this.sys.registry.get('karma');
-        if(actKarma < 35)
+        if(actKarma < 30)
         {
             this.datos = this.cache.json.get('LowBadEnding');
+            this.add.image(0, 0, 'bg-LowBad').setOrigin(0,0).setScale(1.7,1.7);
         }
-        else if( actKarma >= 35 && actKarma < 75)
+        else if(actKarma < 75)
         {
-            //this.datos = this.cache.json.get('');
+            this.datos = this.cache.json.get('HighBadEnding');
+            this.add.image(0, 0, 'vaga-caer').setOrigin(0,0).setScale(1.4,1.4);
         }
-        else if( actKarma >= 75 && actKarma < 125)
+        else if(actKarma < 125)
         {
             this.datos = this.cache.json.get('midEnding');
+            this.add.image(0, 0, 'bg-Mid').setOrigin(0.2,0).setScale(0.9,0.9);
         }
-        else if( actKarma >= 125 && actKarma < 165)
+        else if(actKarma < 170)
         {
             this.datos = this.cache.json.get('LowGoodEnding');
+            this.add.image(0, 0, 'bg-LowGood').setOrigin(0,0).setScale(1.5,1.5);
         }
-        else if( actKarma >=  165)
+        else
         {
             this.datos = this.cache.json.get('HighGoodEnding');
+            this.add.image(0, 0, 'bg-HighGood').setOrigin(0,0).setScale(1.5,1.5);
         }
         break;
         case(13):
+            his.music.stop();
             this.datos = this.cache.json.get('CanonEnding');
+            this.add.image(0, 0, 'backgroundIntro').setOrigin(0,0).setScale(1.9,1.9);
         break;
         }   
         

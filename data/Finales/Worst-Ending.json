@@ -13,41 +13,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "7d1957c3-571b-4d11-9c25-0d60966270a1",
-			"NextID": "f881f144-2cc0-4465-b920-8ffdf6f37719",
-			"Sentence": "¡¡¡¡FUUUUERAAAAA!!!!",
-			"SpeakerID": 1,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 3780,
-				"y": 60
-			}
-		},
-		{
-			"$type": "NodeSentence",
-			"ID": "f881f144-2cc0-4465-b920-8ffdf6f37719",
-			"NextID": "2f7f9ec1-b930-4600-ab53-90a037209d32",
-			"Sentence": "*GOLPE SECO*",
-			"SpeakerID": 2,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 4169.6103515625,
-				"y": 41.8981399536133
-			}
-		},
-		{
-			"$type": "NodeEndPath",
-			"ID": "9f50b6fb-eef3-4d0b-a808-c809f849c17b",
-			"NextStoryName": "",
-			"EditorPosition": {
-				"x": 6456.9873046875,
-				"y": 35.2314682006836
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "761b608f-ce98-4d9a-808a-d0745d261a2d",
 			"NextID": "6b82a648-6a1e-4d69-bcb8-97d7fb2ae9a8",
 			"Sentence": "Vaya humano, parece que tu futuro fue arrebatado por tus malas elecciones.",
@@ -94,8 +59,8 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 2007.6474609375,
-				"y": 30.2314758300781
+				"x": 1920,
+				"y": 40
 			}
 		},
 		{
@@ -107,8 +72,8 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 2460,
-				"y": 20
+				"x": 2400,
+				"y": 40
 			}
 		},
 		{
@@ -120,8 +85,8 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 2940,
-				"y": 20
+				"x": 2860,
+				"y": 40
 			}
 		},
 		{
@@ -133,8 +98,21 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 3360,
+				"x": 3320,
 				"y": 40
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "7d1957c3-571b-4d11-9c25-0d60966270a1",
+			"NextID": "f881f144-2cc0-4465-b920-8ffdf6f37719",
+			"Sentence": "¡¡¡¡FUUUUERAAAAA!!!!",
+			"SpeakerID": 1,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 3740,
+				"y": 60
 			}
 		},
 		{
@@ -146,8 +124,21 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 4540,
-				"y": 40
+				"x": 4600,
+				"y": 60
+			}
+		},
+		{
+			"$type": "NodeSentence",
+			"ID": "f881f144-2cc0-4465-b920-8ffdf6f37719",
+			"NextID": "2f7f9ec1-b930-4600-ab53-90a037209d32",
+			"Sentence": "*GOLPE SECO, lanza la caja*",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 4180,
+				"y": 60
 			}
 		},
 		{
@@ -159,8 +150,8 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 5000,
-				"y": 40
+				"x": 5040,
+				"y": 80
 			}
 		},
 		{
@@ -172,8 +163,8 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 5420,
-				"y": 40
+				"x": 5480,
+				"y": 60
 			}
 		},
 		{
@@ -185,8 +176,17 @@
 			"DisplaySpeakerName": "",
 			"DisplayVariant": "",
 			"EditorPosition": {
-				"x": 5880,
-				"y": 60
+				"x": 5980,
+				"y": 80
+			}
+		},
+		{
+			"$type": "NodeEndPath",
+			"ID": "9f50b6fb-eef3-4d0b-a808-c809f849c17b",
+			"NextStoryName": "-1",
+			"EditorPosition": {
+				"x": 6456.9873046875,
+				"y": 35.2314682006836
 			}
 		}
 	],

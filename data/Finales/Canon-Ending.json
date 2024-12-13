@@ -78,19 +78,6 @@
 		},
 		{
 			"$type": "NodeSentence",
-			"ID": "a78b9ecb-1e04-4874-b663-66fdb9b7a483",
-			"NextID": "6c50f6ba-04c2-4cf8-9162-b66b2b6b141f",
-			"Sentence": "* Ding Dong*",
-			"SpeakerID": 2,
-			"DisplaySpeakerName": "",
-			"DisplayVariant": "",
-			"EditorPosition": {
-				"x": 2862.22045898438,
-				"y": 19.8123168945313
-			}
-		},
-		{
-			"$type": "NodeSentence",
 			"ID": "6c50f6ba-04c2-4cf8-9162-b66b2b6b141f",
 			"NextID": "37846383-0815-4b21-9d5c-4d34a667599a",
 			"Sentence": "¿¿Quien me llama a estas horas??",
@@ -103,9 +90,22 @@
 			}
 		},
 		{
+			"$type": "NodeSentence",
+			"ID": "a78b9ecb-1e04-4874-b663-66fdb9b7a483",
+			"NextID": "6c50f6ba-04c2-4cf8-9162-b66b2b6b141f",
+			"Sentence": "* Ding Dong*",
+			"SpeakerID": 2,
+			"DisplaySpeakerName": "",
+			"DisplayVariant": "",
+			"EditorPosition": {
+				"x": 2862.22045898438,
+				"y": 19.8123168945313
+			}
+		},
+		{
 			"$type": "NodeEndPath",
 			"ID": "37846383-0815-4b21-9d5c-4d34a667599a",
-			"NextStoryName": "",
+			"NextStoryName": "-1",
 			"EditorPosition": {
 				"x": 3898.22412109375,
 				"y": 65
