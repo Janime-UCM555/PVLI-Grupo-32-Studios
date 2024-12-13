@@ -15,8 +15,8 @@ export default class MenuScene extends Phaser.Scene {
 
     preload(){
         if(this.first){
-            this.load.audio('cardMusic','./assets/Sonidos/cardMusic.mp3')
-            this.load.audio('draw','./assets/Sonidos/draw.mp3')
+            this.load.audio('cardMusic','.../assets/Sonidos/cardMusic.mp3')
+            this.load.audio('draw','.../assets/Sonidos/draw.mp3')
 
             //Intro
             this.load.json('dataIntro','./data/Dialogue/DialogInicio.json');
