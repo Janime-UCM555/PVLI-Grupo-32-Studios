@@ -66,7 +66,7 @@ class PauseMenu extends Phaser.Scene{
                 
                 if(cont >= 4)
                 {
-                startY += 250;
+                startY += 150;
                 startX = 150;
                 cont = 0;
                 }
