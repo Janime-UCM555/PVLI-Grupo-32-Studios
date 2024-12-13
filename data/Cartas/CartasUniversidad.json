@@ -6,11 +6,11 @@
         "Image":"uni-EncimaSinCobrar",
         "Background":"bg-EcimaSinCobrar",
         "Description":"Para la explotación que ya recives en las prácticas de clase al menos podrías cobrar. ¡Déjalo!",
-        "Karma":"-5"
+        "Karma":"-10"
     },
     {
         "id":"1",
-        "Name":"Si tiene miedo al cambio dejelo aquí",
+        "Name":"Sin miedo al cambio",
         "Image":"uni-SiTieneMiedoAlCambio",
         "Background":"bg-SiTieneMiedoAlCambio",
         "Description":"Al final tras pensar bastante al final crees que es mejor empezar a ahorrar. Buscarás un trabajo y dejarás esto.",
@@ -29,7 +29,7 @@
         "Name":"Se vienen cositas",
         "Image":"uni-SeVienenCositas",
         "Background":"bg-SeVienenCositas",
-        "Description":"Con lo que estas aprendido sientes que en el futuro llegará el momento de inventar algo grande de verdad.",
+        "Description":"Con lo que estás aprendido sientes que en el futuro llegará el momento de inventar algo grande de verdad.",
         "Karma":"+10"
     },
     {
@@ -38,7 +38,7 @@
         "Image":"uni-CafeRosquilla",
         "Background":"bg-CafeRosquilla",
         "Description":"Aparece en tu cabeza la idea de por fin ir al bar del barrio a probar la famosa cerveza que de la que todos tus compañeros hablan.",
-        "Karma":"+5"
+        "Karma":"-5"
     },
     {
         "id":"5",

@@ -3,50 +3,50 @@
     {
         "id":"0",
         "Name":"Genio Incomprendido",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"mantenido-genio",
+        "Background":"bg-genio",
         "Description":"Es hora de demostrar a todos que si me lo propongo haré algo importante, Un verdadero descubrimiento",
         "Karma":"+10"
     },
     {
         "id":"1",
         "Name":"Fan incondicional",
-        "Image":"imageID",
-        "Background":"bgID",
-        "Description":"Les pides a tus padres que te lleven a ver una pelicula que quieres ver en el estreno, lo que todavia no saben es que tambien quieres todo el merch posible.",
+        "Image":"mantenido-fan",
+        "Background":"bg-fan",
+        "Description":"Les pides a tus padres que te lleven al estreno de una nueva película. Lo que aún no saben es que también quieres todo el merch posible.",
         "Karma":"-10"
     },
     {
         "id":"2",
         "Name":"Otro dia más",
-        "Image":"imageID",
-        "Background":"bgID",
-        "Description":"No te apetece hacer nada todos los días parecen ser iguales ya no sabes ni para que te levantas. ¡Qué lo hagan tus padres!",
+        "Image":"mantenido-otro",
+        "Background":"bg-otro",
+        "Description":"No te apetece hacer nada, todos los días parecen ser iguales, ya no sabes ni para que te levantas. ¡Qué lo hagan tus padres!",
         "Karma":"-10"
     },
     {
         "id":"3",
         "Name":"Apoyar en Casa",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"mantenido-apoyo",
+        "Background":"bg-apoyo",
         "Description":"Con la ayuda de tus padres es hora de ir preguntado a conocidos y hechar curriculums. Así puedo ayudar en casa.",
         "Karma":"+25"
     },
     {
         "id":"4",
         "Name":"Hacuma Mapapa",
-        "Image":"imageID",
-        "Background":"bgID",
+        "Image":"mantenido-hacuma",
+        "Background":"bg-hacuma",
         "Description":"Lo mejor es no estresarse ya llegará el momento de que tengas una oportunidad para darle una vuelta a tu vida, así que mientras tanto hay que relajarse.",
         "Karma":"-15"
     },
     {
         "id":"5",
-        "Name":"Pufffffffffff",
-        "Image":"imageID",
-        "Background":"bgID",
-        "Description":"Después de todo este tiempo parece que tus padres no se han dado cuenta deben mantenerte ya que eres su hijo. Ahora, ¿Dónde esta la comida?",
-        "Karma":"-50"
+        "Name":"Pufffff",
+        "Image":"mantenido-puf",
+        "Background":"bg-puf",
+        "Description":"Después de todo este tiempo parece que tus padres se van a dar cuenta de lo que es mantener a su hijo. Ahora, ¿dónde está la comida?",
+        "Karma":"-25"
     }
 ]
 }
