@@ -76,13 +76,11 @@ class MainMenu extends Phaser.Scene{
     hideButtons()
     {
         this.startButton.setVisible(false);
-        this.cardsButton.setVisible(false);
         this.creditsButton.setVisible(false);
     }
     showButtons()
     {
         this.startButton.setVisible(true);
-        this.cardsButton.setVisible(true);
         this.creditsButton.setVisible(true);
     }
 }

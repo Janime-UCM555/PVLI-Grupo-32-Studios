@@ -1,10 +1,13 @@
 import DialogText from "./dialog_plugin.js";
 import Deck from "./Deck.js";
 export default class Decoder{
-    constructor(scene, datos, deck){
+    constructor(scene, datos, deck, sound, drawSound){
         this.scene = scene;
         this.datos = datos;
         this.deck = deck;
+        this.sound = sound;
+        this.drawSound = drawSound;
+        console.log(drawSound);
         this.node  = this._findId(this.datos.RootNodeID);
         this.callback = (id)=>{
             var next = this.node.OptionsID[id];
@@ -57,9 +60,10 @@ export default class Decoder{
                 break;
             case 'NodeChoice':
                 this.scene.showSprite('');
-                new Deck(this.deck,this.scene,this.callback)
+                new Deck(this.deck,this.scene,this.callback,this.drawSound)
                 break;
             case 'NodeEndPath':
+                this.sound.stop();
                 this.scene.events.off('next');
                 this.scene.scene.stop();
                 this.scene.scene.start('map',{NextStoryName: this.node.NextStoryName});
