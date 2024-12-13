@@ -19,8 +19,8 @@ export default class MenuScene extends Phaser.Scene {
             this.load.audio('draw','../assets/Sonidos/draw.mp3')
 
             //Intro
-            this.load.json('dataIntro','../data/Dialogue/DialogInicio.json');
-            this.load.image('backgroundIntro','../assets/fondos/cajaPuerta.jpg');
+            this.load.json('dataIntro','./data/Dialogue/DialogInicio.json');
+            this.load.image('backgroundIntro','./assets/fondos/cajaPuerta.jpg');
 
             //Parque
             this.load.json('dataParque','../data/Dialogue/DialogParque.json');
